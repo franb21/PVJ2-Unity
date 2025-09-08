@@ -63,7 +63,7 @@ public class JugadorController : MonoBehaviour
         HUDController.Instance.vidaHUD();
         if (vida <= 0)
         {
-            //Aca va a el game over
+            GameManager.Instance.GameOver();
         }
     }
     // Gana experiencia y sube de lv y oleada
@@ -82,7 +82,7 @@ public class JugadorController : MonoBehaviour
         }
         if (oleada == 6)
         {
-            // Win
+            GameManager.Instance.Win();
         }
     }
     // Escala para enemigos

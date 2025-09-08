@@ -8,6 +8,8 @@ public class HUDController : MonoBehaviour
     [Header("Configuracion de HUD")]
     [SerializeField] private TextMeshProUGUI vidaText;
     [SerializeField] private TextMeshProUGUI expText;
+    public GameObject gameOverPanel;
+    public GameObject winPanel;
 
     private void Awake()
     {
