@@ -27,7 +27,6 @@ public class Enemigo : MonoBehaviour
     public void RecibirDamage(float damage)
     {
         vida -= damage;
-        Debug.Log("Vida enemigo: " + vida);
         if (vida <= 0)
         {
             Destroy(gameObject);
