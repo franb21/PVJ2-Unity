@@ -8,7 +8,6 @@ public class Enemigo : MonoBehaviour
     [SerializeField] private float vida;
     [SerializeField] private float damage;
     [SerializeField] float velocidad = 5f;
-    [SerializeField] Transform jugador;
     private Rigidbody2D miRigidbody2D;
     private Vector2 direccion;
 
@@ -20,7 +19,7 @@ public class Enemigo : MonoBehaviour
     //Movimiento al jugador
     private void FixedUpdate()
     {
-        direccion = (jugador.position - transform.position).normalized;
+        direccion = (JugadorController.Instance.transform.position - transform.position).normalized;
         miRigidbody2D.MovePosition(miRigidbody2D.position + direccion * (velocidad * Time.fixedDeltaTime));
     }
 
