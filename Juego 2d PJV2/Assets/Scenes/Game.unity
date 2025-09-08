@@ -706,8 +706,9 @@ GameObject:
   - component: {fileID: 680228145}
   - component: {fileID: 680228144}
   - component: {fileID: 680228143}
+  - component: {fileID: 680228146}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Canvas - HUD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -797,6 +798,20 @@ Canvas:
   m_SortingLayerID: -1357711379
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &680228146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680228141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 719062cd141da3e40addf6d9cbab62ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaText: {fileID: 1542778151}
+  expText: {fileID: 1770886436}
 --- !u!1 &774659301
 GameObject:
   m_ObjectHideFlags: 0
@@ -1362,7 +1377,7 @@ MonoBehaviour:
   spawnSW: {fileID: 333755846}
   spawnSE: {fileID: 774659302}
   tiempoEntreSpawns: 3
-  maxEnemigos: 60
+  maxEnemigos: 100
 --- !u!1 &1114856139
 GameObject:
   m_ObjectHideFlags: 0
@@ -1697,7 +1712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ProyectilPrefab: {fileID: 5271575849212091541, guid: 435a9e3438cdd0d4bbfa427ea6ceeaf0, type: 3}
-  cooldown: 0.5
+  cooldown: 0.6
   damage: 10
   speed: 10
   penetracion: 0

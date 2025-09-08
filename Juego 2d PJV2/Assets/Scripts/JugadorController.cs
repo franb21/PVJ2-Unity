@@ -5,7 +5,7 @@ public class JugadorController : MonoBehaviour
     public static JugadorController Instance;
     [Header("Configuracion Jugador")]
     [SerializeField] private float velocidad;
-    [SerializeField] private float vida;
+    public float vida;
     private float moverHorizontal;
     private float moverVertical;
     private Vector2 direccion;
@@ -31,6 +31,8 @@ public class JugadorController : MonoBehaviour
     void Start()
     {
         ultimaDireccion = new Vector3(0, -1);
+        HUDController.Instance.vidaHUD();
+        HUDController.Instance.expHUD();
     }
 
     private void OnEnable()
@@ -58,6 +60,7 @@ public class JugadorController : MonoBehaviour
     public void RecibirDamage(float damage)
     {
         vida -= damage;
+        HUDController.Instance.vidaHUD();
         if (vida <= 0)
         {
             //Aca va a el game over
@@ -67,6 +70,7 @@ public class JugadorController : MonoBehaviour
     public void GanarExp(int exp)
     {
         experiencia += exp;
+        HUDController.Instance.expHUD();
         if (experiencia >= LevelPlayer)
         {
             vida += 20 * oleada;
@@ -74,6 +78,7 @@ public class JugadorController : MonoBehaviour
             oleada++;
             experiencia -= LevelPlayer;
             LevelPlayer += 10;
+            HUDController.Instance.expHUD();
         }
         if (oleada == 6)
         {
