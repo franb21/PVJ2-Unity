@@ -9,9 +9,9 @@ public class Spawn : MonoBehaviour
     public Transform spawnAbajo;
     public Transform spawnIzquierda;
     public Transform spawnDerecha;
-    public float tiempoEntreSpawns = 3f;
+    public float tiempoEntreSpawns;
     private float tiempoSiguienteSpawn;
-    public int maxEnemigos = 20;
+    public int maxEnemigos;
 
     private void Start()
     {

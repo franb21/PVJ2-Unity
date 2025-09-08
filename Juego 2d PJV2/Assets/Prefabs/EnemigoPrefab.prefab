@@ -132,7 +132,6 @@ MonoBehaviour:
   vida: 5
   damage: 1
   velocidad: 1.5
-  jugador: {fileID: 0}
 --- !u!61 &6087047346791577782
 BoxCollider2D:
   m_ObjectHideFlags: 0
