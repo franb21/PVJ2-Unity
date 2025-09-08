@@ -8,8 +8,17 @@ public class Enemigo : MonoBehaviour
     [SerializeField] private float vida;
     [SerializeField] private float damage;
     [SerializeField] float velocidad;
+    [SerializeField] private int exp;
     private Rigidbody2D miRigidbody2D;
     private Vector2 direccion;
+
+    //Escalaar
+    void Start()
+    {
+        vida += 3 * JugadorController.Instance.Escalar();
+        damage += 0.3f * JugadorController.Instance.Escalar();
+        velocidad += 0.15f * JugadorController.Instance.Escalar();
+    }
 
     private void Awake()
     {
@@ -30,6 +39,7 @@ public class Enemigo : MonoBehaviour
         if (vida <= 0)
         {
             Destroy(gameObject);
+            JugadorController.Instance.GanarExp(exp);
         }
 
     }
