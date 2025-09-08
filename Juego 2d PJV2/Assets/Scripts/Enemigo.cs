@@ -7,7 +7,7 @@ public class Enemigo : MonoBehaviour
     [Header("Configuracion de enemigo")]
     [SerializeField] private float vida;
     [SerializeField] private float damage;
-    [SerializeField] float velocidad = 5f;
+    [SerializeField] float velocidad;
     private Rigidbody2D miRigidbody2D;
     private Vector2 direccion;
 
