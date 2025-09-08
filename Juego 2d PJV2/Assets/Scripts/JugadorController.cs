@@ -11,6 +11,10 @@ public class JugadorController : MonoBehaviour
     private Vector2 direccion;
     private Rigidbody2D miRigidbody2D;
     public Vector2 ultimaDireccion;
+    public int experiencia;
+    public int LevelPlayer ;
+    public int oleada;
+
     // Singleton
     private void Awake()
     {
@@ -39,6 +43,7 @@ public class JugadorController : MonoBehaviour
         moverHorizontal = Input.GetAxis("Horizontal");
         moverVertical = Input.GetAxis("Vertical");
         direccion = new Vector2(moverHorizontal, moverVertical);
+
         if (moverHorizontal != 0 || moverVertical != 0)
         {
             ultimaDireccion = direccion;
@@ -55,6 +60,29 @@ public class JugadorController : MonoBehaviour
         vida -= damage;
         if (vida <= 0)
         {
+            //Aca va a el game over
         }
+    }
+    // Gana experiencia y sube de lv y oleada
+    public void GanarExp(int exp)
+    {
+        experiencia += exp;
+        if (experiencia >= LevelPlayer)
+        {
+            vida += 20 * oleada;
+            velocidad += 0.2f * oleada;
+            oleada++;
+            experiencia -= LevelPlayer;
+            LevelPlayer += 10;
+        }
+        if (oleada == 6)
+        {
+            // Win
+        }
+    }
+    // Escala para enemigos
+    public float Escalar()
+    {
+        return oleada;
     }
 }
