@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 6121414341033619465}
   - component: {fileID: 1322509459152469426}
   - component: {fileID: 6896593814075962401}
-  - component: {fileID: 6413480885450599501}
+  - component: {fileID: 1497675924549309150}
   - component: {fileID: -5539770906367644818}
   m_Layer: 0
-  m_Name: ArmaPrefab
+  m_Name: ProyectilPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 1.636, y: -9.887, z: 0}
-  m_LocalScale: {x: 0.37244, y: 0.37244, z: 0.37244}
+  m_LocalScale: {x: 3.927752, y: 3.927752, z: 3.927752}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3956505180328292532, guid: f23f192401e6e074ea74b3f55fffd257, type: 3}
+  m_Sprite: {fileID: 970620745, guid: 6fe9492c87f084640bd6a0392e9be93c, type: 3}
   m_Color: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -116,9 +116,9 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!61 &6413480885450599501
-BoxCollider2D:
+  m_Constraints: 4
+--- !u!58 &1497675924549309150
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -152,17 +152,7 @@ BoxCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.6842105, y: 1.6842105}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1.6842105, y: 1.6842105}
-  m_EdgeRadius: 0
+  m_Radius: 0.062500015
 --- !u!114 &-5539770906367644818
 MonoBehaviour:
   m_ObjectHideFlags: 0

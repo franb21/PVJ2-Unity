@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Pistola : MonoBehaviour
 {
-    [SerializeField] private GameObject pistolaControllerPrefab;
+    [SerializeField] private GameObject ProyectilPrefab;
     public float cooldown = 0.5f;
     public float damage = 10f;
     public float speed = 10f;
@@ -16,7 +16,7 @@ public class Pistola : MonoBehaviour
         if (tiempoDisparo >= cooldown)
         {
             // Instancia el proyectil en la posicion
-            Instantiate(pistolaControllerPrefab, transform.position, transform.rotation);
+            Instantiate(ProyectilPrefab, transform.position, transform.rotation);
             tiempoDisparo = 0f;
         }
     }

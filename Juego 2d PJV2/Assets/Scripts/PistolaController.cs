@@ -24,10 +24,11 @@ public class PistolaController : MonoBehaviour
             if (enemigo != null)
             {
                 enemigo.RecibirDamage(pistola.damage);
-            }
-            else if (!pistola.penetracion)
-            {
-                Destroy(gameObject);
+
+                if (!pistola.penetracion) //Posible penetracion
+                {
+                    Destroy(gameObject);
+                }
             }
         }
     }
