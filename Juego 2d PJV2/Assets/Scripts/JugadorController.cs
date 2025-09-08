@@ -10,6 +10,7 @@ public class JugadorController : MonoBehaviour
     private float moverVertical;
     private Vector2 direccion;
     private Rigidbody2D miRigidbody2D;
+    public Vector2 ultimaDireccion;
     // Singleton
     private void Awake()
     {
@@ -23,6 +24,11 @@ public class JugadorController : MonoBehaviour
         }
     }
 
+    void Start()
+    {
+        ultimaDireccion = new Vector3(0, -1);
+    }
+
     private void OnEnable()
     {
         miRigidbody2D = GetComponent<Rigidbody2D>();
@@ -33,6 +39,10 @@ public class JugadorController : MonoBehaviour
         moverHorizontal = Input.GetAxis("Horizontal");
         moverVertical = Input.GetAxis("Vertical");
         direccion = new Vector2(moverHorizontal, moverVertical);
+        if (moverHorizontal != 0 || moverVertical != 0)
+        {
+            ultimaDireccion = direccion;
+        }
     }
     // Movimiento
     void FixedUpdate()
