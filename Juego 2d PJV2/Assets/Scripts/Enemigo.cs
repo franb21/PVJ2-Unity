@@ -15,9 +15,12 @@ public class Enemigo : MonoBehaviour
     //Escalaar
     void Start()
     {
-        vida += 3 * JugadorController.Instance.Escalar();
-        damage += 0.3f * JugadorController.Instance.Escalar();
-        velocidad += 0.15f * JugadorController.Instance.Escalar();
+        if (JugadorController.Instance.Escalar() > 1)
+        {
+            vida += 3 * JugadorController.Instance.Escalar();
+            damage += 0.3f * JugadorController.Instance.Escalar();
+            velocidad += 0.15f * JugadorController.Instance.Escalar();
+        }
     }
 
     private void Awake()

@@ -30,7 +30,7 @@ public class HUDController : MonoBehaviour
 
     public void expHUD()
     {
-        expText.text = "Oleada " + JugadorController.Instance.oleada +
+        expText.text = "Oleada " + JugadorController.Instance.oleada + " / 6" +
                "\nExperiencia: " + JugadorController.Instance.experiencia +
                " / " + JugadorController.Instance.LevelPlayer;
     }
