@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
     public void Win()
     {
         HUDController.Instance.winPanel.SetActive(true);
+        Time.timeScale = 0f;
     }
 
     public void Restart()
