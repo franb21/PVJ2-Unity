@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: a8194e7355b53354bba3186a7beb317e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7471200644485924905
+    second: vehicles-fixing_0
+  - first:
+      213: 6658522476688493661
+    second: vehicles-fixing_1
+  - first:
+      213: -6743194385879267645
+    second: vehicles-fixing_2
+  - first:
+      213: -2654929629888200897
+    second: vehicles-fixing_3
+  - first:
+      213: 6379584042419885745
+    second: vehicles-fixing_4
+  - first:
+      213: 8778327816603451834
+    second: vehicles-fixing_5
+  - first:
+      213: 2777738365597189557
+    second: vehicles-fixing_6
+  - first:
+      213: -2243540128098523728
+    second: vehicles-fixing_7
+  - first:
+      213: 1695837715882836378
+    second: vehicles-fixing_8
+  - first:
+      213: 7541472556031952273
+    second: vehicles-fixing_9
+  - first:
+      213: -6791496294207507380
+    second: vehicles-fixing_10
+  - first:
+      213: 4563103181778047975
+    second: vehicles-fixing_11
+  - first:
+      213: 8285499303618334824
+    second: vehicles-fixing_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vehicles-fixing_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 640
+        width: 166
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4221f2881ad038b43bd088244a7b5537
+      internalID: -857059458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vehicles-fixing_1
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 628
+        width: 166
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f1f4134abfc984ca7181db5bc196bf
+      internalID: -1938399663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vehicles-fixing_2
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 635
+        width: 197
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a03dfd2b60d784b8b96a9738838bc2
+      internalID: -926256702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vehicles-fixing_3
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 443
+        width: 197
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c815410b872013459e714d71cbd8303
+      internalID: 921373679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vehicles-fixing_4
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 443
+        width: 197
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba7ab3a78857eb4b99e5da00e696956
+      internalID: 1765115545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vehicles-fixing_5
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 443
+        width: 197
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737a03299fcc6ca478acedb132947238
+      internalID: 1783321994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vehicles-fixing_6
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 443
+        width: 197
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a57ae7853e6a784f91bca69237cd714
+      internalID: 470689400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vehicles-fixing_7
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 246
+        width: 197
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73064533b32e26e4586a41c3d139c380
+      internalID: -1659409620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vehicles-fixing_8
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 246
+        width: 197
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fd859d02bc8ff4bb47ac7f1e39e213
+      internalID: -1070160811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vehicles-fixing_9
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 251
+        width: 197
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f5d71610f0f5c4499a050c910e1737
+      internalID: -156675882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vehicles-fixing_10
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 246
+        width: 197
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693f7017ec6065e4e9dc02d0bbe0fbd0
+      internalID: -596666739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vehicles-fixing_11
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 54
+        width: 197
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b7edfab1ef3214e8333ee8834b1867
+      internalID: -1508467844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vehicles-fixing_12
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 54
+        width: 197
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cadd046266bc34fa8dac18c2d6c49a
+      internalID: 551827551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e069688afd3b2f46b88a70a98e5b286
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vehicles-fixing_0: -857059458
+      vehicles-fixing_1: -1938399663
+      vehicles-fixing_10: -596666739
+      vehicles-fixing_11: -1508467844
+      vehicles-fixing_12: 551827551
+      vehicles-fixing_2: -926256702
+      vehicles-fixing_3: 921373679
+      vehicles-fixing_4: 1765115545
+      vehicles-fixing_5: 1783321994
+      vehicles-fixing_6: 470689400
+      vehicles-fixing_7: -1659409620
+      vehicles-fixing_8: -1070160811
+      vehicles-fixing_9: -156675882
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

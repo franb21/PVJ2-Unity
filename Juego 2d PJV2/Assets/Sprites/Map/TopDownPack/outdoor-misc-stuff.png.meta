@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 48f0bb03e98272c4689e3bd3722800e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 40233866800828002
+    second: outdoor-misc-stuff_0
+  - first:
+      213: 8979850073932754042
+    second: outdoor-misc-stuff_1
+  - first:
+      213: 5807882505305023118
+    second: outdoor-misc-stuff_2
+  - first:
+      213: 6930909986225587071
+    second: outdoor-misc-stuff_3
+  - first:
+      213: 7302300989091769631
+    second: outdoor-misc-stuff_4
+  - first:
+      213: -3017714499549919177
+    second: outdoor-misc-stuff_5
+  - first:
+      213: -3076728431592327390
+    second: outdoor-misc-stuff_6
+  - first:
+      213: -58270048975915545
+    second: outdoor-misc-stuff_7
+  - first:
+      213: -4038788430951819071
+    second: outdoor-misc-stuff_8
+  - first:
+      213: 4082662625029554758
+    second: outdoor-misc-stuff_9
+  - first:
+      213: -839102478939226419
+    second: outdoor-misc-stuff_10
+  - first:
+      213: 6702811712001301682
+    second: outdoor-misc-stuff_11
+  - first:
+      213: 4692216472532952999
+    second: outdoor-misc-stuff_12
+  - first:
+      213: 736423414832110330
+    second: outdoor-misc-stuff_13
+  - first:
+      213: -8658331625990048996
+    second: outdoor-misc-stuff_14
+  - first:
+      213: 6614866251055990108
+    second: outdoor-misc-stuff_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: outdoor-misc-stuff_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 426
+        width: 51
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5124566b515b5e142b36fdd98f5f7493
+      internalID: 1633235126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outdoor-misc-stuff_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 426
+        width: 51
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64ebfc23ee2db840a8a158cd58a02ee
+      internalID: -1757002159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outdoor-misc-stuff_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 417
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63f33466f41cb54c9d5cce76b6025ea
+      internalID: -1099538694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outdoor-misc-stuff_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 417
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02394722e7aabeb4492b4f627bfbef67
+      internalID: 2138782237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outdoor-misc-stuff_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 292
+        width: 87
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2fdd2b4da0e7d498823d55089803fe
+      internalID: 1143862820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outdoor-misc-stuff_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 295
+        width: 84
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b437f2a855a5bfd449b1ef8903849759
+      internalID: -723652290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outdoor-misc-stuff_6
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 295
+        width: 84
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12e899fdbf2f3d44814ee033f61113f
+      internalID: 1782714819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outdoor-misc-stuff_7
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 295
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8736d720a69bf45bb8dd600cc0aa63
+      internalID: -768183841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outdoor-misc-stuff_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 161
+        width: 82
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f919960872e6f40b4b124ea564e335
+      internalID: -1926058949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outdoor-misc-stuff_9
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 153
+        width: 90
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6960d5ae3189b4b8c9143356340387
+      internalID: 693308806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outdoor-misc-stuff_10
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 153
+        width: 90
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d80d0dfb80d4664bb23c1f188a4f217
+      internalID: -204653924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outdoor-misc-stuff_11
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 159
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60077170bc6d814ab0cf81dbaa2aebd
+      internalID: 1362939128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outdoor-misc-stuff_12
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 31
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c75d4a23e7786408e1bc54d86365e6
+      internalID: -1183327746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outdoor-misc-stuff_13
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 31
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3812f5a080a8454bad9fbd532dc8e91
+      internalID: -507474968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outdoor-misc-stuff_14
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 20
+        width: 85
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced6249739b950149bee03b6b7270afe
+      internalID: -794951767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outdoor-misc-stuff_15
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 15
+        width: 108
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed83faaee9594648add398373452851
+      internalID: -1654492044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9b8d05c0b0a5aa049900d2a2bbca3187
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      outdoor-misc-stuff_0: 1633235126
+      outdoor-misc-stuff_1: -1757002159
+      outdoor-misc-stuff_10: -204653924
+      outdoor-misc-stuff_11: 1362939128
+      outdoor-misc-stuff_12: -1183327746
+      outdoor-misc-stuff_13: -507474968
+      outdoor-misc-stuff_14: -794951767
+      outdoor-misc-stuff_15: -1654492044
+      outdoor-misc-stuff_2: -1099538694
+      outdoor-misc-stuff_3: 2138782237
+      outdoor-misc-stuff_4: 1143862820
+      outdoor-misc-stuff_5: -723652290
+      outdoor-misc-stuff_6: 1782714819
+      outdoor-misc-stuff_7: -768183841
+      outdoor-misc-stuff_8: -1926058949
+      outdoor-misc-stuff_9: 693308806
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
