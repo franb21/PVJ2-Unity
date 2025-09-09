@@ -42,8 +42,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Enemigo
+    uniqueID: 2765343877
+    locked: 0
   - name: Player
     uniqueID: 1062866003
+    locked: 0
+  - name: Mapa
+    uniqueID: 2762672289
+    locked: 0
+  - name: Proyectiles
+    uniqueID: 2595274659
     locked: 0
   - name: HUD
     uniqueID: 2937255917
