@@ -42,11 +42,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Suelo
+    uniqueID: 2422187365
+    locked: 0
+  - name: Borde Arriba
+    uniqueID: 2052143861
+    locked: 0
   - name: Enemigo
     uniqueID: 2765343877
     locked: 0
   - name: Player
     uniqueID: 1062866003
+    locked: 0
+  - name: Borde Abajo
+    uniqueID: 3344809777
     locked: 0
   - name: Mapa
     uniqueID: 2762672289
