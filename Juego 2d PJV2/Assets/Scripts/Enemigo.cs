@@ -12,17 +12,6 @@ public class Enemigo : MonoBehaviour
     private Rigidbody2D miRigidbody2D;
     private Vector2 direccion;
 
-    //Escalaar
-    void Start()
-    {
-        if (JugadorController.Instance.Escalar() > 1)
-        {
-            vida += 3 * JugadorController.Instance.Escalar();
-            damage += 0.3f * JugadorController.Instance.Escalar();
-            velocidad += 0.15f * JugadorController.Instance.Escalar();
-        }
-    }
-
     private void Awake()
     {
         miRigidbody2D = GetComponent<Rigidbody2D>();

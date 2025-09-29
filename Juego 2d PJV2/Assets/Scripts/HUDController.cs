@@ -25,14 +25,12 @@ public class HUDController : MonoBehaviour
 
     public void vidaHUD()
     {
-        vidaText.text = "VIDA:\n" + (int)JugadorController.Instance.vida;
+        vidaText.text = "VIDA:\n" + (int)JugadorController.Instance.Vida;
     }
 
     public void expHUD()
     {
-        expText.text = "Oleada " + JugadorController.Instance.oleada + " / 6" +
-               "\nExperiencia: " + JugadorController.Instance.experiencia +
-               " / " + JugadorController.Instance.LevelPlayer;
+        expText.text = "\nExperiencia: " + JugadorController.Instance.Experiencia + " / " + JugadorController.Instance.levels[JugadorController.Instance.LevelActual];
     }
 
 }
