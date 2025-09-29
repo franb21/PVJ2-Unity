@@ -17,3 +17,15 @@ MonoBehaviour:
   damage: 5
   speed: 5
   cantidad: 2
+  cooldownMejora: 0
+  damageMejora: 5
+  speedMejora: 0
+  cantidadMejora: 0
+  maxCooldown: 0
+  maxDamage: 20
+  maxSpeed: 0
+  maxCantidad: 0
+  cooldownText: 
+  damageText: 5 + 5
+  speedText: 
+  cantidadText: 
