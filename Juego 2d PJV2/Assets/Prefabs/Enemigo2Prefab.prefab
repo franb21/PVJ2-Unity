@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8189200063952637162}
   - component: {fileID: 7963039756903929702}
   - component: {fileID: 3396995925166816237}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Enemigo2Prefab
   m_TagString: Enemigo
   m_Icon: {fileID: 0}
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1529623419
   m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -7050993540882883828, guid: 2924ebf774aad3946a8ec25baaf1a79e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

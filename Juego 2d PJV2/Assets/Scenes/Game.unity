@@ -133417,6 +133417,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 478770859}
+  - component: {fileID: 478770860}
   m_Layer: 6
   m_Name: Decoraciones
   m_TagString: Untagged
@@ -133442,6 +133443,18 @@ Transform:
   - {fileID: 1245402544}
   m_Father: {fileID: 789143676}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!210 &478770860
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478770858}
+  m_Enabled: 1
+  m_SortingLayerID: -1532295007
+  m_SortingLayer: 6
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &512282249
 GameObject:
   m_ObjectHideFlags: 0
@@ -137615,30 +137628,30 @@ MonoBehaviour:
   - prefabEnemigo: {fileID: 6054069287232953457, guid: 5b6c83deb77af2543801cf8a4fe2908e, type: 3}
     tiempoEntreSpawns: 2
     tiempoSiguienteSpawn: 0
-    maxEnemigos: 30
+    maxEnemigos: 50
     enemigosSpawnNum: 0
-    killsMax: 10
+    killsMax: 15
     killsNum: 0
   - prefabEnemigo: {fileID: 6054069287232953457, guid: 6fc1c47723c0f9c43b6d2b8fa7840edc, type: 3}
-    tiempoEntreSpawns: 2
+    tiempoEntreSpawns: 1
+    tiempoSiguienteSpawn: 0
+    maxEnemigos: 80
+    enemigosSpawnNum: 0
+    killsMax: 30
+    killsNum: 0
+  - prefabEnemigo: {fileID: 6054069287232953457, guid: 5b6c83deb77af2543801cf8a4fe2908e, type: 3}
+    tiempoEntreSpawns: 1
     tiempoSiguienteSpawn: 0
     maxEnemigos: 60
     enemigosSpawnNum: 0
-    killsMax: 20
-    killsNum: 0
-  - prefabEnemigo: {fileID: 6054069287232953457, guid: 5b6c83deb77af2543801cf8a4fe2908e, type: 3}
-    tiempoEntreSpawns: 2
-    tiempoSiguienteSpawn: 0
-    maxEnemigos: 40
-    enemigosSpawnNum: 0
-    killsMax: 20
+    killsMax: 30
     killsNum: 0
   - prefabEnemigo: {fileID: 6054069287232953457, guid: 6fc1c47723c0f9c43b6d2b8fa7840edc, type: 3}
-    tiempoEntreSpawns: 2
+    tiempoEntreSpawns: 1
     tiempoSiguienteSpawn: 0
-    maxEnemigos: 70
+    maxEnemigos: 90
     enemigosSpawnNum: 0
-    killsMax: 30
+    killsMax: 40
     killsNum: 0
   oleadaNum: 0
 --- !u!1 &1113682297
@@ -137864,7 +137877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6247918d656b72e4d9ff77ad1cd3f544, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 3
+  velocidad: 3.3
   vida: 100
   ultimaDireccion: {x: 0, y: 0}
   experiencia: 0

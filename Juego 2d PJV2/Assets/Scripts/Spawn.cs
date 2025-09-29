@@ -42,29 +42,40 @@ public class Spawn : MonoBehaviour
     {
         oleadas[oleadaNum].tiempoSiguienteSpawn = Time.time + oleadas[oleadaNum].tiempoEntreSpawns;
     }
-
+    // Control de oleadas
     private void Update()
     {
+        //Spawn
         if (Time.time >= oleadas[oleadaNum].tiempoSiguienteSpawn && oleadas[oleadaNum].enemigosSpawnNum < oleadas[oleadaNum].maxEnemigos)
         {
             SpawnOleada();
             oleadas[oleadaNum].enemigosSpawnNum += 8;
             oleadas[oleadaNum].tiempoSiguienteSpawn = Time.time + oleadas[oleadaNum].tiempoEntreSpawns;
         }
-
+        // Avanza a la siguiente
         if (oleadas[oleadaNum].enemigosSpawnNum >= oleadas[oleadaNum].maxEnemigos && oleadas[oleadaNum].killsNum >= oleadas[oleadaNum].killsMax)
         {
             oleadas[oleadaNum].enemigosSpawnNum = 0;
             oleadas[oleadaNum].killsNum = 0;
-            oleadaNum++;
-            oleadas[oleadaNum].tiempoSiguienteSpawn = Time.time + oleadas[oleadaNum].tiempoEntreSpawns;
 
+            if (oleadas[oleadaNum].tiempoEntreSpawns > 0.5f)
+            {
+                oleadas[oleadaNum].tiempoEntreSpawns *= 0.8f;
+            }
+
+            oleadaNum++;
+            // Se reinicia
+            if (oleadaNum >= oleadas.Count)
+            {
+                oleadaNum = 0;
+            }
+            oleadas[oleadaNum].tiempoSiguienteSpawn = Time.time + oleadas[oleadaNum].tiempoEntreSpawns;
         }
     }
+    // Contador para kills
     public void Kill()
     {
         oleadas[oleadaNum].killsNum++;
-
     }
     // Spawnea una oleada de enemigos
     private void SpawnOleada()
