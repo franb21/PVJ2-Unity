@@ -147829,11 +147829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf9bbfaa5af490e49945215e95b2bd2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ProyectilPrefab: {fileID: 5271575849212091541, guid: 435a9e3438cdd0d4bbfa427ea6ceeaf0, type: 3}
-  cooldown: 0.4
-  damage: 9
-  speed: 12
-  penetracion: 0
+  pistolaData: {fileID: 11400000, guid: 38d0080888848f242bc94276eb1a0a0a, type: 2}
 --- !u!1 &1529292874
 GameObject:
   m_ObjectHideFlags: 0

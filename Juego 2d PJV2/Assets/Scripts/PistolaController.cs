@@ -11,7 +11,7 @@ public class PistolaController : MonoBehaviour
         pistola = GameObject.Find("Pistola").GetComponent<Pistola>();
         rb = GetComponent<Rigidbody2D>();
         direccion = JugadorController.Instance.ultimaDireccion;
-        rb.linearVelocity = direccion.normalized * pistola.speed;
+        rb.linearVelocity = direccion.normalized * pistola.Speed;
         Destroy(gameObject, 3f);
     }
 
@@ -23,12 +23,12 @@ public class PistolaController : MonoBehaviour
             Enemigo enemigo = collision.GetComponent<Enemigo>();
             if (enemigo != null)
             {
-                enemigo.RecibirDamage(pistola.damage);
+                enemigo.RecibirDamage(pistola.Damage);
 
-                if (!pistola.penetracion) //Posible penetracion
-                {
-                    Destroy(gameObject);
-                }
+                //if (!pistola.penetracion) //Posible penetracion
+                //{
+                //    Destroy(gameObject);
+                //}
             }
         }
     }
