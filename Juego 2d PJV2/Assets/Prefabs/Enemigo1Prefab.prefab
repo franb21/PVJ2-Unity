@@ -131,7 +131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vida: 10
   damage: 2
-  velocidad: 1
+  velocidad: 1.2
   exp: 1
 --- !u!70 &8051069256670753417
 CapsuleCollider2D:
