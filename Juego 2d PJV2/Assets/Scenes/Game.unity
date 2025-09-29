@@ -138149,10 +138149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 3.3
   vida: 100
-  ultimaDireccion: {x: 0, y: 0}
-  experiencia: 0
-  LevelPlayer: 10
-  oleada: 1
+  levels: 0a000000140000001e00000028000000320000003c00000046000000500000005a000000640000006e000000
 --- !u!61 &1114856142
 BoxCollider2D:
   m_ObjectHideFlags: 0

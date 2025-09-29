@@ -95,5 +95,16 @@ public class JugadorController : MonoBehaviour
 
         // agregar en el hud subir de lv
     }
-    //aumento de vida y velocidad
+    public void AumentoDeVida(int aumentoVida)
+    {
+        vida += aumentoVida;
+        HUDController.Instance.vidaHUD();
+        //hud lv
+    }
+
+    public void AumentoDeVelocidad(float aumentoVelocidad)
+    {
+        velocidad *= aumentoVelocidad;
+        //hud lv
+    }
 }
