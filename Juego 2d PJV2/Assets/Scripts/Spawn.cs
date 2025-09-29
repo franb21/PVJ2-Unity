@@ -1,10 +1,9 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Spawn : MonoBehaviour
 {
     [Header("Configuracion de Spawn")]
-    public GameObject prefabEnemigo;
-    public Transform jugador;
     public Transform spawnN;
     public Transform spawnS;
     public Transform spawnW;
@@ -13,50 +12,68 @@ public class Spawn : MonoBehaviour
     public Transform spawnNE;
     public Transform spawnSW;
     public Transform spawnSE;
-    public float tiempoEntreSpawns;
-    private float tiempoSiguienteSpawn;
-    public int maxEnemigos;
+    
+    [System.Serializable]
+    public class Oleada
+    {
+        public GameObject prefabEnemigo;
+        public float tiempoEntreSpawns;
+        public float tiempoSiguienteSpawn;
+        public int maxEnemigos;
+        public int enemigosSpawnNum;
+    }
+    public List<Oleada> oleadas;
+    public int oleadaNum;
 
     private void Start()
     {
-        tiempoSiguienteSpawn = Time.time + tiempoEntreSpawns;
+        oleadas[oleadaNum].tiempoSiguienteSpawn = Time.time + oleadas[oleadaNum].tiempoEntreSpawns;
     }
 
     private void Update()
     {
-        if (Time.time >= tiempoSiguienteSpawn)
+        if (Time.time >= oleadas[oleadaNum].tiempoSiguienteSpawn && oleadas[oleadaNum].enemigosSpawnNum < oleadas[oleadaNum].maxEnemigos)
         {
             SpawnOleada();
-            tiempoSiguienteSpawn = Time.time + tiempoEntreSpawns;
+            oleadas[oleadaNum].enemigosSpawnNum += 8;
+            oleadas[oleadaNum].tiempoSiguienteSpawn = Time.time + oleadas[oleadaNum].tiempoEntreSpawns;
+        }
+
+        if (oleadas[oleadaNum].enemigosSpawnNum >= oleadas[oleadaNum].maxEnemigos)
+        {
+            oleadas[oleadaNum].enemigosSpawnNum = 0;
+            oleadaNum++;
+            oleadas[oleadaNum].tiempoSiguienteSpawn = Time.time + oleadas[oleadaNum].tiempoEntreSpawns;
+
         }
     }
 
     // Spawnea una oleada de enemigos
     private void SpawnOleada()
     {
-        if (GameObject.FindGameObjectsWithTag("Enemigo").Length >= maxEnemigos) return;
-        GameObject enemigo1 = Instantiate(prefabEnemigo);
+        //if (GameObject.FindGameObjectsWithTag("Enemigo").Length >= maxEnemigos) return;
+        GameObject enemigo1 = Instantiate(oleadas[oleadaNum].prefabEnemigo);
         enemigo1.transform.position = spawnN.position;
 
-        GameObject enemigo2 = Instantiate(prefabEnemigo);
+        GameObject enemigo2 = Instantiate(oleadas[oleadaNum].prefabEnemigo);
         enemigo2.transform.position = spawnS.position;
 
-        GameObject enemigo3 = Instantiate(prefabEnemigo);
+        GameObject enemigo3 = Instantiate(oleadas[oleadaNum].prefabEnemigo);
         enemigo3.transform.position = spawnW.position;
 
-        GameObject enemigo4 = Instantiate(prefabEnemigo);
+        GameObject enemigo4 = Instantiate(oleadas[oleadaNum].prefabEnemigo);
         enemigo4.transform.position = spawnE.position;
 
-        GameObject enemigo5 = Instantiate(prefabEnemigo);
+        GameObject enemigo5 = Instantiate(oleadas[oleadaNum].prefabEnemigo);
         enemigo5.transform.position = spawnNW.position;
 
-        GameObject enemigo6 = Instantiate(prefabEnemigo);
+        GameObject enemigo6 = Instantiate(oleadas[oleadaNum].prefabEnemigo);
         enemigo6.transform.position = spawnNE.position;
 
-        GameObject enemigo7 = Instantiate(prefabEnemigo);
+        GameObject enemigo7 = Instantiate(oleadas[oleadaNum].prefabEnemigo);
         enemigo7.transform.position = spawnSW.position;
 
-        GameObject enemigo8 = Instantiate(prefabEnemigo);
+        GameObject enemigo8 = Instantiate(oleadas[oleadaNum].prefabEnemigo);
         enemigo8.transform.position = spawnSE.position;
     }
 }

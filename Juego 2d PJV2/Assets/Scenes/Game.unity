@@ -137603,8 +137603,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b1d8a09c5c69de4f9d730e86e26b1d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabEnemigo: {fileID: 6054069287232953457, guid: 5b6c83deb77af2543801cf8a4fe2908e, type: 3}
-  jugador: {fileID: 1114856140}
   spawnN: {fileID: 419129399}
   spawnS: {fileID: 2063366748}
   spawnW: {fileID: 1939176264}
@@ -137613,8 +137611,28 @@ MonoBehaviour:
   spawnNE: {fileID: 1542341750}
   spawnSW: {fileID: 333755846}
   spawnSE: {fileID: 774659302}
-  tiempoEntreSpawns: 3
-  maxEnemigos: 100
+  oleadas:
+  - prefabEnemigo: {fileID: 6054069287232953457, guid: 5b6c83deb77af2543801cf8a4fe2908e, type: 3}
+    tiempoEntreSpawns: 3
+    tiempoSiguienteSpawn: 0.5
+    maxEnemigos: 30
+    enemigosSpawnNum: 0
+  - prefabEnemigo: {fileID: 6054069287232953457, guid: 5b6c83deb77af2543801cf8a4fe2908e, type: 3}
+    tiempoEntreSpawns: 3
+    tiempoSiguienteSpawn: 1
+    maxEnemigos: 40
+    enemigosSpawnNum: 0
+  - prefabEnemigo: {fileID: 6054069287232953457, guid: 5b6c83deb77af2543801cf8a4fe2908e, type: 3}
+    tiempoEntreSpawns: 2
+    tiempoSiguienteSpawn: 0.5
+    maxEnemigos: 50
+    enemigosSpawnNum: 0
+  - prefabEnemigo: {fileID: 6054069287232953457, guid: 5b6c83deb77af2543801cf8a4fe2908e, type: 3}
+    tiempoEntreSpawns: 2
+    tiempoSiguienteSpawn: 1
+    maxEnemigos: 60
+    enemigosSpawnNum: 0
+  oleadaNum: 0
 --- !u!1 &1113682297
 GameObject:
   m_ObjectHideFlags: 0
