@@ -21,10 +21,23 @@ public class Spawn : MonoBehaviour
         public float tiempoSiguienteSpawn;
         public int maxEnemigos;
         public int enemigosSpawnNum;
+        public int killsMax;
+        public int killsNum;
     }
     public List<Oleada> oleadas;
     public int oleadaNum;
-
+    public static Spawn Instance;
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
     private void Start()
     {
         oleadas[oleadaNum].tiempoSiguienteSpawn = Time.time + oleadas[oleadaNum].tiempoEntreSpawns;
@@ -39,19 +52,23 @@ public class Spawn : MonoBehaviour
             oleadas[oleadaNum].tiempoSiguienteSpawn = Time.time + oleadas[oleadaNum].tiempoEntreSpawns;
         }
 
-        if (oleadas[oleadaNum].enemigosSpawnNum >= oleadas[oleadaNum].maxEnemigos)
+        if (oleadas[oleadaNum].enemigosSpawnNum >= oleadas[oleadaNum].maxEnemigos && oleadas[oleadaNum].killsNum >= oleadas[oleadaNum].killsMax)
         {
             oleadas[oleadaNum].enemigosSpawnNum = 0;
+            oleadas[oleadaNum].killsNum = 0;
             oleadaNum++;
             oleadas[oleadaNum].tiempoSiguienteSpawn = Time.time + oleadas[oleadaNum].tiempoEntreSpawns;
 
         }
     }
+    public void Kill()
+    {
+        oleadas[oleadaNum].killsNum++;
 
+    }
     // Spawnea una oleada de enemigos
     private void SpawnOleada()
     {
-        //if (GameObject.FindGameObjectsWithTag("Enemigo").Length >= maxEnemigos) return;
         GameObject enemigo1 = Instantiate(oleadas[oleadaNum].prefabEnemigo);
         enemigo1.transform.position = spawnN.position;
 
