@@ -32,7 +32,7 @@ public class Pistola : MonoBehaviour
     public string CooldownText { get => cooldownText; }
     public string SpeedText { get => speedText; }
     public string CantidadText { get => cantidadText; }
-
+    public StatsScriptableObjet PistolaData { get => pistolaData; }
 
     private void Start()
     {
