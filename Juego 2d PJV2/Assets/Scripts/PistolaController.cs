@@ -10,7 +10,7 @@ public class PistolaController : MonoBehaviour
     {
         pistola = GameObject.Find("Pistola").GetComponent<Pistola>();
         rb = GetComponent<Rigidbody2D>();
-        direccion = JugadorController.Instance.ultimaDireccion;
+        direccion = JugadorController.Instance.UltimaDireccion;
         rb.linearVelocity = direccion.normalized * pistola.Speed;
         Destroy(gameObject, 3f);
     }

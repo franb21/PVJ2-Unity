@@ -54,7 +54,7 @@ public class Pistola : MonoBehaviour
         {
             tiempoDisparo = cooldown;
             // Instancia el proyectil en la posicion y segun la cantidad aumenta
-            Vector2 dir = JugadorController.Instance.ultimaDireccion.normalized;
+            Vector2 dir = JugadorController.Instance.UltimaDireccion.normalized;
             for (int i = 0; i < cantidad; i++)
             {
                 Vector3 offset = dir * (i * -0.5f);

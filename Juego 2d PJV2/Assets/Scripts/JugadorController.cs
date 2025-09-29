@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class JugadorController : MonoBehaviour
@@ -5,15 +6,20 @@ public class JugadorController : MonoBehaviour
     public static JugadorController Instance;
     [Header("Configuracion Jugador")]
     [SerializeField] private float velocidad;
-    public float vida;
+    [SerializeField] private float vida;
     private float moverHorizontal;
     private float moverVertical;
     private Vector2 direccion;
     private Rigidbody2D miRigidbody2D;
-    public Vector2 ultimaDireccion;
-    public int experiencia;
-    public int LevelPlayer ;
-    public int oleada;
+    private Vector2 ultimaDireccion;
+    public List<int> levels;
+    private int experiencia;
+    private int levelActual;
+
+    public Vector2 UltimaDireccion { get => ultimaDireccion; }
+    public float Vida { get => vida; set => vida = value; }
+    public int Experiencia { get => experiencia; }
+    public int LevelActual { get => levelActual;}
 
     // Singleton
     private void Awake()
@@ -66,28 +72,39 @@ public class JugadorController : MonoBehaviour
             GameManager.Instance.GameOver();
         }
     }
-    // Gana experiencia y sube de lv y oleada
+    // Gana experiencia y sube de lv
     public void GanarExp(int exp)
     {
         experiencia += exp;
         HUDController.Instance.expHUD();
-        if (experiencia >= LevelPlayer)
+
+        if (experiencia >= levels[levelActual])
         {
-            vida += 20 * oleada;
-            velocidad += 0.2f * oleada;
-            oleada++;
-            experiencia -= LevelPlayer;
-            LevelPlayer += 10;
-            HUDController.Instance.expHUD();
+            LevelUp();
         }
-        if (oleada == 6)
-        {
-            GameManager.Instance.Win();
-        }
+        //GameManager.Instance.Win();
+
     }
-    // Escala para enemigos
-    public float Escalar()
+    // Manejo de subir de lv
+    public void LevelUp()
     {
-        return oleada;
+        experiencia -= levels[levelActual];
+        levelActual++;
+        HUDController.Instance.expHUD();
+
+
+        // agregar en el hud subir de lv
+    }
+    public void AumentoDeVida(int aumentoVida)
+    {
+        vida += aumentoVida;
+        HUDController.Instance.vidaHUD();
+        //hud lv
+    }
+
+    public void AumentoDeVelocidad(float aumentoVelocidad)
+    {
+        velocidad *= aumentoVelocidad;
+        //hud lv
     }
 }
