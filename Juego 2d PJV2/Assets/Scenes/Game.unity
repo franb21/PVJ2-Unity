@@ -137617,20 +137617,20 @@ MonoBehaviour:
     tiempoSiguienteSpawn: 0.5
     maxEnemigos: 30
     enemigosSpawnNum: 0
-  - prefabEnemigo: {fileID: 6054069287232953457, guid: 5b6c83deb77af2543801cf8a4fe2908e, type: 3}
+  - prefabEnemigo: {fileID: 6054069287232953457, guid: 6fc1c47723c0f9c43b6d2b8fa7840edc, type: 3}
     tiempoEntreSpawns: 3
     tiempoSiguienteSpawn: 1
-    maxEnemigos: 40
+    maxEnemigos: 60
     enemigosSpawnNum: 0
   - prefabEnemigo: {fileID: 6054069287232953457, guid: 5b6c83deb77af2543801cf8a4fe2908e, type: 3}
     tiempoEntreSpawns: 2
     tiempoSiguienteSpawn: 0.5
-    maxEnemigos: 50
+    maxEnemigos: 40
     enemigosSpawnNum: 0
-  - prefabEnemigo: {fileID: 6054069287232953457, guid: 5b6c83deb77af2543801cf8a4fe2908e, type: 3}
+  - prefabEnemigo: {fileID: 6054069287232953457, guid: 6fc1c47723c0f9c43b6d2b8fa7840edc, type: 3}
     tiempoEntreSpawns: 2
     tiempoSiguienteSpawn: 1
-    maxEnemigos: 60
+    maxEnemigos: 70
     enemigosSpawnNum: 0
   oleadaNum: 0
 --- !u!1 &1113682297
@@ -137856,7 +137856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6247918d656b72e4d9ff77ad1cd3f544, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 5
+  velocidad: 3
   vida: 100
   ultimaDireccion: {x: 0, y: 0}
   experiencia: 0

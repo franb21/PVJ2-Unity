@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 7092409643186808854}
   - component: {fileID: 8189200063952637162}
   - component: {fileID: 7963039756903929702}
-  - component: {fileID: 6087047346791577782}
+  - component: {fileID: 3396995925166816237}
   m_Layer: 8
-  m_Name: EnemigoPrefab
+  m_Name: Enemigo2Prefab
   m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,9 +77,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1529623419
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 6474817916930609645, guid: 49e504fa63cbce04a998c1c7b855c1bb, type: 3}
+  m_Sprite: {fileID: -7050993540882883828, guid: 2924ebf774aad3946a8ec25baaf1a79e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -131,10 +131,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vida: 5
   damage: 1
-  velocidad: 1.5
-  exp: 1
---- !u!61 &6087047346791577782
-BoxCollider2D:
+  velocidad: 2
+  exp: 2
+--- !u!70 &3396995925166816237
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -167,15 +167,6 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.8083451, y: -0.008273542}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 1.2612251, y: 0.5258271}
-    oldSize: {x: 1.03125, y: 1.5625}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.67498827, y: 1.2724689}
-  m_EdgeRadius: 0
+  m_Offset: {x: 0.021707535, y: -0.06345141}
+  m_Size: {x: 0.36141777, y: 0.8583214}
+  m_Direction: 0
