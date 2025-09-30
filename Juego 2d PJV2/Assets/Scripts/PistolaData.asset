@@ -29,6 +29,6 @@ MonoBehaviour:
   maxSpeed: 0
   maxCantidad: 0
   cooldownText: 
-  damageText: 5 + 5
+  damageText: "Mejora de da\xF1o - Actual: 5 -- Mejora:+ 5"
   speedText: 
   cantidadText: 
