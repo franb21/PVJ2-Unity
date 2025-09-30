@@ -32,7 +32,7 @@ public class Pistola : MonoBehaviour
     public string CooldownText { get => cooldownText; }
     public string SpeedText { get => speedText; }
     public string CantidadText { get => cantidadText; }
-
+    public StatsScriptableObjet PistolaData { get => pistolaData; }
 
     private void Start()
     {
@@ -62,30 +62,28 @@ public class Pistola : MonoBehaviour
             }
         }
     }
-    public void MejorarCooldown()
-    {
-        cooldown -= pistolaData.CooldownMejora;
-        cooldownLevel++;
-        cooldownText = cooldown.ToString("0") + " / +" + pistolaData.CooldownMejora.ToString("0");
-
-        if (cooldownLevel >= pistolaData.MaxCooldown)
-        {
-            cooldownText = cooldown.ToString("0") + " ---Al maximo---";
-        }
-    }
-
     public void MejorarDamage()
     {
         damage += pistolaData.DamageMejora;
         damageLevel++;
-        damageText = damage.ToString("0") + " / +" + pistolaData.DamageMejora.ToString("0");
+        damageText = "Mejora de daño - Actual:" + damage.ToString("0") + "- Mejora+ " + pistolaData.DamageMejora.ToString("0");
         Debug.Log(" pistola mejorada" + damageText);
         if (damageLevel >= pistolaData.MaxDamage)
         {
             damageText = damage.ToString("0") + " ---Al maximo---";
         }
     }
+    public void MejorarCooldown()
+    {
+        cooldown -= pistolaData.CooldownMejora;
+        cooldownLevel++;
+        cooldownText = "Mejora de daño - Actual:" + cooldown.ToString("0") + "- Mejora+ " + pistolaData.CooldownMejora.ToString("0");
 
+        if (cooldownLevel >= pistolaData.MaxCooldown)
+        {
+            cooldownText = cooldown.ToString("0") + " ---Al maximo---";
+        }
+    }
     public void MejorarSpeed()
     {
         speed += pistolaData.SpeedMejora;

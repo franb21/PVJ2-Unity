@@ -6,6 +6,9 @@ public class StatsScriptableObjet : ScriptableObject
 {
     [Header("Config inicial arma")]
     [SerializeField] private GameObject proyectilPrefab;
+    public string nombre;
+    public Sprite icono;
+    public string descripcion;
 
     [Header("Stats iniciales")]
     [SerializeField] private float cooldown;

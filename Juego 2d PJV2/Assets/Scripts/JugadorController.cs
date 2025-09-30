@@ -15,7 +15,9 @@ public class JugadorController : MonoBehaviour
     public List<int> levels;
     private int experiencia;
     private int levelActual;
-
+    [SerializeField] private Pistola pistola;
+    [SerializeField] private int aumentoVida;
+    [SerializeField] private int aumentoVelocidad;
     public Vector2 UltimaDireccion { get => ultimaDireccion; }
     public float Vida { get => vida; set => vida = value; }
     public int Experiencia { get => experiencia; }
@@ -91,20 +93,21 @@ public class JugadorController : MonoBehaviour
         experiencia -= levels[levelActual];
         levelActual++;
         HUDController.Instance.expHUD();
-
-
-        // agregar en el hud subir de lv
+        HUDController.Instance.levelUpButton.AsignarButton(pistola);
+        HUDController.Instance.levelUpButton.gameObject.SetActive(true);
+        HUDController.Instance.OpenLevelUpPanel();
     }
-    public void AumentoDeVida(int aumentoVida)
+    //Aumento de vida
+    public void AumentoDeVida()
     {
         vida += aumentoVida;
         HUDController.Instance.vidaHUD();
-        //hud lv
+        HUDController.Instance.CloseLevelUpPanel();
     }
-
-    public void AumentoDeVelocidad(float aumentoVelocidad)
+    //Aumento de velocidad
+    public void AumentoDeVelocidad()
     {
         velocidad *= aumentoVelocidad;
-        //hud lv
+        HUDController.Instance.CloseLevelUpPanel();
     }
 }
