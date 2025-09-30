@@ -129,10 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 127c67d93d305f34d9c685c7d87311da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 10
-  damage: 2
-  velocidad: 1.2
-  exp: 1
+  enemigoData: {fileID: 11400000, guid: 9c90c3d46b4e7384ca2f8b9a5bc7a8e0, type: 2}
 --- !u!70 &8051069256670753417
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
