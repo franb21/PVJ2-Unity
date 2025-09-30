@@ -14,6 +14,8 @@ public class HUDController : MonoBehaviour
     public LevelUpButton levelUpButton;
     public GameObject vidaButton;
     public GameObject velocidadButton;
+    public GameObject mejorasPanel;
+    public MejoraPanel mejorasPanelController;
 
     private void Awake()
     {
@@ -46,18 +48,31 @@ public class HUDController : MonoBehaviour
     public void CloseLevelUpPanel()
     {
         levelUpPanel.SetActive(false);
-        Time.timeScale = 1f;
     }
     // Aumental la vida al dar al button
     public void AumentarVidaJugador()
     {
         JugadorController.Instance.AumentoDeVida();
+        Time.timeScale = 1f;
         CloseLevelUpPanel();
     }
     // Aumental la velocidad al dar al button
     public void AumentarVelocidadJugador()
     {
         JugadorController.Instance.AumentoDeVelocidad();
+        Time.timeScale = 1f;
         CloseLevelUpPanel();
+    }
+    // Se activa el panel de mejoras
+    public void MejorasPanelOpen(Pistola pistola)
+    {
+        mejorasPanel.SetActive(true);
+        mejorasPanelController.OpenPanel(pistola);
+    }
+    // Se desativa el panel de mejoras
+    public void MejorasPanelClose()
+    {
+        mejorasPanel.SetActive(false);
+        Time.timeScale = 1f;
     }
 }
