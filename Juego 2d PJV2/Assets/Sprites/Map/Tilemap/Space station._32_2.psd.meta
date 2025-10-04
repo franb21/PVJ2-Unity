@@ -1,0 +1,3211 @@
+fileFormatVersion: 2
+guid: 088f88b37295d01409f5635880eebaa7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7084511706669178910
+    second: Space station._32_2_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Space station._32_2_191
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4065fd85d3002643ba1ae08e057f167
+      internalID: -188250006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_192
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c11daeb51da054aa03cbda64910ee8
+      internalID: 958807835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_193
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc428470fcd0fd418cd54a4bb1a0379
+      internalID: -1158261556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_194
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5c3d808f92e7646aa2a6972a091996
+      internalID: -956357172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_195
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9843daec535b124ba208ffd1bae03e8
+      internalID: 848459694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_197
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 318
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971d873a4ae9e6a4db97d632c592db8b
+      internalID: -144580308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_198
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 318
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b75a8eaaafa7f04bb185e06ee0bd84e
+      internalID: 1034449022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_199
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 318
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95653606f0578b24bbb92df4282dcd9d
+      internalID: -1119740441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_200
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 318
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d130836d9204e42b52961015e13757
+      internalID: -620069955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_201
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 318
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ef9813e66c11d48816928f443cfe56
+      internalID: -1515703110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_203
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 928
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8cf18b6c812ea4ab23df1436a0cb3a
+      internalID: -587328307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_204
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 928
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80aaed5466a970b4aa710c0d117f73e1
+      internalID: 1485829757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_205
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 928
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f9a91eb39df2a4c901f7a2c6fa2181
+      internalID: 1781845201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_206
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 928
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc38e8751e4956d4ab82a60f1d8e00b7
+      internalID: 773955963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_207
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 928
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4758588fa5c3a924a8a19bf47b44c2dd
+      internalID: 420727947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_233
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 896
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12059efbbd222d64bbb37249726d0e66
+      internalID: 703240358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_234
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a847ed0a518f4804fbc295c60c6cf1f1
+      internalID: -309232956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_235
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 896
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88b7c57d21f06346a521628b7e697a1
+      internalID: 1119251351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_236
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 896
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb76ee67ef56174aba23a1086979dde
+      internalID: -406893658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_237
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 896
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2f673983aacd84386a758d5b20b66a
+      internalID: -2083847090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_239
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 286
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e009f4a0a8dca55498dee7b9ec558020
+      internalID: -1655741553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_240
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 286
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e42c8902e4d6b4b9f67b8d5b5cae43
+      internalID: 994605939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_241
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 286
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e73fd0fe9bae045aae6b20882cbde3
+      internalID: -1217614388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_242
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 286
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf74738616ae81d4ca301d07f3fbae9a
+      internalID: 1445071709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_243
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 286
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e424d813290bd5489e16cc8e380317d
+      internalID: 630987280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_245
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 896
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6496853aaa3bed4cb22a17bb647df70
+      internalID: -1421349487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_246
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e52ebe72de17542a15e778b75de83b
+      internalID: 1713336019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_247
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 896
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db5a6b55b9ea034fa0e4fc98a540db5
+      internalID: -887404634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_248
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 896
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b9409d6f80f7449942fc4a90862e47
+      internalID: 585537765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_249
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 896
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882bf3a49e82bdc47be2ec68075ef2e3
+      internalID: -1236054654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_275
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 864
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a34e22744a71148b643fa2f7e4c813
+      internalID: -547984629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_276
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 864
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861dcba7ec6af124ea9e0c7503f72a30
+      internalID: 1466226128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_277
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 864
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1da8b1e63b6f8e42a07ced7acc94130
+      internalID: -1941513791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_278
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 864
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb522d09af98975418afaab7723aa930
+      internalID: -929760153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_279
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 864
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94ef3685ae0b7c49b98c0b9725e35c5
+      internalID: -475224580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_281
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ae24d9340a49446935bdcb81d0e7b0
+      internalID: 342246580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_282
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31dc7e0a2afd3e46a5fccaff0b05df1
+      internalID: 723458813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_283
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08754a9e39526c42ab61001dad579ae
+      internalID: -1986142888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_284
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8f5355151098e44ab2a2b4647c6263
+      internalID: 1780752844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_285
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb188787ea2df04996bc9e18c0c5b62
+      internalID: 125462732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_287
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 864
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbf51c9d9880154b81a16e1fea4a41c
+      internalID: 740264056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_288
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 864
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9038c309af0651347a4c8c71767d8bf0
+      internalID: 633545715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_289
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 864
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3a6ea36795e5b4bb6a09037263f6c4
+      internalID: -130162084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_290
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 864
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0572042fa4fe604f9c2671b32efcbf7
+      internalID: -561921008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_291
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 864
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8f1b884c839344c9d08221e19537b7
+      internalID: 632994802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_317
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 832
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fc2256af3aade40a362ae8f0b75bc4
+      internalID: 873211664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_318
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 832
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de37bd4b5a4ae8540ac5311598ee10da
+      internalID: 738329957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_319
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 832
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e6efcc4a450084dbe38b631465bd7b
+      internalID: 2076259836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_320
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 832
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1260c843452be847b7bcf24fe93cdcf
+      internalID: -1566317231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_321
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 832
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db76051768018048a6861053876becb
+      internalID: 1034910442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_323
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 222
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7014e01d57e040f48baa0067718947dc
+      internalID: -1145693567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_324
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 222
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c02e74a62c0ae4aa4d70101bf8eeb5
+      internalID: -1612651063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_325
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 222
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1643a3504c24bb4c912e8d7217dcee7
+      internalID: 1811680050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_326
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 222
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb39003c27273844bfada856649f44f
+      internalID: 1152784354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_327
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 222
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dab0191d236fff499ea3e5d98be1834
+      internalID: 761710292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_329
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 832
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54af8204071d2a54facbce5d1ff5f820
+      internalID: 1803612827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_330
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 832
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbd718fe55e28a4a95906c69faa5d65
+      internalID: -308370332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_331
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 832
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce87f38d0fc840f4e8ad4dd91e1663d2
+      internalID: -1432570613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_332
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 832
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09130a5b46307b34ca646dacaed40ef3
+      internalID: 715120770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_333
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 832
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee9cb5e8dc5a304889b87d08ade175a
+      internalID: -684259604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_359
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b787e94dc0b96ab45bbe64c5a488738c
+      internalID: 1215352304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_360
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9acc8b454502194c9c6b5570154f6d5
+      internalID: -1546984485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_361
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8005a90d22c60ec4aa22057f6c806720
+      internalID: -256726642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_362
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce3a33be7a386c46bd5296e84f06948
+      internalID: -1630892001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_363
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322555d537c6f434c96d47ee00019f08
+      internalID: -1794221864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_365
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 190
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f507c20ef5983264cb0f0cd3512c3107
+      internalID: 2068268981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_366
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 190
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d41513ae4a091e43a0414e06b658c2f
+      internalID: 1956786796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_367
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 190
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b739cf8c6973d68478f773cdcec759ff
+      internalID: -265816826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_368
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 190
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e652087037f49448593d1bc11934ad
+      internalID: -177922425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_369
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 190
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6ca5d8a2263114aaf4d54c64e94979
+      internalID: -748189426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_371
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731d056977494994abfff53abd500077
+      internalID: 1269660645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_372
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e06c8fcf5da9f24dbee4ec4d0a07a5b
+      internalID: 1648796359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_373
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2096df934a9c7bd40a3081ea9b4065dd
+      internalID: 792694263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_374
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a199e3e3230a2409455cb9c6a71049
+      internalID: 1343802475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space station._32_2_375
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f941ba1b2965b58459edd8b29f4fd532
+      internalID: -1914021695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d19cd980f503a4f4e80c8d83aa5221c8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Space station._32_2_0: 547304852
+      Space station._32_2_1: 1179512057
+      Space station._32_2_10: -1727759917
+      Space station._32_2_100: -32232924
+      Space station._32_2_1000: -1436911327
+      Space station._32_2_1001: -990456901
+      Space station._32_2_1002: -988788459
+      Space station._32_2_1003: -1072663178
+      Space station._32_2_1004: -169806755
+      Space station._32_2_1005: 515117974
+      Space station._32_2_1006: 576119121
+      Space station._32_2_1007: 874626711
+      Space station._32_2_1008: -1883731630
+      Space station._32_2_1009: -1409604102
+      Space station._32_2_101: -670553962
+      Space station._32_2_1010: 1292180735
+      Space station._32_2_1011: -236273671
+      Space station._32_2_1012: -640695765
+      Space station._32_2_1013: -1802730831
+      Space station._32_2_1014: -432397226
+      Space station._32_2_1015: 1115626722
+      Space station._32_2_1016: -325819270
+      Space station._32_2_1017: 1794362990
+      Space station._32_2_1018: -1785149757
+      Space station._32_2_1019: -979401509
+      Space station._32_2_102: 376681717
+      Space station._32_2_1020: -605188772
+      Space station._32_2_1021: 80110963
+      Space station._32_2_1022: -690991011
+      Space station._32_2_1023: -2141698366
+      Space station._32_2_1024: -927081404
+      Space station._32_2_1025: -1522933326
+      Space station._32_2_1026: -1779050079
+      Space station._32_2_1027: 645223143
+      Space station._32_2_1028: -2035656563
+      Space station._32_2_1029: -1673403881
+      Space station._32_2_103: -695878959
+      Space station._32_2_1030: 1106341257
+      Space station._32_2_1031: -1085604440
+      Space station._32_2_1032: -1969358587
+      Space station._32_2_1033: 1087044232
+      Space station._32_2_1034: 1129703715
+      Space station._32_2_1035: -1147966271
+      Space station._32_2_1036: 728292967
+      Space station._32_2_1037: -2004441025
+      Space station._32_2_1038: 1846915198
+      Space station._32_2_1039: -491890260
+      Space station._32_2_104: 782157882
+      Space station._32_2_1040: -390600846
+      Space station._32_2_1041: 1001453391
+      Space station._32_2_1042: 176187997
+      Space station._32_2_1043: 1747945563
+      Space station._32_2_1044: -2016492371
+      Space station._32_2_1045: 1422771423
+      Space station._32_2_1046: -1521215164
+      Space station._32_2_1047: 244177748
+      Space station._32_2_1048: 673296287
+      Space station._32_2_1049: 288909180
+      Space station._32_2_105: 1993557343
+      Space station._32_2_1050: 1429823366
+      Space station._32_2_1051: -188654322
+      Space station._32_2_1052: -1841084077
+      Space station._32_2_1053: -1551080615
+      Space station._32_2_1054: 1003866651
+      Space station._32_2_1055: 1001900999
+      Space station._32_2_1056: 1051226528
+      Space station._32_2_1057: -167644520
+      Space station._32_2_1058: 1467947910
+      Space station._32_2_1059: -1470669957
+      Space station._32_2_106: 92204647
+      Space station._32_2_1060: 1374748286
+      Space station._32_2_1061: 2043257237
+      Space station._32_2_1062: 152522539
+      Space station._32_2_1063: 530854915
+      Space station._32_2_1064: 1853052891
+      Space station._32_2_1065: -1946853630
+      Space station._32_2_1066: -1244877501
+      Space station._32_2_1067: -482632421
+      Space station._32_2_1068: 1978751437
+      Space station._32_2_1069: 1245564905
+      Space station._32_2_107: 736521434
+      Space station._32_2_1070: 1037487117
+      Space station._32_2_1071: 646318695
+      Space station._32_2_1072: 197820041
+      Space station._32_2_1073: -21650757
+      Space station._32_2_1074: -2061940711
+      Space station._32_2_1075: -1428664389
+      Space station._32_2_1076: 279309876
+      Space station._32_2_1077: -1617733645
+      Space station._32_2_1078: -1836446983
+      Space station._32_2_1079: 1926183346
+      Space station._32_2_108: 161004989
+      Space station._32_2_1080: 1337686012
+      Space station._32_2_1081: -467931217
+      Space station._32_2_1082: 696887337
+      Space station._32_2_1083: 927800624
+      Space station._32_2_1084: 3106304
+      Space station._32_2_1085: 1402239165
+      Space station._32_2_1086: -1265714794
+      Space station._32_2_1087: 2103769248
+      Space station._32_2_1088: -2066082656
+      Space station._32_2_1089: 1452378269
+      Space station._32_2_109: -1188065536
+      Space station._32_2_1090: -590300485
+      Space station._32_2_1091: -1852769461
+      Space station._32_2_1092: -546720149
+      Space station._32_2_1093: -6194569
+      Space station._32_2_1094: 2003652838
+      Space station._32_2_1095: 83147288
+      Space station._32_2_1096: -843125063
+      Space station._32_2_1097: 314457615
+      Space station._32_2_1098: -552077721
+      Space station._32_2_1099: 383655379
+      Space station._32_2_11: -2054415381
+      Space station._32_2_110: -1566980570
+      Space station._32_2_1100: -1293311294
+      Space station._32_2_1101: -1313945792
+      Space station._32_2_1102: -37160089
+      Space station._32_2_1103: 2043522911
+      Space station._32_2_1104: 1119967950
+      Space station._32_2_1105: -907771616
+      Space station._32_2_1106: 2135439204
+      Space station._32_2_1107: -1948297730
+      Space station._32_2_1108: -1057251473
+      Space station._32_2_1109: 1646122787
+      Space station._32_2_111: 1306959387
+      Space station._32_2_1110: -1832819751
+      Space station._32_2_1111: 67979693
+      Space station._32_2_1112: 2051146100
+      Space station._32_2_1113: -466344382
+      Space station._32_2_1114: 354120657
+      Space station._32_2_1115: 1660749005
+      Space station._32_2_1116: -1079339894
+      Space station._32_2_1117: -1342853681
+      Space station._32_2_1118: 1348286794
+      Space station._32_2_1119: -314296355
+      Space station._32_2_112: 724415963
+      Space station._32_2_1120: 1301993977
+      Space station._32_2_1121: -155989016
+      Space station._32_2_1122: -2093032270
+      Space station._32_2_1123: 1915231242
+      Space station._32_2_1124: 1655098936
+      Space station._32_2_1125: 1833581971
+      Space station._32_2_1126: -812489527
+      Space station._32_2_1127: 932254712
+      Space station._32_2_1128: 1187192153
+      Space station._32_2_1129: 494764178
+      Space station._32_2_113: 2112098854
+      Space station._32_2_1130: 941693524
+      Space station._32_2_1131: -2009125440
+      Space station._32_2_1132: 235544734
+      Space station._32_2_1133: -290650532
+      Space station._32_2_1134: -1924412673
+      Space station._32_2_1135: -1323826760
+      Space station._32_2_1136: -1200270746
+      Space station._32_2_1137: -130163813
+      Space station._32_2_1138: 166397708
+      Space station._32_2_1139: 686893028
+      Space station._32_2_114: -18686747
+      Space station._32_2_1140: -1793164834
+      Space station._32_2_1141: -2045227077
+      Space station._32_2_1142: 1713024773
+      Space station._32_2_1143: 1288418572
+      Space station._32_2_1144: 1355390589
+      Space station._32_2_1145: -711553700
+      Space station._32_2_1146: -304824603
+      Space station._32_2_1147: 1621973943
+      Space station._32_2_1148: 454831548
+      Space station._32_2_1149: 1576444018
+      Space station._32_2_115: -724633615
+      Space station._32_2_1150: -1637429898
+      Space station._32_2_1151: -505436768
+      Space station._32_2_1152: 69868177
+      Space station._32_2_1153: 1636523826
+      Space station._32_2_1154: 107813156
+      Space station._32_2_1155: -1403899620
+      Space station._32_2_1156: 993404418
+      Space station._32_2_1157: 647531099
+      Space station._32_2_1158: 1285982487
+      Space station._32_2_1159: -1890301343
+      Space station._32_2_116: 924804762
+      Space station._32_2_1160: 1456891218
+      Space station._32_2_1161: 118356185
+      Space station._32_2_1162: 222547374
+      Space station._32_2_1163: 1490518927
+      Space station._32_2_1164: 260723657
+      Space station._32_2_1165: -1514295179
+      Space station._32_2_1166: 1939835675
+      Space station._32_2_1167: -637957543
+      Space station._32_2_1168: 1521577438
+      Space station._32_2_1169: -1556694090
+      Space station._32_2_117: 348131356
+      Space station._32_2_1170: -641017292
+      Space station._32_2_1171: -528350404
+      Space station._32_2_1172: -967664801
+      Space station._32_2_1173: 2063514748
+      Space station._32_2_1174: -88540240
+      Space station._32_2_1175: 1220422581
+      Space station._32_2_1176: -1654799439
+      Space station._32_2_1177: 1778412733
+      Space station._32_2_1178: 215051510
+      Space station._32_2_1179: -979664595
+      Space station._32_2_118: -479021550
+      Space station._32_2_1180: -1692826594
+      Space station._32_2_1181: -1109214824
+      Space station._32_2_1182: -2097361603
+      Space station._32_2_1183: 1463200708
+      Space station._32_2_1184: -245945453
+      Space station._32_2_1185: 1987680704
+      Space station._32_2_1186: 1184733202
+      Space station._32_2_1187: 118903354
+      Space station._32_2_1188: -1827785724
+      Space station._32_2_1189: -1955135006
+      Space station._32_2_119: -1854630121
+      Space station._32_2_1190: 1926750423
+      Space station._32_2_1191: 226985530
+      Space station._32_2_1192: -1218783982
+      Space station._32_2_1193: 1939188658
+      Space station._32_2_1194: 1792945414
+      Space station._32_2_1195: -1709487050
+      Space station._32_2_1196: -2054254789
+      Space station._32_2_1197: -1143388163
+      Space station._32_2_1198: -355066265
+      Space station._32_2_1199: -1358913592
+      Space station._32_2_12: -830851933
+      Space station._32_2_120: -1467483295
+      Space station._32_2_1200: 462962787
+      Space station._32_2_1201: -405118510
+      Space station._32_2_1202: -1091209985
+      Space station._32_2_1203: 94973378
+      Space station._32_2_1204: -1499974260
+      Space station._32_2_1205: -1701874158
+      Space station._32_2_1206: -84877347
+      Space station._32_2_1207: -1213182704
+      Space station._32_2_1208: 510175238
+      Space station._32_2_1209: 1930937854
+      Space station._32_2_121: 356718669
+      Space station._32_2_1210: 736045394
+      Space station._32_2_1211: 624113844
+      Space station._32_2_1212: 1378702069
+      Space station._32_2_1213: -1914497972
+      Space station._32_2_1214: -1313184966
+      Space station._32_2_1215: 1704514542
+      Space station._32_2_1216: 773911452
+      Space station._32_2_1217: -789240679
+      Space station._32_2_1218: 2030544731
+      Space station._32_2_1219: 174917565
+      Space station._32_2_122: -1613726762
+      Space station._32_2_1220: 1806324835
+      Space station._32_2_1221: -1875793981
+      Space station._32_2_1222: -1464774851
+      Space station._32_2_1223: -1885885088
+      Space station._32_2_1224: 1516335825
+      Space station._32_2_1225: 2004240516
+      Space station._32_2_1226: -827910593
+      Space station._32_2_1227: -1246667674
+      Space station._32_2_1228: 1576965310
+      Space station._32_2_1229: 1683373813
+      Space station._32_2_123: -1620715739
+      Space station._32_2_1230: 2054025852
+      Space station._32_2_1231: 348494689
+      Space station._32_2_1232: -1750258900
+      Space station._32_2_1233: 878371655
+      Space station._32_2_1234: -754437289
+      Space station._32_2_1235: 849172038
+      Space station._32_2_1236: 782913064
+      Space station._32_2_1237: -1175442836
+      Space station._32_2_1238: 1550114961
+      Space station._32_2_1239: 2033084140
+      Space station._32_2_124: -1600432966
+      Space station._32_2_1240: -2134169152
+      Space station._32_2_1241: -1379415059
+      Space station._32_2_1242: -1361444975
+      Space station._32_2_1243: 262156210
+      Space station._32_2_1244: -1989724095
+      Space station._32_2_1245: 62366342
+      Space station._32_2_1246: 435458787
+      Space station._32_2_1247: -191994880
+      Space station._32_2_1248: -190232970
+      Space station._32_2_1249: -1217077313
+      Space station._32_2_125: 144608372
+      Space station._32_2_1250: 2119623171
+      Space station._32_2_1251: 1084376197
+      Space station._32_2_1252: 1994108711
+      Space station._32_2_1253: 1639929812
+      Space station._32_2_1254: 1648273890
+      Space station._32_2_1255: -429044492
+      Space station._32_2_1256: 1466943751
+      Space station._32_2_1257: 986255789
+      Space station._32_2_1258: 127896611
+      Space station._32_2_1259: -2003784702
+      Space station._32_2_126: 471670376
+      Space station._32_2_1260: -729457217
+      Space station._32_2_1261: 1651950
+      Space station._32_2_1262: 805646581
+      Space station._32_2_1263: -1298851724
+      Space station._32_2_1264: -795233758
+      Space station._32_2_1265: -376860757
+      Space station._32_2_1266: 1415857761
+      Space station._32_2_1267: 170650875
+      Space station._32_2_1268: 51576098
+      Space station._32_2_1269: 1931214553
+      Space station._32_2_127: 1086675028
+      Space station._32_2_1270: -149371984
+      Space station._32_2_1271: 1496743178
+      Space station._32_2_1272: 5937390
+      Space station._32_2_1273: 221572984
+      Space station._32_2_1274: -1033536096
+      Space station._32_2_1275: -1521073677
+      Space station._32_2_1276: -1488682000
+      Space station._32_2_1277: -1071608050
+      Space station._32_2_1278: -1143838045
+      Space station._32_2_1279: -2033606784
+      Space station._32_2_128: 2099065241
+      Space station._32_2_1280: -808749703
+      Space station._32_2_1281: 234192301
+      Space station._32_2_1282: 1931240531
+      Space station._32_2_1283: -1421112946
+      Space station._32_2_1284: 1439536804
+      Space station._32_2_1285: -1689318416
+      Space station._32_2_1286: 571998957
+      Space station._32_2_1287: -1227166158
+      Space station._32_2_1288: 408259676
+      Space station._32_2_1289: -520047468
+      Space station._32_2_129: -619109881
+      Space station._32_2_1290: -1562553931
+      Space station._32_2_1291: -1511435476
+      Space station._32_2_1292: -192436222
+      Space station._32_2_1293: -1300322734
+      Space station._32_2_1294: 1351732585
+      Space station._32_2_1295: 1220180871
+      Space station._32_2_1296: 573721418
+      Space station._32_2_1297: -985214099
+      Space station._32_2_1298: -1722783635
+      Space station._32_2_1299: -555809256
+      Space station._32_2_13: 383550100
+      Space station._32_2_130: 1347319412
+      Space station._32_2_1300: 956234528
+      Space station._32_2_1301: -2002799542
+      Space station._32_2_1302: 1363082032
+      Space station._32_2_1303: 2024792716
+      Space station._32_2_1304: 975200358
+      Space station._32_2_1305: -1495733981
+      Space station._32_2_1306: -952282477
+      Space station._32_2_1307: 2002725092
+      Space station._32_2_1308: -170109616
+      Space station._32_2_1309: 256081285
+      Space station._32_2_131: 1961684152
+      Space station._32_2_1310: -495870428
+      Space station._32_2_1311: 1184652264
+      Space station._32_2_1312: -1037604853
+      Space station._32_2_1313: -1160299493
+      Space station._32_2_1314: 1173058307
+      Space station._32_2_1315: 1649738528
+      Space station._32_2_1316: 359003076
+      Space station._32_2_1317: -502839049
+      Space station._32_2_1318: 77204490
+      Space station._32_2_1319: -755076485
+      Space station._32_2_132: 1436700688
+      Space station._32_2_1320: -2071393398
+      Space station._32_2_1321: 677045779
+      Space station._32_2_1322: 158699141
+      Space station._32_2_1323: -1289062777
+      Space station._32_2_1324: 1132461441
+      Space station._32_2_1325: -1374178271
+      Space station._32_2_1326: 893170017
+      Space station._32_2_1327: 1691327287
+      Space station._32_2_1328: 1934782538
+      Space station._32_2_1329: -587745316
+      Space station._32_2_133: 616069347
+      Space station._32_2_1330: 1362776051
+      Space station._32_2_1331: -197608605
+      Space station._32_2_1332: -529089618
+      Space station._32_2_1333: 1405665160
+      Space station._32_2_1334: 1820076098
+      Space station._32_2_1335: 52661916
+      Space station._32_2_1336: -1298703224
+      Space station._32_2_1337: 57189846
+      Space station._32_2_1338: 1614021592
+      Space station._32_2_1339: -609248490
+      Space station._32_2_134: -774403853
+      Space station._32_2_1340: 1736450752
+      Space station._32_2_1341: 190260187
+      Space station._32_2_1342: -656160832
+      Space station._32_2_1343: 500666929
+      Space station._32_2_1344: -1854778277
+      Space station._32_2_1345: -943023187
+      Space station._32_2_1346: 1591405986
+      Space station._32_2_1347: -1011730624
+      Space station._32_2_1348: 15208635
+      Space station._32_2_1349: 1072925513
+      Space station._32_2_135: 245935633
+      Space station._32_2_1350: 292187762
+      Space station._32_2_1351: 475700109
+      Space station._32_2_1352: 664542052
+      Space station._32_2_1353: 893224478
+      Space station._32_2_1354: -100227372
+      Space station._32_2_1355: 1776433853
+      Space station._32_2_1356: 2109207609
+      Space station._32_2_1357: -818631020
+      Space station._32_2_1358: 1876945144
+      Space station._32_2_1359: 393377083
+      Space station._32_2_136: 291435214
+      Space station._32_2_1360: 1398936208
+      Space station._32_2_1361: -1469807081
+      Space station._32_2_1362: -260140335
+      Space station._32_2_1363: 1776928011
+      Space station._32_2_1364: -1840443519
+      Space station._32_2_1365: 131358311
+      Space station._32_2_1366: 1883732249
+      Space station._32_2_1367: -576714293
+      Space station._32_2_1368: 1978249612
+      Space station._32_2_1369: 796000275
+      Space station._32_2_137: 1089088538
+      Space station._32_2_1370: -578365163
+      Space station._32_2_1371: -50499972
+      Space station._32_2_1372: 1809671416
+      Space station._32_2_1373: -372458794
+      Space station._32_2_1374: -1757647304
+      Space station._32_2_1375: 1724599768
+      Space station._32_2_1376: -1325584210
+      Space station._32_2_1377: 431621478
+      Space station._32_2_1378: 404565610
+      Space station._32_2_1379: 481646169
+      Space station._32_2_138: -1434532769
+      Space station._32_2_1380: -1429244669
+      Space station._32_2_1381: -357255750
+      Space station._32_2_1382: -1561135970
+      Space station._32_2_1383: 1263036204
+      Space station._32_2_1384: -1565416455
+      Space station._32_2_1385: -937167344
+      Space station._32_2_1386: 1624744051
+      Space station._32_2_1387: -361602582
+      Space station._32_2_1388: 1009157929
+      Space station._32_2_1389: -2016415502
+      Space station._32_2_139: 159308097
+      Space station._32_2_1390: 914671871
+      Space station._32_2_1391: 1170572275
+      Space station._32_2_1392: 1713430157
+      Space station._32_2_1393: 630867441
+      Space station._32_2_1394: -1376527653
+      Space station._32_2_1395: -2140490310
+      Space station._32_2_1396: -1166818062
+      Space station._32_2_1397: 737765232
+      Space station._32_2_1398: 1676868012
+      Space station._32_2_1399: -2143601139
+      Space station._32_2_14: 2091006149
+      Space station._32_2_140: 153706938
+      Space station._32_2_1400: -2061920150
+      Space station._32_2_1401: 1832958401
+      Space station._32_2_1402: -1083508619
+      Space station._32_2_1403: -715896616
+      Space station._32_2_1404: -1320828731
+      Space station._32_2_1405: -1904432106
+      Space station._32_2_1406: 2146160531
+      Space station._32_2_1407: 661317129
+      Space station._32_2_1408: 1435908631
+      Space station._32_2_1409: 126418800
+      Space station._32_2_141: -88008358
+      Space station._32_2_1410: 726786053
+      Space station._32_2_1411: 1785058543
+      Space station._32_2_1412: 91581837
+      Space station._32_2_1413: 1578325678
+      Space station._32_2_1414: 1919708693
+      Space station._32_2_1415: 991725961
+      Space station._32_2_1416: 1204932704
+      Space station._32_2_1417: -469647277
+      Space station._32_2_1418: -1568762154
+      Space station._32_2_1419: 1842767535
+      Space station._32_2_142: 1564662865
+      Space station._32_2_1420: -34939393
+      Space station._32_2_1421: -930575317
+      Space station._32_2_1422: 1154796178
+      Space station._32_2_1423: 1581503957
+      Space station._32_2_1424: -857776472
+      Space station._32_2_1425: 1396512029
+      Space station._32_2_1426: -2058494858
+      Space station._32_2_1427: 1760157459
+      Space station._32_2_143: 709525123
+      Space station._32_2_144: -421374123
+      Space station._32_2_145: -1048330394
+      Space station._32_2_146: 1468933266
+      Space station._32_2_147: 1495500769
+      Space station._32_2_148: 2048395241
+      Space station._32_2_149: 356435300
+      Space station._32_2_15: -113903383
+      Space station._32_2_150: 455961532
+      Space station._32_2_151: 404643773
+      Space station._32_2_152: 633184977
+      Space station._32_2_153: -329379175
+      Space station._32_2_154: -1848674205
+      Space station._32_2_155: 379205812
+      Space station._32_2_156: 636837968
+      Space station._32_2_157: 1513511686
+      Space station._32_2_158: 126372751
+      Space station._32_2_159: -1622247309
+      Space station._32_2_16: 1601540198
+      Space station._32_2_160: 985959833
+      Space station._32_2_161: -222161172
+      Space station._32_2_162: -975452229
+      Space station._32_2_163: 1023313351
+      Space station._32_2_164: 1193240396
+      Space station._32_2_165: 1157855620
+      Space station._32_2_166: 1219534868
+      Space station._32_2_167: 1829640143
+      Space station._32_2_168: 823765776
+      Space station._32_2_169: 522250459
+      Space station._32_2_17: -1071744684
+      Space station._32_2_170: -1375682676
+      Space station._32_2_171: -1512650520
+      Space station._32_2_172: 486834521
+      Space station._32_2_173: -1283511691
+      Space station._32_2_174: -1190371459
+      Space station._32_2_175: -1992790876
+      Space station._32_2_176: -349169040
+      Space station._32_2_177: -1713694278
+      Space station._32_2_178: 927672376
+      Space station._32_2_179: 939999931
+      Space station._32_2_18: -2073590920
+      Space station._32_2_180: -904040901
+      Space station._32_2_181: 110043274
+      Space station._32_2_182: 1778671267
+      Space station._32_2_183: 2619012
+      Space station._32_2_184: -1209930885
+      Space station._32_2_185: 857033790
+      Space station._32_2_186: -189015210
+      Space station._32_2_187: 618268778
+      Space station._32_2_188: 558226836
+      Space station._32_2_189: -871014137
+      Space station._32_2_19: -1789666164
+      Space station._32_2_190: -327250849
+      Space station._32_2_191: -188250006
+      Space station._32_2_192: 958807835
+      Space station._32_2_193: -1158261556
+      Space station._32_2_194: -956357172
+      Space station._32_2_195: 848459694
+      Space station._32_2_196: 1655340810
+      Space station._32_2_197: -144580308
+      Space station._32_2_198: 1034449022
+      Space station._32_2_199: -1119740441
+      Space station._32_2_2: 1662649974
+      Space station._32_2_20: 1079238419
+      Space station._32_2_200: -620069955
+      Space station._32_2_201: -1515703110
+      Space station._32_2_202: 1914891679
+      Space station._32_2_203: -587328307
+      Space station._32_2_204: 1485829757
+      Space station._32_2_205: 1781845201
+      Space station._32_2_206: 773955963
+      Space station._32_2_207: 420727947
+      Space station._32_2_208: 1662916472
+      Space station._32_2_209: -694562522
+      Space station._32_2_21: 777814208
+      Space station._32_2_210: -507307488
+      Space station._32_2_211: -1612764359
+      Space station._32_2_212: 54954079
+      Space station._32_2_213: 1142525180
+      Space station._32_2_214: -2694558
+      Space station._32_2_215: -1235475205
+      Space station._32_2_216: 1747391424
+      Space station._32_2_217: -1836725901
+      Space station._32_2_218: -1101129403
+      Space station._32_2_219: 148976527
+      Space station._32_2_22: -661126365
+      Space station._32_2_220: 1173709696
+      Space station._32_2_221: -892670847
+      Space station._32_2_222: 1221073931
+      Space station._32_2_223: -750466577
+      Space station._32_2_224: 1683773426
+      Space station._32_2_225: -1783655546
+      Space station._32_2_226: -1679497510
+      Space station._32_2_227: -333319318
+      Space station._32_2_228: -1681697073
+      Space station._32_2_229: -605000346
+      Space station._32_2_23: 550976917
+      Space station._32_2_230: -148340172
+      Space station._32_2_231: -1251225383
+      Space station._32_2_232: 1610022352
+      Space station._32_2_233: 703240358
+      Space station._32_2_234: -309232956
+      Space station._32_2_235: 1119251351
+      Space station._32_2_236: -406893658
+      Space station._32_2_237: -2083847090
+      Space station._32_2_238: -775254390
+      Space station._32_2_239: -1655741553
+      Space station._32_2_24: 410703550
+      Space station._32_2_240: 994605939
+      Space station._32_2_241: -1217614388
+      Space station._32_2_242: 1445071709
+      Space station._32_2_243: 630987280
+      Space station._32_2_244: -188074273
+      Space station._32_2_245: -1421349487
+      Space station._32_2_246: 1713336019
+      Space station._32_2_247: -887404634
+      Space station._32_2_248: 585537765
+      Space station._32_2_249: -1236054654
+      Space station._32_2_25: 692009594
+      Space station._32_2_250: 2116817515
+      Space station._32_2_251: 1358167617
+      Space station._32_2_252: -798186429
+      Space station._32_2_253: -589451679
+      Space station._32_2_254: 856375313
+      Space station._32_2_255: 1155268843
+      Space station._32_2_256: -1770062350
+      Space station._32_2_257: -2093993371
+      Space station._32_2_258: 1393699419
+      Space station._32_2_259: 903664269
+      Space station._32_2_26: -1176377435
+      Space station._32_2_260: -976289497
+      Space station._32_2_261: -1732018762
+      Space station._32_2_262: -203759575
+      Space station._32_2_263: -1184155424
+      Space station._32_2_264: 370626724
+      Space station._32_2_265: 669013265
+      Space station._32_2_266: 952444959
+      Space station._32_2_267: -2115146106
+      Space station._32_2_268: 799762877
+      Space station._32_2_269: 394355632
+      Space station._32_2_27: -1563548607
+      Space station._32_2_270: -1201853628
+      Space station._32_2_271: -1570325207
+      Space station._32_2_272: -1707544940
+      Space station._32_2_273: -1018192237
+      Space station._32_2_274: -1988991761
+      Space station._32_2_275: -547984629
+      Space station._32_2_276: 1466226128
+      Space station._32_2_277: -1941513791
+      Space station._32_2_278: -929760153
+      Space station._32_2_279: -475224580
+      Space station._32_2_28: -1129862160
+      Space station._32_2_280: 300975361
+      Space station._32_2_281: 342246580
+      Space station._32_2_282: 723458813
+      Space station._32_2_283: -1986142888
+      Space station._32_2_284: 1780752844
+      Space station._32_2_285: 125462732
+      Space station._32_2_286: 1190328750
+      Space station._32_2_287: 740264056
+      Space station._32_2_288: 633545715
+      Space station._32_2_289: -130162084
+      Space station._32_2_29: -2117992987
+      Space station._32_2_290: -561921008
+      Space station._32_2_291: 632994802
+      Space station._32_2_292: 1596362821
+      Space station._32_2_293: 1833893491
+      Space station._32_2_294: 663491049
+      Space station._32_2_295: -1909325979
+      Space station._32_2_296: -47721552
+      Space station._32_2_297: -599782615
+      Space station._32_2_298: -2099809409
+      Space station._32_2_299: -921917487
+      Space station._32_2_3: 1051124600
+      Space station._32_2_30: -1858392691
+      Space station._32_2_300: 1568291109
+      Space station._32_2_301: 497633876
+      Space station._32_2_302: -1037074383
+      Space station._32_2_303: 556857627
+      Space station._32_2_304: 1486515955
+      Space station._32_2_305: -1098399804
+      Space station._32_2_306: 895344635
+      Space station._32_2_307: -2030923162
+      Space station._32_2_308: -2057405619
+      Space station._32_2_309: -480420139
+      Space station._32_2_31: -1070555630
+      Space station._32_2_310: 980594301
+      Space station._32_2_311: 365308189
+      Space station._32_2_312: -213356802
+      Space station._32_2_313: -869245801
+      Space station._32_2_314: 254407746
+      Space station._32_2_315: 197101553
+      Space station._32_2_316: 577587801
+      Space station._32_2_317: 873211664
+      Space station._32_2_318: 738329957
+      Space station._32_2_319: 2076259836
+      Space station._32_2_32: 2125575755
+      Space station._32_2_320: -1566317231
+      Space station._32_2_321: 1034910442
+      Space station._32_2_322: 1274857932
+      Space station._32_2_323: -1145693567
+      Space station._32_2_324: -1612651063
+      Space station._32_2_325: 1811680050
+      Space station._32_2_326: 1152784354
+      Space station._32_2_327: 761710292
+      Space station._32_2_328: -855956067
+      Space station._32_2_329: 1803612827
+      Space station._32_2_33: -432492221
+      Space station._32_2_330: -308370332
+      Space station._32_2_331: -1432570613
+      Space station._32_2_332: 715120770
+      Space station._32_2_333: -684259604
+      Space station._32_2_334: -2103577992
+      Space station._32_2_335: -639506459
+      Space station._32_2_336: 1560274760
+      Space station._32_2_337: 1522803408
+      Space station._32_2_338: -1663174321
+      Space station._32_2_339: -1185284419
+      Space station._32_2_34: 746034755
+      Space station._32_2_340: 1308435610
+      Space station._32_2_341: -429427759
+      Space station._32_2_342: -1007041109
+      Space station._32_2_343: -597574789
+      Space station._32_2_344: -415147159
+      Space station._32_2_345: 1877320396
+      Space station._32_2_346: 1608720502
+      Space station._32_2_347: 1473340471
+      Space station._32_2_348: -1874923770
+      Space station._32_2_349: -1299142865
+      Space station._32_2_35: -789896190
+      Space station._32_2_350: 522791487
+      Space station._32_2_351: 929149605
+      Space station._32_2_352: -1809861402
+      Space station._32_2_353: 1616206910
+      Space station._32_2_354: -11605717
+      Space station._32_2_355: 1237208864
+      Space station._32_2_356: -1177720032
+      Space station._32_2_357: 1017252451
+      Space station._32_2_358: -2026642401
+      Space station._32_2_359: 1215352304
+      Space station._32_2_36: -156744254
+      Space station._32_2_360: -1546984485
+      Space station._32_2_361: -256726642
+      Space station._32_2_362: -1630892001
+      Space station._32_2_363: -1794221864
+      Space station._32_2_364: 1020253045
+      Space station._32_2_365: 2068268981
+      Space station._32_2_366: 1956786796
+      Space station._32_2_367: -265816826
+      Space station._32_2_368: -177922425
+      Space station._32_2_369: -748189426
+      Space station._32_2_37: 366518058
+      Space station._32_2_370: -1571820203
+      Space station._32_2_371: 1269660645
+      Space station._32_2_372: 1648796359
+      Space station._32_2_373: 792694263
+      Space station._32_2_374: 1343802475
+      Space station._32_2_375: -1914021695
+      Space station._32_2_376: -799938279
+      Space station._32_2_377: -201991865
+      Space station._32_2_378: -505238423
+      Space station._32_2_379: 1355396321
+      Space station._32_2_38: -795986179
+      Space station._32_2_380: -1686331175
+      Space station._32_2_381: -937239534
+      Space station._32_2_382: 1852826657
+      Space station._32_2_383: -475232754
+      Space station._32_2_384: -2050291909
+      Space station._32_2_385: -1123403070
+      Space station._32_2_386: -426212785
+      Space station._32_2_387: -1361193598
+      Space station._32_2_388: -1537412082
+      Space station._32_2_389: 809643677
+      Space station._32_2_39: 440493119
+      Space station._32_2_390: -824415990
+      Space station._32_2_391: 1522134604
+      Space station._32_2_392: -121931179
+      Space station._32_2_393: -1009054032
+      Space station._32_2_394: 1163690924
+      Space station._32_2_395: -219962335
+      Space station._32_2_396: 1778737611
+      Space station._32_2_397: -1054106616
+      Space station._32_2_398: 777630937
+      Space station._32_2_399: 1864930148
+      Space station._32_2_4: -322472747
+      Space station._32_2_40: 1348599233
+      Space station._32_2_400: -1899811873
+      Space station._32_2_401: 511337226
+      Space station._32_2_402: 802574308
+      Space station._32_2_403: -22515960
+      Space station._32_2_404: -1030547041
+      Space station._32_2_405: 561900571
+      Space station._32_2_406: 813247907
+      Space station._32_2_407: 50278090
+      Space station._32_2_408: 1900654271
+      Space station._32_2_409: -1616575182
+      Space station._32_2_41: 26571557
+      Space station._32_2_410: -1182386017
+      Space station._32_2_411: -953719523
+      Space station._32_2_412: -264918178
+      Space station._32_2_413: 1179282660
+      Space station._32_2_414: 1322523567
+      Space station._32_2_415: 661566010
+      Space station._32_2_416: 266786768
+      Space station._32_2_417: -1300853968
+      Space station._32_2_418: 1288799249
+      Space station._32_2_419: 1029681515
+      Space station._32_2_42: 33941888
+      Space station._32_2_420: -717412735
+      Space station._32_2_421: -365658417
+      Space station._32_2_422: -1924756478
+      Space station._32_2_423: -1725328583
+      Space station._32_2_424: 2080181847
+      Space station._32_2_425: -1831449175
+      Space station._32_2_426: -889876975
+      Space station._32_2_427: -1350527413
+      Space station._32_2_428: 1889754084
+      Space station._32_2_429: 257130288
+      Space station._32_2_43: -323986777
+      Space station._32_2_430: -773118923
+      Space station._32_2_431: 414127074
+      Space station._32_2_432: -1254241577
+      Space station._32_2_433: -75154940
+      Space station._32_2_434: 1284574232
+      Space station._32_2_435: -2006404810
+      Space station._32_2_436: 27548481
+      Space station._32_2_437: -191536251
+      Space station._32_2_438: -2054691217
+      Space station._32_2_439: -1933748603
+      Space station._32_2_44: 1915934900
+      Space station._32_2_440: 494587866
+      Space station._32_2_441: -2136677726
+      Space station._32_2_442: -1467284444
+      Space station._32_2_443: 1232197547
+      Space station._32_2_444: -501738666
+      Space station._32_2_445: 1600329359
+      Space station._32_2_446: 1840902578
+      Space station._32_2_447: 420741459
+      Space station._32_2_448: -1144657915
+      Space station._32_2_449: -1260257092
+      Space station._32_2_45: 1721913446
+      Space station._32_2_450: -1781288173
+      Space station._32_2_451: -505014387
+      Space station._32_2_452: 1307634811
+      Space station._32_2_453: 1699464554
+      Space station._32_2_454: 1690514491
+      Space station._32_2_455: -812823779
+      Space station._32_2_456: -319576621
+      Space station._32_2_457: -1490097658
+      Space station._32_2_458: -508137051
+      Space station._32_2_459: 2145268055
+      Space station._32_2_46: -1968442061
+      Space station._32_2_460: 1966906606
+      Space station._32_2_461: -188960215
+      Space station._32_2_462: 712142536
+      Space station._32_2_463: -884435800
+      Space station._32_2_464: -1553215899
+      Space station._32_2_465: -2119132105
+      Space station._32_2_466: -589976005
+      Space station._32_2_467: 1707511951
+      Space station._32_2_468: -1585474161
+      Space station._32_2_469: 1469640767
+      Space station._32_2_47: 1379264879
+      Space station._32_2_470: -808376991
+      Space station._32_2_471: 1290600746
+      Space station._32_2_472: 745096575
+      Space station._32_2_473: 2005378020
+      Space station._32_2_474: 1735412417
+      Space station._32_2_475: -172522117
+      Space station._32_2_476: 1853326367
+      Space station._32_2_477: -1992711188
+      Space station._32_2_478: 1393967451
+      Space station._32_2_479: 1290529418
+      Space station._32_2_48: 457228894
+      Space station._32_2_480: -95535172
+      Space station._32_2_481: 392532665
+      Space station._32_2_482: 463085136
+      Space station._32_2_483: 1452212005
+      Space station._32_2_484: 1950011230
+      Space station._32_2_485: -1966760645
+      Space station._32_2_486: -2085906219
+      Space station._32_2_487: 56723846
+      Space station._32_2_488: 1702623559
+      Space station._32_2_489: -1714821271
+      Space station._32_2_49: 1979374125
+      Space station._32_2_490: -12567999
+      Space station._32_2_491: -4374951
+      Space station._32_2_492: 1599735985
+      Space station._32_2_493: -1437859232
+      Space station._32_2_494: 731851310
+      Space station._32_2_495: -1453356566
+      Space station._32_2_496: 1370638782
+      Space station._32_2_497: 115402853
+      Space station._32_2_498: 113360271
+      Space station._32_2_499: 1719693008
+      Space station._32_2_5: 788347201
+      Space station._32_2_50: 1761656277
+      Space station._32_2_500: 1525653243
+      Space station._32_2_501: 2074903088
+      Space station._32_2_502: -857355639
+      Space station._32_2_503: 1119052577
+      Space station._32_2_504: 1144676744
+      Space station._32_2_505: 3840556
+      Space station._32_2_506: -452086911
+      Space station._32_2_507: 1001027727
+      Space station._32_2_508: -1508092158
+      Space station._32_2_509: 141994465
+      Space station._32_2_51: 180455377
+      Space station._32_2_510: 998743207
+      Space station._32_2_511: -1236222122
+      Space station._32_2_512: -1937386804
+      Space station._32_2_513: 643687698
+      Space station._32_2_514: -262782054
+      Space station._32_2_515: 328312400
+      Space station._32_2_516: -1082772978
+      Space station._32_2_517: 1507777641
+      Space station._32_2_518: 657304590
+      Space station._32_2_519: 2136272971
+      Space station._32_2_52: -1470487529
+      Space station._32_2_520: -606413519
+      Space station._32_2_521: -1101673462
+      Space station._32_2_522: 1404531775
+      Space station._32_2_523: -1555727878
+      Space station._32_2_524: -1280171089
+      Space station._32_2_525: -158474469
+      Space station._32_2_526: 344213492
+      Space station._32_2_527: -1066200155
+      Space station._32_2_528: -1960421428
+      Space station._32_2_529: -626288221
+      Space station._32_2_53: 1315030472
+      Space station._32_2_530: -912124913
+      Space station._32_2_531: -564369401
+      Space station._32_2_532: 1241123382
+      Space station._32_2_533: 1520812249
+      Space station._32_2_534: -102286364
+      Space station._32_2_535: -141643987
+      Space station._32_2_536: -1752440241
+      Space station._32_2_537: -717356093
+      Space station._32_2_538: 541962942
+      Space station._32_2_539: -1059860841
+      Space station._32_2_54: -193509870
+      Space station._32_2_540: -853451478
+      Space station._32_2_541: -1702812840
+      Space station._32_2_542: 587154058
+      Space station._32_2_543: 12679123
+      Space station._32_2_544: -1322314711
+      Space station._32_2_545: 609993783
+      Space station._32_2_546: 1753676409
+      Space station._32_2_547: -55858977
+      Space station._32_2_548: 1845167393
+      Space station._32_2_549: 2069339721
+      Space station._32_2_55: -1233293366
+      Space station._32_2_550: -2072845967
+      Space station._32_2_551: -569606921
+      Space station._32_2_552: 689548078
+      Space station._32_2_553: -1012400423
+      Space station._32_2_554: -2134270844
+      Space station._32_2_555: -1978004249
+      Space station._32_2_556: 331608355
+      Space station._32_2_557: 1280351731
+      Space station._32_2_558: -1060787445
+      Space station._32_2_559: -1899286412
+      Space station._32_2_56: -1965214470
+      Space station._32_2_560: -1653216544
+      Space station._32_2_561: 1099049507
+      Space station._32_2_562: -196586716
+      Space station._32_2_563: 1571374131
+      Space station._32_2_564: 1794271240
+      Space station._32_2_565: -1440422328
+      Space station._32_2_566: 1584193664
+      Space station._32_2_567: 970416458
+      Space station._32_2_568: 2137962862
+      Space station._32_2_569: -1335608135
+      Space station._32_2_57: 1905879473
+      Space station._32_2_570: -1334206043
+      Space station._32_2_571: -64173278
+      Space station._32_2_572: -1542351542
+      Space station._32_2_573: -970454878
+      Space station._32_2_574: -1299112645
+      Space station._32_2_575: 1807570007
+      Space station._32_2_576: 1277422936
+      Space station._32_2_577: -1805860316
+      Space station._32_2_578: 241547966
+      Space station._32_2_579: 702741427
+      Space station._32_2_58: -1304966404
+      Space station._32_2_580: 1275861611
+      Space station._32_2_581: -1334255104
+      Space station._32_2_582: 1756450781
+      Space station._32_2_583: 1098102667
+      Space station._32_2_584: -779226180
+      Space station._32_2_585: -136224572
+      Space station._32_2_586: -1552417741
+      Space station._32_2_587: 882930557
+      Space station._32_2_588: -1564282779
+      Space station._32_2_589: -1028409468
+      Space station._32_2_59: 1284825178
+      Space station._32_2_590: 111516089
+      Space station._32_2_591: -1358939142
+      Space station._32_2_592: -511138617
+      Space station._32_2_593: 741085693
+      Space station._32_2_594: -673257278
+      Space station._32_2_595: 1334254154
+      Space station._32_2_596: -2084118403
+      Space station._32_2_597: 2059622511
+      Space station._32_2_598: -439123980
+      Space station._32_2_599: 1935687047
+      Space station._32_2_6: -1697521814
+      Space station._32_2_60: 1157102300
+      Space station._32_2_600: 874569522
+      Space station._32_2_601: 172924542
+      Space station._32_2_602: -124877023
+      Space station._32_2_603: 911329247
+      Space station._32_2_604: -512838947
+      Space station._32_2_605: 1994480394
+      Space station._32_2_606: -929909467
+      Space station._32_2_607: -1205219140
+      Space station._32_2_608: 1522589168
+      Space station._32_2_609: 489100291
+      Space station._32_2_61: 1086396765
+      Space station._32_2_610: -1420591955
+      Space station._32_2_611: -765336007
+      Space station._32_2_612: -24226695
+      Space station._32_2_613: 440559708
+      Space station._32_2_614: 990449118
+      Space station._32_2_615: 621791051
+      Space station._32_2_616: 1013009907
+      Space station._32_2_617: 485180439
+      Space station._32_2_618: 435279321
+      Space station._32_2_619: 1752621119
+      Space station._32_2_62: -313708485
+      Space station._32_2_620: 1376160478
+      Space station._32_2_621: 1749176555
+      Space station._32_2_622: 1168258429
+      Space station._32_2_623: -1919663636
+      Space station._32_2_624: 2033231187
+      Space station._32_2_625: -1118472066
+      Space station._32_2_626: 1630087734
+      Space station._32_2_627: -1779376459
+      Space station._32_2_628: 686939626
+      Space station._32_2_629: 1508946822
+      Space station._32_2_63: 1933921086
+      Space station._32_2_630: -1330312255
+      Space station._32_2_631: -1113588367
+      Space station._32_2_632: -629042740
+      Space station._32_2_633: -2085044652
+      Space station._32_2_634: 2063086615
+      Space station._32_2_635: 660940995
+      Space station._32_2_636: 2031217583
+      Space station._32_2_637: -152270066
+      Space station._32_2_638: -81669315
+      Space station._32_2_639: -1419042022
+      Space station._32_2_64: -757897767
+      Space station._32_2_640: 811274831
+      Space station._32_2_641: -619023753
+      Space station._32_2_642: 1556327926
+      Space station._32_2_643: -1704857152
+      Space station._32_2_644: -1220682024
+      Space station._32_2_645: -1304277948
+      Space station._32_2_646: -1365852049
+      Space station._32_2_647: 1757645331
+      Space station._32_2_648: 1798350314
+      Space station._32_2_649: -1017296074
+      Space station._32_2_65: -1951840361
+      Space station._32_2_650: 2066003456
+      Space station._32_2_651: -364690558
+      Space station._32_2_652: -1463873806
+      Space station._32_2_653: -954695621
+      Space station._32_2_654: 1938773523
+      Space station._32_2_655: -1742633202
+      Space station._32_2_656: 940523054
+      Space station._32_2_657: -469192849
+      Space station._32_2_658: -2017651218
+      Space station._32_2_659: 1008101726
+      Space station._32_2_66: 1289449232
+      Space station._32_2_660: -478167362
+      Space station._32_2_661: -38422914
+      Space station._32_2_662: 921708184
+      Space station._32_2_663: 963797691
+      Space station._32_2_664: 939758362
+      Space station._32_2_665: -1078595111
+      Space station._32_2_666: 579939719
+      Space station._32_2_667: 861215916
+      Space station._32_2_668: 802237861
+      Space station._32_2_669: 453806511
+      Space station._32_2_67: 719025958
+      Space station._32_2_670: 480614015
+      Space station._32_2_671: 623873170
+      Space station._32_2_672: -1693384784
+      Space station._32_2_673: 508385112
+      Space station._32_2_674: 226411239
+      Space station._32_2_675: 379504854
+      Space station._32_2_676: 1853575524
+      Space station._32_2_677: -54188280
+      Space station._32_2_678: 849666733
+      Space station._32_2_679: -655362919
+      Space station._32_2_68: 1100426794
+      Space station._32_2_680: 1295088582
+      Space station._32_2_681: -1921990371
+      Space station._32_2_682: 801309828
+      Space station._32_2_683: 1077164852
+      Space station._32_2_684: -1358694871
+      Space station._32_2_685: -540023311
+      Space station._32_2_686: -621722758
+      Space station._32_2_687: -505576005
+      Space station._32_2_688: 1652717189
+      Space station._32_2_689: 2137881005
+      Space station._32_2_69: -345020064
+      Space station._32_2_690: -1921434192
+      Space station._32_2_691: -1439849132
+      Space station._32_2_692: -1633836298
+      Space station._32_2_693: -1933588293
+      Space station._32_2_694: 225197143
+      Space station._32_2_695: -648545948
+      Space station._32_2_696: -1172780531
+      Space station._32_2_697: 2090601313
+      Space station._32_2_698: 1177560174
+      Space station._32_2_699: -1114999431
+      Space station._32_2_7: 1761000460
+      Space station._32_2_70: -83388407
+      Space station._32_2_700: 1316042685
+      Space station._32_2_701: -463261427
+      Space station._32_2_702: -1622567365
+      Space station._32_2_703: -593306826
+      Space station._32_2_704: -2050020866
+      Space station._32_2_705: 799755926
+      Space station._32_2_706: -1311859723
+      Space station._32_2_707: -852100723
+      Space station._32_2_708: -69820312
+      Space station._32_2_709: -1433504828
+      Space station._32_2_71: -2132481863
+      Space station._32_2_710: -1844830302
+      Space station._32_2_711: 387197079
+      Space station._32_2_712: 572049261
+      Space station._32_2_713: -1879596054
+      Space station._32_2_714: -1098315800
+      Space station._32_2_715: 1374628926
+      Space station._32_2_716: 1728416512
+      Space station._32_2_717: -862474181
+      Space station._32_2_718: 314451610
+      Space station._32_2_719: 43787423
+      Space station._32_2_72: 2049228500
+      Space station._32_2_720: -1284171802
+      Space station._32_2_721: 119215882
+      Space station._32_2_722: 1936634786
+      Space station._32_2_723: -2107380067
+      Space station._32_2_724: -1137768068
+      Space station._32_2_725: -909329861
+      Space station._32_2_726: 1581086538
+      Space station._32_2_727: -1562785662
+      Space station._32_2_728: -779908483
+      Space station._32_2_729: 1238406046
+      Space station._32_2_73: -620701361
+      Space station._32_2_730: 139502177
+      Space station._32_2_731: 1262942861
+      Space station._32_2_732: 1004191228
+      Space station._32_2_733: 2057943323
+      Space station._32_2_734: -234451523
+      Space station._32_2_735: 900464809
+      Space station._32_2_736: -1368679554
+      Space station._32_2_737: 1830787168
+      Space station._32_2_738: -1012916201
+      Space station._32_2_739: 1667680901
+      Space station._32_2_74: -812646016
+      Space station._32_2_740: -172253694
+      Space station._32_2_741: -380482134
+      Space station._32_2_742: -20206945
+      Space station._32_2_743: -1807158352
+      Space station._32_2_744: 1471946003
+      Space station._32_2_745: -508731174
+      Space station._32_2_746: -556454218
+      Space station._32_2_747: -1447017108
+      Space station._32_2_748: 1282634752
+      Space station._32_2_749: 1010772464
+      Space station._32_2_75: -2099120982
+      Space station._32_2_750: -921803989
+      Space station._32_2_751: -472539852
+      Space station._32_2_752: 1494440607
+      Space station._32_2_753: -1786501659
+      Space station._32_2_754: 1763448757
+      Space station._32_2_755: 846410229
+      Space station._32_2_756: -1264370231
+      Space station._32_2_757: 1240270455
+      Space station._32_2_758: 1238459256
+      Space station._32_2_759: -1098505653
+      Space station._32_2_76: -1286331893
+      Space station._32_2_760: 124755593
+      Space station._32_2_761: -1363666044
+      Space station._32_2_762: -1332919409
+      Space station._32_2_763: -1783675740
+      Space station._32_2_764: 1917045389
+      Space station._32_2_765: 42161646
+      Space station._32_2_766: 1033059871
+      Space station._32_2_767: 1036815243
+      Space station._32_2_768: 1950056667
+      Space station._32_2_769: 255371217
+      Space station._32_2_77: -124383265
+      Space station._32_2_770: 1983555971
+      Space station._32_2_771: 275739684
+      Space station._32_2_772: 1791005660
+      Space station._32_2_773: -911588693
+      Space station._32_2_774: 137124227
+      Space station._32_2_775: -1249578399
+      Space station._32_2_776: -344072250
+      Space station._32_2_777: 1105851118
+      Space station._32_2_778: 46301291
+      Space station._32_2_779: 869472517
+      Space station._32_2_78: -165532472
+      Space station._32_2_780: 1829114934
+      Space station._32_2_781: 132910236
+      Space station._32_2_782: 1858360656
+      Space station._32_2_783: 1658153843
+      Space station._32_2_784: 1288393076
+      Space station._32_2_785: 2089322791
+      Space station._32_2_786: -1556251175
+      Space station._32_2_787: 2146357149
+      Space station._32_2_788: -1084175613
+      Space station._32_2_789: 1739759138
+      Space station._32_2_79: -1610140424
+      Space station._32_2_790: 275837096
+      Space station._32_2_791: -104039105
+      Space station._32_2_792: -650248847
+      Space station._32_2_793: -669183786
+      Space station._32_2_794: 173607508
+      Space station._32_2_795: -1156453415
+      Space station._32_2_796: 1648727327
+      Space station._32_2_797: -882202265
+      Space station._32_2_798: -1003880393
+      Space station._32_2_799: 533556825
+      Space station._32_2_8: -962933476
+      Space station._32_2_80: -477466488
+      Space station._32_2_800: 331144312
+      Space station._32_2_801: -1982553240
+      Space station._32_2_802: -695598397
+      Space station._32_2_803: 1719025169
+      Space station._32_2_804: 1075544949
+      Space station._32_2_805: -898285976
+      Space station._32_2_806: 271049242
+      Space station._32_2_807: -1449471785
+      Space station._32_2_808: -788178359
+      Space station._32_2_809: -1967596981
+      Space station._32_2_81: 64105673
+      Space station._32_2_810: 242285705
+      Space station._32_2_811: -1492374832
+      Space station._32_2_812: 981895394
+      Space station._32_2_813: -470751221
+      Space station._32_2_814: 74314961
+      Space station._32_2_815: -1386963695
+      Space station._32_2_816: 2028891534
+      Space station._32_2_817: 1355371278
+      Space station._32_2_818: -110023006
+      Space station._32_2_819: 1110339638
+      Space station._32_2_82: -1431547575
+      Space station._32_2_820: -140703359
+      Space station._32_2_821: 605043645
+      Space station._32_2_822: 620509845
+      Space station._32_2_823: 1962320186
+      Space station._32_2_824: 765568651
+      Space station._32_2_825: -1720644631
+      Space station._32_2_826: 1486450041
+      Space station._32_2_827: -1794936823
+      Space station._32_2_828: -1778527263
+      Space station._32_2_829: -1891160007
+      Space station._32_2_83: 1063842626
+      Space station._32_2_830: -682739055
+      Space station._32_2_831: -1614538318
+      Space station._32_2_832: 1166721940
+      Space station._32_2_833: -768955990
+      Space station._32_2_834: -1553637408
+      Space station._32_2_835: -1452461831
+      Space station._32_2_836: -1075575356
+      Space station._32_2_837: 495892860
+      Space station._32_2_838: 1655787562
+      Space station._32_2_839: 575204872
+      Space station._32_2_84: -424215389
+      Space station._32_2_840: 1512946788
+      Space station._32_2_841: -661731263
+      Space station._32_2_842: -962619822
+      Space station._32_2_843: 1195813468
+      Space station._32_2_844: -189154613
+      Space station._32_2_845: -475255577
+      Space station._32_2_846: 386703603
+      Space station._32_2_847: -357874317
+      Space station._32_2_848: 1314688518
+      Space station._32_2_849: -1792708810
+      Space station._32_2_85: -70133880
+      Space station._32_2_850: 423883768
+      Space station._32_2_851: -1303393199
+      Space station._32_2_852: 1999120967
+      Space station._32_2_853: 1552860402
+      Space station._32_2_854: 45083799
+      Space station._32_2_855: -401675240
+      Space station._32_2_856: -2024383458
+      Space station._32_2_857: 815406094
+      Space station._32_2_858: 338134860
+      Space station._32_2_859: 470194891
+      Space station._32_2_86: -428974357
+      Space station._32_2_860: 1749913112
+      Space station._32_2_861: 526223924
+      Space station._32_2_862: 1900489773
+      Space station._32_2_863: 1345580556
+      Space station._32_2_864: -2083218504
+      Space station._32_2_865: 1120262402
+      Space station._32_2_866: 1859713639
+      Space station._32_2_867: -1165661511
+      Space station._32_2_868: -256502141
+      Space station._32_2_869: 2079648273
+      Space station._32_2_87: -1649782381
+      Space station._32_2_870: -870838309
+      Space station._32_2_871: 849069696
+      Space station._32_2_872: 969462320
+      Space station._32_2_873: -8660250
+      Space station._32_2_874: -139158458
+      Space station._32_2_875: -1970974964
+      Space station._32_2_876: 1749321296
+      Space station._32_2_877: 1658962531
+      Space station._32_2_878: -762276902
+      Space station._32_2_879: 1152301473
+      Space station._32_2_88: 804672869
+      Space station._32_2_880: 500890162
+      Space station._32_2_881: -639998536
+      Space station._32_2_882: 406402432
+      Space station._32_2_883: -1751224961
+      Space station._32_2_884: -1464658991
+      Space station._32_2_885: -1020397304
+      Space station._32_2_886: -1508992858
+      Space station._32_2_887: -1633340522
+      Space station._32_2_888: -1978122307
+      Space station._32_2_889: 2121008427
+      Space station._32_2_89: 220980423
+      Space station._32_2_890: -575316374
+      Space station._32_2_891: 2138856007
+      Space station._32_2_892: 112083427
+      Space station._32_2_893: 1231163207
+      Space station._32_2_894: 963113747
+      Space station._32_2_895: 1435399279
+      Space station._32_2_896: 270910902
+      Space station._32_2_897: 305427859
+      Space station._32_2_898: 544173176
+      Space station._32_2_899: -1162006594
+      Space station._32_2_9: 1296100599
+      Space station._32_2_90: 1342844594
+      Space station._32_2_900: -816858262
+      Space station._32_2_901: 571077108
+      Space station._32_2_902: -146344938
+      Space station._32_2_903: -1635924226
+      Space station._32_2_904: -130148275
+      Space station._32_2_905: 1479718253
+      Space station._32_2_906: 1367303330
+      Space station._32_2_907: 825613300
+      Space station._32_2_908: 210557614
+      Space station._32_2_909: -634696818
+      Space station._32_2_91: -2006089549
+      Space station._32_2_910: 1411700927
+      Space station._32_2_911: 801084504
+      Space station._32_2_912: 1362113867
+      Space station._32_2_913: -760842500
+      Space station._32_2_914: 203958785
+      Space station._32_2_915: 1819362345
+      Space station._32_2_916: 1185696334
+      Space station._32_2_917: -1786351306
+      Space station._32_2_918: 598688355
+      Space station._32_2_919: 1058341560
+      Space station._32_2_92: -1527646840
+      Space station._32_2_920: -2093522076
+      Space station._32_2_921: 302523041
+      Space station._32_2_922: -619068088
+      Space station._32_2_923: -328966461
+      Space station._32_2_924: -248647773
+      Space station._32_2_925: -965864795
+      Space station._32_2_926: -960363143
+      Space station._32_2_927: 538322512
+      Space station._32_2_928: -1641523527
+      Space station._32_2_929: 1777255006
+      Space station._32_2_93: 1439423690
+      Space station._32_2_930: 938069922
+      Space station._32_2_931: 487246182
+      Space station._32_2_932: 1728594127
+      Space station._32_2_933: 2132042607
+      Space station._32_2_934: 214432419
+      Space station._32_2_935: 2114652108
+      Space station._32_2_936: 142523745
+      Space station._32_2_937: 869897007
+      Space station._32_2_938: 1121239286
+      Space station._32_2_939: -1245754784
+      Space station._32_2_94: -200859307
+      Space station._32_2_940: -2086335218
+      Space station._32_2_941: -1214319836
+      Space station._32_2_942: 653355853
+      Space station._32_2_943: -1879753117
+      Space station._32_2_944: 666785218
+      Space station._32_2_945: -551958442
+      Space station._32_2_946: -94900107
+      Space station._32_2_947: -691853373
+      Space station._32_2_948: -805996035
+      Space station._32_2_949: -695586369
+      Space station._32_2_95: 484586060
+      Space station._32_2_950: -371167420
+      Space station._32_2_951: -1960251464
+      Space station._32_2_952: -1273374975
+      Space station._32_2_953: 2002397461
+      Space station._32_2_954: 1456462043
+      Space station._32_2_955: -1894800720
+      Space station._32_2_956: -1587233491
+      Space station._32_2_957: -416032452
+      Space station._32_2_958: 1362190934
+      Space station._32_2_959: -610031493
+      Space station._32_2_96: -1312719028
+      Space station._32_2_960: 2104196423
+      Space station._32_2_961: -815352323
+      Space station._32_2_962: -609318312
+      Space station._32_2_963: -206533286
+      Space station._32_2_964: -1742413078
+      Space station._32_2_965: -1530324268
+      Space station._32_2_966: 1859325567
+      Space station._32_2_967: -786312236
+      Space station._32_2_968: 209893202
+      Space station._32_2_969: -821644930
+      Space station._32_2_97: 272925423
+      Space station._32_2_970: 2076335675
+      Space station._32_2_971: 1778209684
+      Space station._32_2_972: -423285651
+      Space station._32_2_973: 1763738017
+      Space station._32_2_974: -1954196347
+      Space station._32_2_975: 1310308709
+      Space station._32_2_976: 1942534329
+      Space station._32_2_977: 957952551
+      Space station._32_2_978: 110023543
+      Space station._32_2_979: 1274891367
+      Space station._32_2_98: 186694223
+      Space station._32_2_980: 1067620977
+      Space station._32_2_981: 1989016372
+      Space station._32_2_982: -1023973357
+      Space station._32_2_983: -1030147175
+      Space station._32_2_984: 1436334235
+      Space station._32_2_985: 1111148385
+      Space station._32_2_986: -1545787042
+      Space station._32_2_987: -1958172707
+      Space station._32_2_988: 704132664
+      Space station._32_2_989: -1028453785
+      Space station._32_2_99: -1976506633
+      Space station._32_2_990: 1584099183
+      Space station._32_2_991: -427724625
+      Space station._32_2_992: -23537439
+      Space station._32_2_993: -1114973010
+      Space station._32_2_994: 688980386
+      Space station._32_2_995: -1814691823
+      Space station._32_2_996: 449459521
+      Space station._32_2_997: -1768846758
+      Space station._32_2_998: -458751564
+      Space station._32_2_999: -123509342
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
