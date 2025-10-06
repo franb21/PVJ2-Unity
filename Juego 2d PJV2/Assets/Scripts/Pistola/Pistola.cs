@@ -81,7 +81,7 @@ public class Pistola : MonoBehaviour
     {
         cooldown -= pistolaData.CooldownMejora;
         cooldownLevel++;
-        cooldownText = "Mejora de daño - Actual:" + cooldown.ToString("0") + "- Mejora+ " + pistolaData.CooldownMejora.ToString("0");
+        cooldownText = "Mejora de cooldown - Actual: " + cooldown.ToString("0") + "- Mejora- " + pistolaData.CooldownMejora.ToString("0");
 
         if (cooldownLevel >= pistolaData.MaxCooldown)
         {
@@ -93,7 +93,7 @@ public class Pistola : MonoBehaviour
     {
         speed += pistolaData.SpeedMejora;
         speedLevel++;
-        speedText = speed.ToString("0") + " / +" + pistolaData.SpeedMejora.ToString("0");
+        speedText = "Mejora de speed - Actual: " + speed.ToString("0") + "- Mejora+ " + pistolaData.SpeedMejora.ToString("0");
 
         if (speedLevel >= pistolaData.MaxSpeed)
         {
@@ -105,7 +105,7 @@ public class Pistola : MonoBehaviour
     {
         cantidad += pistolaData.CantidadMejora;
         cantidadLevel++;
-        cantidadText = cantidad.ToString("0") + " / +" + pistolaData.CantidadMejora.ToString("0");
+        cantidadText = "Mejora de cantidad disparos -Actual: " + cantidad.ToString("0") + "- Mejora+ " + pistolaData.CantidadMejora.ToString("0");
 
         if (cantidadLevel >= pistolaData.MaxCantidad)
         {
