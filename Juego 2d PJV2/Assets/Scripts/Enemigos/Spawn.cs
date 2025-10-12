@@ -38,7 +38,6 @@ public class Spawn : MonoBehaviour
             for (int i = 0; i < spawnData.oleadas[oleadaNum].maxEnemigos; i++)
             {
                 SpawnOleada();
-                enemigosSpawnNum++;
                 yield return new WaitForSeconds(spawnData.oleadas[oleadaNum].tiempoEntreSpawns);
             }
 
@@ -65,16 +64,18 @@ public class Spawn : MonoBehaviour
     // Spawnea una oleada de enemigos
     private void SpawnOleada()
     {
-        Instantiate(spawnData.oleadas[oleadaNum].enemigoConfig.prefabEnemigo, RandomSpawnPoint(), transform.rotation);
+        GameObject enemigo = Instantiate(spawnData.oleadas[oleadaNum].enemigoConfig.prefabEnemigo, RandomSpawnPoint(), transform.rotation);
+        Enemigo enemgioSpaweneado = enemigo.GetComponent<Enemigo>();
+        enemgioSpaweneado.AjustarStats(spawnData.oleadas[oleadaNum].enemigoConfig.multVida, spawnData.oleadas[oleadaNum].enemigoConfig.multDamage, spawnData.oleadas[oleadaNum].enemigoConfig.multVelocidad);
         enemigosSpawnNum++;
     }
     private Vector2 RandomSpawnPoint()
     {
         Vector2 spawnPoint;
-        if (Random.Range(0f, 1f) > 0.5)
+        if (Random.value > 0.5)
         {
             spawnPoint.x = Random.Range(posMin.position.x, posMax.position.x);
-            if (Random.Range(0f, 1f) > 0.5)
+            if (Random.value > 0.5)
             {
                 spawnPoint.y = posMin.position.y;
             }
@@ -86,7 +87,7 @@ public class Spawn : MonoBehaviour
         else
         {
             spawnPoint.y = Random.Range(posMin.position.y, posMax.position.y);
-            if (Random.Range(0f, 1f) > 0.5)
+            if (Random.value > 0.5)
             {
                 spawnPoint.x = posMin.position.x;
             }

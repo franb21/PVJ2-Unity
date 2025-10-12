@@ -48,5 +48,11 @@ public class Enemigo : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
             JugadorController.Instance.RecibirDamage(damage);
     }
-
+    //Ajustar stats para oleadas
+    public void AjustarStats(float multVida, float multDamage, float multVel)
+    {
+        vida *= multVida;
+        damage *= multDamage;
+        velocidad *= multVel;
+    }
 }
