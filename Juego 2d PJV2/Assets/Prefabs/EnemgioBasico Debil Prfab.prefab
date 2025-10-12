@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7963039756903929702}
   - component: {fileID: 8051069256670753417}
   m_Layer: 8
-  m_Name: Enemigo1Prefab
+  m_Name: EnemgioBasico Debil Prfab
   m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 11.74, y: 3.9, z: 0.20462504}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1, y: 1.1, z: 1.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -164,6 +164,6 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.73816586, y: -0.07353866}
-  m_Size: {x: 0.46126938, y: 1.0823095}
+  m_Offset: {x: -0.7536225, y: -0.085131034}
+  m_Size: {x: 0.5076382, y: 1.105494}
   m_Direction: 0
