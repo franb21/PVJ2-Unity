@@ -21,6 +21,10 @@ MonoBehaviour:
     tiempoEntreSpawns: 0.8
     maxEnemigos: 100
     killsMax: 30
+    spawnEnjambre: 1
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.9
   - enemigoConfig:
       prefabEnemigo: {fileID: 6054069287232953457, guid: 6fc1c47723c0f9c43b6d2b8fa7840edc, type: 3}
       multVida: 1
@@ -29,6 +33,10 @@ MonoBehaviour:
     tiempoEntreSpawns: 1
     maxEnemigos: 100
     killsMax: 30
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
   - enemigoConfig:
       prefabEnemigo: {fileID: 4140703507195334599, guid: 8308a374b6240ca4897b2e5ef7908b79, type: 3}
       multVida: 2
@@ -37,6 +45,10 @@ MonoBehaviour:
     tiempoEntreSpawns: 1
     maxEnemigos: 80
     killsMax: 20
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
   - enemigoConfig:
       prefabEnemigo: {fileID: 5458454138982861606, guid: fb0a45b4fae7aee4c92af2ef1aac2319, type: 3}
       multVida: 3
@@ -45,6 +57,10 @@ MonoBehaviour:
     tiempoEntreSpawns: 0
     maxEnemigos: 80
     killsMax: 30
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
   - enemigoConfig:
       prefabEnemigo: {fileID: 0}
       multVida: 0
@@ -53,6 +69,10 @@ MonoBehaviour:
     tiempoEntreSpawns: 0
     maxEnemigos: 0
     killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
   - enemigoConfig:
       prefabEnemigo: {fileID: 0}
       multVida: 0
@@ -61,6 +81,10 @@ MonoBehaviour:
     tiempoEntreSpawns: 0
     maxEnemigos: 0
     killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
   - enemigoConfig:
       prefabEnemigo: {fileID: 0}
       multVida: 0
@@ -69,6 +93,10 @@ MonoBehaviour:
     tiempoEntreSpawns: 0
     maxEnemigos: 0
     killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
   - enemigoConfig:
       prefabEnemigo: {fileID: 0}
       multVida: 0
@@ -77,6 +105,10 @@ MonoBehaviour:
     tiempoEntreSpawns: 0
     maxEnemigos: 0
     killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
   - enemigoConfig:
       prefabEnemigo: {fileID: 0}
       multVida: 0
@@ -85,6 +117,10 @@ MonoBehaviour:
     tiempoEntreSpawns: 0
     maxEnemigos: 0
     killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
   - enemigoConfig:
       prefabEnemigo: {fileID: 0}
       multVida: 0
@@ -93,6 +129,10 @@ MonoBehaviour:
     tiempoEntreSpawns: 0
     maxEnemigos: 0
     killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
   - enemigoConfig:
       prefabEnemigo: {fileID: 0}
       multVida: 0
@@ -101,6 +141,10 @@ MonoBehaviour:
     tiempoEntreSpawns: 0
     maxEnemigos: 0
     killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
   - enemigoConfig:
       prefabEnemigo: {fileID: 0}
       multVida: 0
@@ -109,6 +153,10 @@ MonoBehaviour:
     tiempoEntreSpawns: 0
     maxEnemigos: 0
     killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
   - enemigoConfig:
       prefabEnemigo: {fileID: 0}
       multVida: 0
@@ -117,6 +165,10 @@ MonoBehaviour:
     tiempoEntreSpawns: 0
     maxEnemigos: 0
     killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
   - enemigoConfig:
       prefabEnemigo: {fileID: 0}
       multVida: 0
@@ -125,6 +177,10 @@ MonoBehaviour:
     tiempoEntreSpawns: 0
     maxEnemigos: 0
     killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
   - enemigoConfig:
       prefabEnemigo: {fileID: 0}
       multVida: 0
@@ -133,6 +189,10 @@ MonoBehaviour:
     tiempoEntreSpawns: 0
     maxEnemigos: 0
     killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
   - enemigoConfig:
       prefabEnemigo: {fileID: 0}
       multVida: 0
@@ -141,6 +201,10 @@ MonoBehaviour:
     tiempoEntreSpawns: 0
     maxEnemigos: 0
     killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
   - enemigoConfig:
       prefabEnemigo: {fileID: 0}
       multVida: 0
@@ -149,6 +213,10 @@ MonoBehaviour:
     tiempoEntreSpawns: 0
     maxEnemigos: 0
     killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
   - enemigoConfig:
       prefabEnemigo: {fileID: 0}
       multVida: 0
@@ -157,6 +225,10 @@ MonoBehaviour:
     tiempoEntreSpawns: 0
     maxEnemigos: 0
     killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
   - enemigoConfig:
       prefabEnemigo: {fileID: 0}
       multVida: 0
@@ -165,6 +237,10 @@ MonoBehaviour:
     tiempoEntreSpawns: 0
     maxEnemigos: 0
     killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
   - enemigoConfig:
       prefabEnemigo: {fileID: 0}
       multVida: 0
@@ -173,6 +249,10 @@ MonoBehaviour:
     tiempoEntreSpawns: 0
     maxEnemigos: 0
     killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
   - enemigoConfig:
       prefabEnemigo: {fileID: 0}
       multVida: 0
@@ -181,3 +261,7 @@ MonoBehaviour:
     tiempoEntreSpawns: 0
     maxEnemigos: 0
     killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5

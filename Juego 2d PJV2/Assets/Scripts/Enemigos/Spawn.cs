@@ -64,11 +64,45 @@ public class Spawn : MonoBehaviour
     // Spawnea una oleada de enemigos
     private void SpawnOleada()
     {
-        GameObject enemigo = Instantiate(spawnData.oleadas[oleadaNum].enemigoConfig.prefabEnemigo, RandomSpawnPoint(), transform.rotation);
-        Enemigo enemgioSpaweneado = enemigo.GetComponent<Enemigo>();
-        enemgioSpaweneado.AjustarStats(spawnData.oleadas[oleadaNum].enemigoConfig.multVida, spawnData.oleadas[oleadaNum].enemigoConfig.multDamage, spawnData.oleadas[oleadaNum].enemigoConfig.multVelocidad);
-        enemigosSpawnNum++;
+        // Si esta true spawenea ejambre
+        if (spawnData.oleadas[oleadaNum].spawnEnjambre)
+        {
+            SpawnEnjambre();
+        }
+        else
+        {
+            GameObject enemigo = Instantiate(spawnData.oleadas[oleadaNum].enemigoConfig.prefabEnemigo, RandomSpawnPoint(), transform.rotation);
+            Enemigo enemgioSpaweneado = enemigo.GetComponent<Enemigo>();
+            enemgioSpaweneado.AjustarStats(spawnData.oleadas[oleadaNum].enemigoConfig.multVida, spawnData.oleadas[oleadaNum].enemigoConfig.multDamage, spawnData.oleadas[oleadaNum].enemigoConfig.multVelocidad);
+            enemigosSpawnNum++;
+        }
     }
+    // Spawnea enjambre
+    private void SpawnEnjambre()
+    {
+        Vector2 centro = RandomSpawnPoint();
+
+        int cantidad = spawnData.oleadas[oleadaNum].cantidadEnemigosEnjambre;
+        float radio = spawnData.oleadas[oleadaNum].radioEnjambre;
+        float dispersion = spawnData.oleadas[oleadaNum].dispersion;
+
+        for (int i = 0; i < cantidad; i++)
+        {
+            float angulo = (360f / cantidad) * i;
+            Vector2 offset = new Vector2(Mathf.Cos(angulo), Mathf.Sin(angulo)) * radio;
+
+            offset.x += Random.Range(-dispersion, dispersion);
+            offset.y += Random.Range(-dispersion, dispersion);
+
+            Vector2 posicionFinal = centro + offset;
+
+            GameObject enemigo = Instantiate(spawnData.oleadas[oleadaNum].enemigoConfig.prefabEnemigo, posicionFinal, transform.rotation);
+            Enemigo enemgioSpaweneado = enemigo.GetComponent<Enemigo>();
+            enemgioSpaweneado.AjustarStats(spawnData.oleadas[oleadaNum].enemigoConfig.multVida, spawnData.oleadas[oleadaNum].enemigoConfig.multDamage, spawnData.oleadas[oleadaNum].enemigoConfig.multVelocidad);
+            enemigosSpawnNum++;
+        }
+    }
+    // Aleatorizar el punto de spawn alrededor de la camra
     private Vector2 RandomSpawnPoint()
     {
         Vector2 spawnPoint;

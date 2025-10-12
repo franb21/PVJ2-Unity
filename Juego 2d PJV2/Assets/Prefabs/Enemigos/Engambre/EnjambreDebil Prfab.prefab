@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8189200063952637162}
   - component: {fileID: 3396995925166816237}
   - component: {fileID: 3031236695915405517}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: EnjambreDebil Prfab
   m_TagString: Enemigo
   m_Icon: {fileID: 0}

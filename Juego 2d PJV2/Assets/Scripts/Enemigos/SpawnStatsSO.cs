@@ -26,6 +26,12 @@ public class SpawnStatsSO : ScriptableObject
         public float tiempoEntreSpawns;
         public int maxEnemigos;
         public int killsMax;
+
+        [Header("Configuracion modo enjambre")]
+        public bool spawnEnjambre = false;
+        public int cantidadEnemigosEnjambre;
+        public float radioEnjambre;
+        public float dispersion;
     }
 
     [Header("Lista de Oleadas")]
