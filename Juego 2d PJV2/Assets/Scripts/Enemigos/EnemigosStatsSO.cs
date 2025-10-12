@@ -10,12 +10,17 @@ public class EnemigoStatsSO : ScriptableObject
     [SerializeField] private float velocidad;
     [SerializeField] private int experienciaSuelta;
 
-    [Header("Configuracion enemigo que dispara")]
+    [Header("Configuracion enemigo Dispara")]
     [SerializeField] private GameObject balaPrefab;
     [SerializeField] private float tiempoEntreDisparos;
     [SerializeField] private float tiempoQuieto;
     [SerializeField] private float retrocesoDistancia;
     [SerializeField] private float fuerzaDisparo;
+    [SerializeField] private float tiempoDeVidaBala;
+
+    [Header("Configuracion enemgio Enjambre")]
+    [SerializeField] private float tiempoDeVidaEnemigo;
+
     public float Vida { get => vida; }
     public float Damage { get => damage; }
     public float Velocidad { get => velocidad; }
@@ -25,4 +30,6 @@ public class EnemigoStatsSO : ScriptableObject
     public float RetrocesoDistancia { get => retrocesoDistancia; }
     public float FuerzaDisparo { get => fuerzaDisparo; }
     public GameObject BalaPrefab { get => balaPrefab; }
+    public float TiempoDeVidaEnemigo { get => tiempoDeVidaEnemigo; }
+    public float TiempoDeVidaBala { get => tiempoDeVidaBala; }
 }

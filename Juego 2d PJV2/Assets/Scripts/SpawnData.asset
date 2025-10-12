@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   oleadas:
   - enemigoConfig:
-      prefabEnemigo: {fileID: 6054069287232953457, guid: 5b6c83deb77af2543801cf8a4fe2908e, type: 3}
+      prefabEnemigo: {fileID: 6054069287232953457, guid: ff110779a3e750b4d91e967387f0a7f1, type: 3}
       multVida: 1
       multDamage: 1
       multVelocidad: 1

@@ -4,11 +4,12 @@ public class BalaEnemigo : MonoBehaviour
 {
     private float damage;
     private float fuerzaDisparo;
+    private float tiempoVida;
 
     private void Start()
     {
         DispararHaciaJugador();
-        Destroy(gameObject, 5);
+        Destroy(gameObject, tiempoVida);
     }
     // Pasar damage del enemigo
     public void ConfigurarDamageDisparo(float damageEnemigo)
@@ -19,6 +20,11 @@ public class BalaEnemigo : MonoBehaviour
     public void ConfigurarFuerzaDisparo(float fuerzaEnemigo)
     {
         fuerzaDisparo = fuerzaEnemigo;
+    }
+    // Pasar tiempo de vida para bala
+    public void ConfigurarTiempoVida(float tiempoBala)
+    {
+        tiempoVida = tiempoBala;
     }
     // Disparar bala
     private void DispararHaciaJugador()

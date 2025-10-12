@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 6777078875087207005}
   - component: {fileID: 7092409643186808854}
   - component: {fileID: 8189200063952637162}
-  - component: {fileID: 7963039756903929702}
   - component: {fileID: 3396995925166816237}
+  - component: {fileID: -2655815544648741994}
   m_Layer: 10
-  m_Name: EnemigoRapido Debil Prefab
+  m_Name: DisparaDebil Prefab
   m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,12 +79,12 @@ SpriteRenderer:
   m_SortingLayerID: -1529623419
   m_SortingLayer: 3
   m_SortingOrder: 1
-  m_Sprite: {fileID: -7050993540882883828, guid: 2924ebf774aad3946a8ec25baaf1a79e, type: 3}
+  m_Sprite: {fileID: -2038171436, guid: ee69df34969cbed4e891c91e9a6dde00, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.65625, y: 1.25}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -117,19 +117,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &7963039756903929702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6054069287232953457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 127c67d93d305f34d9c685c7d87311da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemigoData: {fileID: 11400000, guid: 3d7fc94aeb23efe429416bcf9384a39e, type: 2}
 --- !u!70 &3396995925166816237
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -164,6 +151,19 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.021707535, y: -0.06345141}
-  m_Size: {x: 0.36141777, y: 0.8583214}
+  m_Offset: {x: 0.022998722, y: -0.075075515}
+  m_Size: {x: 0.3795008, y: 0.9435647}
   m_Direction: 0
+--- !u!114 &-2655815544648741994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6054069287232953457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa16b30b1c50fdc4f9269b110d0ca018, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigoData: {fileID: 11400000, guid: b3ea9d1ce7e6a2a4996d84847e6789eb, type: 2}

@@ -46,6 +46,7 @@ public class EnemigoDispara : Enemigo
 
         if (balaSpawneada != null)
         {
+            balaSpawneada.ConfigurarTiempoVida(enemigoData.TiempoDeVidaBala);
             balaSpawneada.ConfigurarFuerzaDisparo(enemigoData.FuerzaDisparo);
             balaSpawneada.ConfigurarDamageDisparo(damage);
         }

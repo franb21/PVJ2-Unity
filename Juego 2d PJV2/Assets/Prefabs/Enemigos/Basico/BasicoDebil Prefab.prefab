@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7963039756903929702}
   - component: {fileID: 8051069256670753417}
   m_Layer: 8
-  m_Name: EnemgioBasico Debil Prfab
+  m_Name: BasicoDebil Prefab
   m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
