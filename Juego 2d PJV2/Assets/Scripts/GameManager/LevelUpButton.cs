@@ -8,6 +8,7 @@ public class LevelUpButton : MonoBehaviour
     public TMP_Text descipcionText;
     public Image weaponImagen;
     private Weapon weaponSeleccionada;
+
     //Asignar la pistola al button
     public void AsignarButton(Weapon weapon)
     {
@@ -19,6 +20,14 @@ public class LevelUpButton : MonoBehaviour
 
     public void MejoraSelec()
     {
-        HUDController.Instance.MejorasPanelOpen(weaponSeleccionada);
+        HUDController.Instance.CloseLevelUpPanel();
+        if (weaponSeleccionada.gameObject.activeSelf == true)
+        {
+            HUDController.Instance.MejorasPanelOpen(weaponSeleccionada);
+        }
+        else
+        {
+            JugadorController.Instance.ActivarWeapon(weaponSeleccionada);
+        }
     }
 }

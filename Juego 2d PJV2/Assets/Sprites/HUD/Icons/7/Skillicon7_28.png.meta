@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -57,10 +57,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -84,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -122,89 +122,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Skillicon7_28_0
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 17
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 444b1599936b8fe80800000000000000
-      internalID: -8144559567597882300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skillicon7_28_1
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 17
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5ce21a8d93c492fe0800000000000000
-      internalID: -1213354813268349243
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skillicon7_28_2
+      name: Punk_idle_0
       rect:
         serializedVersion: 2
         x: 5
         y: 5
-        width: 10
-        height: 10
+        width: 22
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7150637aba56a9cc0800000000000000
-      internalID: -3703535955639663337
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skillicon7_28_3
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 5
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 170570c132273d410800000000000000
-      internalID: 1500668595964170353
+      spriteID: de1dbf3279c2bd950800000000000000
+      internalID: 6474817916930609645
       vertices: []
       indices: 
       edges: []
@@ -213,7 +147,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c3208990bbc86a648b2d54e14548d82b
     internalID: 0
     vertices: []
     indices: 
@@ -223,10 +157,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Skillicon7_28_0: -8144559567597882300
-      Skillicon7_28_1: -1213354813268349243
-      Skillicon7_28_2: -3703535955639663337
-      Skillicon7_28_3: 1500668595964170353
+      Punk_idle_0: 6474817916930609645
+      Punk_idle_1: 3800310597756625337
+      Punk_idle_2: 5867332370219042989
+      Punk_idle_3: 1194793324445235756
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

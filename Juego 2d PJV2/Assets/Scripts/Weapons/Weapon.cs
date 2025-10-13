@@ -24,6 +24,9 @@ public class Weapon : MonoBehaviour
     private string cantidadText;
     private string areaText;
 
+    private int mejorasEnTotal = 0;
+    private int limiteDeMejoras;
+
     public float Damage { get => damage; }
     public float Cooldown { get => cooldown; }
     public int Cantidad { get => cantidad; }
@@ -41,6 +44,7 @@ public class Weapon : MonoBehaviour
         cooldown = weaponData.Cooldown;
         cantidad = weaponData.Cantidad;
         area = weaponData.Area;
+        limiteDeMejoras = (weaponData.MaxDamage + weaponData.MaxCooldown + weaponData.MaxCantidad + weaponData.MaxArea);
 
         damageText = "Mejora de daño - Actual: " + damage + " -- Mejora: +" + weaponData.DamageMejora;
         cooldownText = "Mejora de cooldown - Actual: " + cooldown + " -- Mejora: +" + weaponData.CooldownMejora;
@@ -53,7 +57,8 @@ public class Weapon : MonoBehaviour
         damage += weaponData.DamageMejora;
         damageLevel++;
         damageText = "Mejora de daño - Actual:" + damage.ToString("0") + "- Mejora+ " + weaponData.DamageMejora.ToString("0");
-        Debug.Log(" pistola mejorada" + damageText);
+        mejorasEnTotal++;
+
         if (damageLevel >= weaponData.MaxDamage)
         {
             damageText = damage.ToString("0") + " ---Al maximo---";
@@ -65,6 +70,7 @@ public class Weapon : MonoBehaviour
         cooldown -= weaponData.CooldownMejora;
         cooldownLevel++;
         cooldownText = "Mejora de cooldown - Actual: " + cooldown.ToString("0") + "- Mejora- " + weaponData.CooldownMejora.ToString("0");
+        mejorasEnTotal++;
 
         if (cooldownLevel >= weaponData.MaxCooldown)
         {
@@ -77,6 +83,7 @@ public class Weapon : MonoBehaviour
         cantidad += weaponData.CantidadMejora;
         cantidadLevel++;
         cantidadText = "Mejora de cantidad disparos -Actual: " + cantidad.ToString("0") + "- Mejora+ " + weaponData.CantidadMejora.ToString("0");
+        mejorasEnTotal++;
 
         if (cantidadLevel >= weaponData.MaxCantidad)
         {
@@ -89,6 +96,7 @@ public class Weapon : MonoBehaviour
         area += weaponData.AreaMejora;
         areaLevel++;
         areaText = "Mejora de Area -Actual: " + area.ToString("0") + "- Mejora+ " + weaponData.AreaMejora.ToString("0");
+        mejorasEnTotal++;
 
         if (areaLevel >= weaponData.MaxArea)
         {
@@ -112,5 +120,10 @@ public class Weapon : MonoBehaviour
     public bool IsMaxArea()
     {
         return areaLevel >= weaponData.MaxArea;
+    }
+    // Si llego al maximo de mejoras
+    public bool MaxMejoras()
+    {
+        return mejorasEnTotal >= limiteDeMejoras;
     }
 }

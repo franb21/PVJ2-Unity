@@ -14,7 +14,6 @@ public class MejoraPanel : MonoBehaviour
 
     public void OpenPanel(Weapon weapon)
     {
-        HUDController.Instance.CloseLevelUpPanel();
         weaponSeleccionada = weapon;
         nombreText.text = weapon.WeaponData.nombre;
         textButtons[0].descripcionMejora.text = weapon.DamageText;
@@ -28,6 +27,12 @@ public class MejoraPanel : MonoBehaviour
         if (!weaponSeleccionada.IsMaxDamage())
         {
             weaponSeleccionada.MejorarDamage();
+            //Desactiva el arma si esta al maximo
+            if (!weaponSeleccionada.MaxMejoras())
+            {
+                JugadorController.Instance.WeaponMax.Add(weaponSeleccionada);
+                JugadorController.Instance.WeaponActivas.Remove(weaponSeleccionada);
+            }
             HUDController.Instance.MejorasPanelClose();
         }
     }
@@ -37,6 +42,11 @@ public class MejoraPanel : MonoBehaviour
         if (!weaponSeleccionada.IsMaxCooldown())
         {
             weaponSeleccionada.MejorarCooldown();
+            if (!weaponSeleccionada.MaxMejoras())
+            {
+                JugadorController.Instance.WeaponMax.Add(weaponSeleccionada);
+                JugadorController.Instance.WeaponActivas.Remove(weaponSeleccionada);
+            }
             HUDController.Instance.MejorasPanelClose();
         }
     }
@@ -46,6 +56,11 @@ public class MejoraPanel : MonoBehaviour
         if (!weaponSeleccionada.IsMaxArea())
         {
             weaponSeleccionada.MejorarArea();
+            if (!weaponSeleccionada.MaxMejoras())
+            {
+                JugadorController.Instance.WeaponMax.Add(weaponSeleccionada);
+                JugadorController.Instance.WeaponActivas.Remove(weaponSeleccionada);
+            }
             HUDController.Instance.MejorasPanelClose();
         }
     }
@@ -55,6 +70,11 @@ public class MejoraPanel : MonoBehaviour
         if (!weaponSeleccionada.IsMaxCantidad())
         {
             weaponSeleccionada.MejorarCantidad();
+            if (!weaponSeleccionada.MaxMejoras())
+            {
+                JugadorController.Instance.WeaponMax.Add(weaponSeleccionada);
+                JugadorController.Instance.WeaponActivas.Remove(weaponSeleccionada);
+            }
             HUDController.Instance.MejorasPanelClose();
         }
     }

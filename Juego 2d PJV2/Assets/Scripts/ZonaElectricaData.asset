@@ -23,7 +23,7 @@ MonoBehaviour:
   cooldownMejora: 0.1
   damageMejora: 3
   cantidadMejora: 0
-  areaMejora: 0
+  areaMejora: 1
   maxCooldown: 5
   maxDamage: 5
   maxCantidad: 0

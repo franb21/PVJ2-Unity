@@ -17,14 +17,14 @@ MonoBehaviour:
   icono: {fileID: 1750069289469681851, guid: d7ddb4dd96d4b0f4f862b6fb6aa9ae3c, type: 3}
   descripcion: Dispara Proyectiles
   cooldown: 0.8
-  damage: 2
-  speed: 7
+  damage: 4
   cantidad: 1
+  area: 0
   cooldownMejora: 0.1
   damageMejora: 3
-  speedMejora: 1
   cantidadMejora: 1
+  areaMejora: 0
   maxCooldown: 5
   maxDamage: 5
-  maxSpeed: 3
   maxCantidad: 3
+  maxArea: 0
