@@ -19,7 +19,7 @@ public class MejoraPanel : MonoBehaviour
         nombreText.text = weapon.WeaponData.nombre;
         textButtons[0].descripcionMejora.text = weapon.DamageText;
         textButtons[1].descripcionMejora.text = weapon.CooldownText;
-        textButtons[2].descripcionMejora.text = weapon.SpeedText;
+        textButtons[2].descripcionMejora.text = weapon.AreaText;
         textButtons[3].descripcionMejora.text = weapon.CantidadText;
     }
     //Click en damage
@@ -41,11 +41,11 @@ public class MejoraPanel : MonoBehaviour
         }
     }
     //Click en speed
-    public void OnSpeedClick()
+    public void OnAreaClick()
     {
-        if (!weaponSeleccionada.IsMaxSpeed())
+        if (!weaponSeleccionada.IsMaxArea())
         {
-            weaponSeleccionada.MejorarSpeed();
+            weaponSeleccionada.MejorarArea();
             HUDController.Instance.MejorasPanelClose();
         }
     }
