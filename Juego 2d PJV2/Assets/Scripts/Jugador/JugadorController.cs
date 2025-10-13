@@ -15,7 +15,7 @@ public class JugadorController : MonoBehaviour
     private Vector2 ultimaDireccion;
     private int experiencia;
     private int levelActual;
-    [SerializeField] private Pistola pistola;
+    [SerializeField] private Weapon weapon;
 
     public Vector2 UltimaDireccion { get => ultimaDireccion; }
     public float Vida { get => vida; }
@@ -96,7 +96,7 @@ public class JugadorController : MonoBehaviour
         experiencia -= jugadorData.Levels[levelActual];
         levelActual++;
         HUDController.Instance.expHUD();
-        HUDController.Instance.levelUpButton.AsignarButton(pistola);
+        HUDController.Instance.levelUpButton.AsignarButton(weapon);
         HUDController.Instance.levelUpButton.gameObject.SetActive(true);
         HUDController.Instance.OpenLevelUpPanel();
     }

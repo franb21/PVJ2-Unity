@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 663071cc194342b4f9ce03fe75ea9c8d, type: 3}
   m_Name: PistolaData
   m_EditorClassIdentifier: 
-  proyectilPrefab: {fileID: 5271575849212091541, guid: 435a9e3438cdd0d4bbfa427ea6ceeaf0, type: 3}
+  prefabWeapon: {fileID: 5271575849212091541, guid: 435a9e3438cdd0d4bbfa427ea6ceeaf0, type: 3}
   nombre: Pistola
   icono: {fileID: 1750069289469681851, guid: d7ddb4dd96d4b0f4f862b6fb6aa9ae3c, type: 3}
   descripcion: Dispara Proyectiles

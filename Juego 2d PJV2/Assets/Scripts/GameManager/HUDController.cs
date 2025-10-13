@@ -65,10 +65,10 @@ public class HUDController : MonoBehaviour
         CloseLevelUpPanel();
     }
     // Se activa el panel de mejoras
-    public void MejorasPanelOpen(Pistola pistola)
+    public void MejorasPanelOpen(Weapon weapon)
     {
         mejorasPanel.SetActive(true);
-        mejorasPanelController.OpenPanel(pistola);
+        mejorasPanelController.OpenPanel(weapon);
     }
     // Se desativa el panel de mejoras
     public void MejorasPanelClose()
