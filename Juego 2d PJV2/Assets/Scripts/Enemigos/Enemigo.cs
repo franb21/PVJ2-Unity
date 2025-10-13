@@ -5,16 +5,16 @@ using UnityEngine;
 public class Enemigo : MonoBehaviour
 {
     [Header("Config por ScriptableObject")]
-    [SerializeField] private EnemigoStatsSO enemigoData;
+    [SerializeField] protected EnemigoStatsSO enemigoData;
 
-    private float vida;
-    private float damage;
-    private float velocidad;
-    private int exp;
-    private Rigidbody2D miRigidbody2D;
-    private Vector2 direccion;
+    protected float vida;
+    protected float damage;
+    protected float velocidad;
+    protected int exp;
+    protected Rigidbody2D miRigidbody2D;
+    protected Vector2 direccion;
 
-    private void Awake()
+    protected virtual void Awake()
     {
         miRigidbody2D = GetComponent<Rigidbody2D>();
         vida = enemigoData.Vida;
@@ -48,5 +48,11 @@ public class Enemigo : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
             JugadorController.Instance.RecibirDamage(damage);
     }
-
+    //Ajustar stats para oleadas
+    public void AjustarStats(float multVida, float multDamage, float multVel)
+    {
+        vida *= multVida;
+        damage *= multDamage;
+        velocidad *= multVel;
+    }
 }

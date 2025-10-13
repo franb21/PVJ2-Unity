@@ -14,13 +14,13 @@ TagManager:
   - UI
   - Mapa
   - Jugador
-  - Enemigo1
-  - Proyectiles
-  - Enemigo2
-  - 
-  - 
-  - 
-  - 
+  - EnemigoBasico
+  - ProyectilesEnemigos
+  - EnemigoRapido
+  - EnemigoDispara
+  - EnemgoEnjambre
+  - EnemigoTank
+  - EnemigoBoss
   - 
   - 
   - 
