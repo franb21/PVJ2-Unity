@@ -56,7 +56,7 @@ public class JugadorController : MonoBehaviour
         weaponMejorables = new List<Weapon>();
         WeaponMax = new List<Weapon>();
         // Agregar random / futuro menu de seleccion
-        AgregarWeapon(2);
+        AgregarWeapon(0);
     }
 
     private void OnEnable()

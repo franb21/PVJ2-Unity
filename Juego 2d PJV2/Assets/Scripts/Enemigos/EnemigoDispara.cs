@@ -40,15 +40,18 @@ public class EnemigoDispara : Enemigo
     private void Disparar()
     {
         if (enemigoData.BalaPrefab == null) return;
+        GameObject bala = PoolController.Instance.GetPooledObject(enemigoData.BalaPrefab, transform.position, transform.rotation);
 
-        GameObject bala = Instantiate(enemigoData.BalaPrefab, transform.position, Quaternion.identity);
-        BalaEnemigo balaSpawneada = bala.GetComponent<BalaEnemigo>();
-
-        if (balaSpawneada != null)
+        if (bala != null)
         {
-            balaSpawneada.ConfigurarTiempoVida(enemigoData.TiempoDeVidaBala);
-            balaSpawneada.ConfigurarFuerzaDisparo(enemigoData.FuerzaDisparo);
-            balaSpawneada.ConfigurarDamageDisparo(damage);
+            Vector2 dir = (JugadorController.Instance.transform.position - transform.position).normalized;
+
+            BalaEnemigo balaSpawneada = bala.GetComponent<BalaEnemigo>();
+            if (balaSpawneada != null)
+            {
+                balaSpawneada.ActivarBala(transform.position, dir, enemigoData.FuerzaDisparo, enemigoData.TiempoDeVidaBala, damage);
+
+            }
         }
     }
 }

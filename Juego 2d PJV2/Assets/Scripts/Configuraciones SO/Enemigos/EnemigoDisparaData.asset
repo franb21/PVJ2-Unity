@@ -23,3 +23,14 @@ MonoBehaviour:
   fuerzaDisparo: 7
   tiempoDeVidaBala: 5
   tiempoDeVidaEnemigo: 0
+  prefabBalaBoss: {fileID: 0}
+  prefabEnemgiosInvocacion: {fileID: 0}
+  tiempoEntreEstados: 0
+  tiempoEntreDisparosBoss: 0
+  duracionDisparar: 0
+  tiempoCargaEmbestida: 0
+  velocidadEmbestida: 0
+  cantidadEnemigosInvocados: 0
+  radioInvocacion: 0
+  tiempoInvocacion: 0
+  tiempoPostInvocacion: 0

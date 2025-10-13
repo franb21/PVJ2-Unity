@@ -37,7 +37,7 @@ public class Enemigo : MonoBehaviour
         if (vida <= 0)
         {
             Spawn.Instance.Kill();
-            Destroy(gameObject);
+            gameObject.SetActive(false);
             JugadorController.Instance.GanarExp(exp);
         }
 

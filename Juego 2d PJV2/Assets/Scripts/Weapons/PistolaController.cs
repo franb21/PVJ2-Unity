@@ -2,20 +2,37 @@ using UnityEngine;
 public class PistolaController : MonoBehaviour
 {
     [SerializeField] private float velocidadBala;
+    [SerializeField] private float tiempoVida;
     private Pistola pistola;
     private Vector2 direccion;
     private Rigidbody2D rb;
+    private float vidaRestante;
 
-    // Dispara la bala en la direccion donde mira y se destruye
-    void Start()
+    public void Inicializar(Pistola p)
     {
-        pistola = GameObject.Find("Pistola").GetComponent<Pistola>();
-        rb = GetComponent<Rigidbody2D>();
-        direccion = JugadorController.Instance.UltimaDireccion;
-        rb.linearVelocity = direccion.normalized * velocidadBala;
-        Destroy(gameObject, 3f);
+        pistola = p;
     }
-
+    private void OnEnable()
+    {
+        if (pistola != null)
+        {
+            if (rb == null)
+            {
+                rb = GetComponent<Rigidbody2D>();
+            }
+            direccion = JugadorController.Instance.UltimaDireccion.normalized;
+            rb.linearVelocity = direccion * velocidadBala;
+            vidaRestante = tiempoVida;
+        }
+    }
+    private void Update()
+    {
+        vidaRestante -= Time.deltaTime;
+        if (vidaRestante <= 0)
+        {
+            gameObject.SetActive(false);
+        }
+    }
     // Detecta colision con enemigo y lo daña
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -25,7 +42,7 @@ public class PistolaController : MonoBehaviour
             if (enemigo != null)
             {
                 enemigo.RecibirDamage(pistola.Damage);
-                Destroy(gameObject);
+                gameObject.SetActive(false);
             }
         }
     }

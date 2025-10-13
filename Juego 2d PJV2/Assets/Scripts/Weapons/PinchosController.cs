@@ -5,19 +5,38 @@ public class PinchosController : MonoBehaviour
 {
     private Pinchos pinchos;
     private List<Enemigo> enemigosDentro;
-    [SerializeField] private float tiempoVidaPinchos = 4f; // futura duracion quizas
+    [SerializeField] private float tiempoVidaPinchos; // futura duracion quizas
     private float cooldown;
+    private float tiempoActual;
 
-    void Start()
+    public void Inicializar(Pinchos p)
     {
-        pinchos = GameObject.Find("Pinchos").GetComponent<Pinchos>();
-        transform.localScale = new Vector3(pinchos.Area, pinchos.Area, 1);
-        enemigosDentro = new List<Enemigo>();
-        cooldown = pinchos.Cooldown / 2f;
-        Destroy(gameObject, tiempoVidaPinchos);
+        pinchos = p;
     }
-    void Update()
+    private void Awake()
     {
+        enemigosDentro = new List<Enemigo>();
+    }
+    private void OnEnable()
+    {
+        if (pinchos != null)
+        {
+            transform.localScale = new Vector3(pinchos.Area, pinchos.Area, 1);
+            enemigosDentro.Clear();
+            cooldown = pinchos.Cooldown / 2f;
+            tiempoActual = 0;
+        }
+    }
+
+    private void Update()
+    {
+        tiempoActual += Time.deltaTime;
+        if (tiempoActual >= tiempoVidaPinchos)
+        {
+            gameObject.SetActive(false);
+            return;
+        }
+
         cooldown -= Time.deltaTime;
         // Los enemigos dentro del arma reciben daño
         if (cooldown <= 0)

@@ -5,36 +5,34 @@ public class BalaEnemigo : MonoBehaviour
     private float damage;
     private float fuerzaDisparo;
     private float tiempoVida;
+    private float tiempoActual;
+    private Rigidbody2D rb;
 
-    private void Start()
+    private void Awake()
     {
-        DispararHaciaJugador();
-        Destroy(gameObject, tiempoVida);
+        rb = GetComponent<Rigidbody2D>();
     }
-    // Pasar damage del enemigo
-    public void ConfigurarDamageDisparo(float damageEnemigo)
+    private void OnEnable()
     {
+        tiempoActual = 0;
+        rb.linearVelocity = Vector2.zero;
+    }
+    private void Update()
+    {
+        tiempoActual += Time.deltaTime;
+        if (tiempoActual >= tiempoVida)
+            gameObject.SetActive(false);
+    }
+    // Configurar bala
+    public void ActivarBala(Vector3 posicion, Vector2 dir, float fuerza, float tiempoVidaBala, float damageEnemigo)
+    {
+        transform.position = posicion;
         damage = damageEnemigo;
-    }
-    // Pasar fuerda del disparo del enemigo
-    public void ConfigurarFuerzaDisparo(float fuerzaEnemigo)
-    {
-        fuerzaDisparo = fuerzaEnemigo;
-    }
-    // Pasar tiempo de vida para bala
-    public void ConfigurarTiempoVida(float tiempoBala)
-    {
-        tiempoVida = tiempoBala;
-    }
-    // Disparar bala
-    private void DispararHaciaJugador()
-    {
-        if (JugadorController.Instance == null) return;
-
-        Vector2 dir = (JugadorController.Instance.transform.position - transform.position).normalized;
-        Rigidbody2D rb = GetComponent<Rigidbody2D>();
-        if (rb != null)
-            rb.linearVelocity = dir * fuerzaDisparo;
+        fuerzaDisparo = fuerza;
+        tiempoVida = tiempoVidaBala;
+        tiempoActual = 0;
+        rb.linearVelocity = dir.normalized * fuerzaDisparo;
+        gameObject.SetActive(true);
     }
     // Colision bala
     private void OnTriggerEnter2D(Collider2D collision)
@@ -42,7 +40,7 @@ public class BalaEnemigo : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             JugadorController.Instance.RecibirDamage(damage);
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }

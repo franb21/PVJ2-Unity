@@ -55,14 +55,16 @@ public class EnemigoBoss : Enemigo
         {
             Vector3 origen = (puntoDisparo != null) ? puntoDisparo.position : transform.position;
 
-            GameObject bala = Instantiate(enemigoData.PrefabBalaBoss, origen, transform.rotation);
-            BalaEnemigo balaSpawneada = bala.GetComponent<BalaEnemigo>();
+            GameObject bala = PoolController.Instance.GetPooledObject(enemigoData.PrefabBalaBoss, origen, transform.rotation);
 
-            if (balaSpawneada != null)
+            if (bala != null)
             {
-                balaSpawneada.ConfigurarTiempoVida(enemigoData.TiempoDeVidaBala);
-                balaSpawneada.ConfigurarFuerzaDisparo(enemigoData.FuerzaDisparo);
-                balaSpawneada.ConfigurarDamageDisparo(damage);
+                Vector2 dir = (JugadorController.Instance.transform.position - origen).normalized;
+                BalaEnemigo balaSpawneada = bala.GetComponent<BalaEnemigo>();
+                if (balaSpawneada != null)
+                {
+                    balaSpawneada.ActivarBala(origen, dir, enemigoData.FuerzaDisparo, enemigoData.TiempoDeVidaBala, damage);
+                }
             }
             yield return new WaitForSeconds(enemigoData.TiempoEntreDisparosBoss);
         }
@@ -99,7 +101,7 @@ public class EnemigoBoss : Enemigo
             Vector2 offset = new Vector2(Mathf.Cos(angulo), Mathf.Sin(angulo)) * enemigoData.RadioInvocacion;
             Vector2 spawnPos = centro + offset;
 
-            Instantiate(enemigoData.PrefabEnemgiosInvocacion, spawnPos, Quaternion.identity);
+            GameObject enemigoInvocado = PoolController.Instance.GetPooledObject(enemigoData.PrefabEnemgiosInvocacion, spawnPos, transform.rotation);
         }
 
         yield return new WaitForSeconds(enemigoData.TiempoPostInvocacion);

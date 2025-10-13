@@ -71,10 +71,13 @@ public class Spawn : MonoBehaviour
         }
         else
         {
-            GameObject enemigo = Instantiate(spawnData.oleadas[oleadaNum].enemigoConfig.prefabEnemigo, RandomSpawnPoint(), transform.rotation);
-            Enemigo enemgioSpaweneado = enemigo.GetComponent<Enemigo>();
-            enemgioSpaweneado.AjustarStats(spawnData.oleadas[oleadaNum].enemigoConfig.multVida, spawnData.oleadas[oleadaNum].enemigoConfig.multDamage, spawnData.oleadas[oleadaNum].enemigoConfig.multVelocidad);
-            enemigosSpawnNum++;
+            GameObject enemigo = PoolController.Instance.GetPooledObject(spawnData.oleadas[oleadaNum].enemigoConfig.prefabEnemigo, RandomSpawnPoint(), transform.rotation);
+            if (enemigo != null)
+            {
+                Enemigo enemgioSpaweneado = enemigo.GetComponent<Enemigo>();
+                enemgioSpaweneado.AjustarStats(spawnData.oleadas[oleadaNum].enemigoConfig.multVida, spawnData.oleadas[oleadaNum].enemigoConfig.multDamage, spawnData.oleadas[oleadaNum].enemigoConfig.multVelocidad);
+                enemigosSpawnNum++;
+            }
         }
     }
     // Spawnea enjambre
@@ -96,10 +99,13 @@ public class Spawn : MonoBehaviour
 
             Vector2 posicionFinal = centro + offset;
 
-            GameObject enemigo = Instantiate(spawnData.oleadas[oleadaNum].enemigoConfig.prefabEnemigo, posicionFinal, transform.rotation);
-            Enemigo enemgioSpaweneado = enemigo.GetComponent<Enemigo>();
-            enemgioSpaweneado.AjustarStats(spawnData.oleadas[oleadaNum].enemigoConfig.multVida, spawnData.oleadas[oleadaNum].enemigoConfig.multDamage, spawnData.oleadas[oleadaNum].enemigoConfig.multVelocidad);
-            enemigosSpawnNum++;
+            GameObject enemigo = PoolController.Instance.GetPooledObject(spawnData.oleadas[oleadaNum].enemigoConfig.prefabEnemigo, posicionFinal, transform.rotation);
+            if (enemigo != null)
+            {
+                Enemigo enemgioSpaweneado = enemigo.GetComponent<Enemigo>();
+                enemgioSpaweneado.AjustarStats(spawnData.oleadas[oleadaNum].enemigoConfig.multVida, spawnData.oleadas[oleadaNum].enemigoConfig.multDamage, spawnData.oleadas[oleadaNum].enemigoConfig.multVelocidad);
+                enemigosSpawnNum++;
+            }
         }
     }
     // Aleatorizar el punto de spawn alrededor de la camra

@@ -28,7 +28,9 @@ public class Pinchos : Weapon
                     float offsetY = Random.Range(-1.5f, 1.5f);
                     spawnPos = pos + new Vector3(offsetX, offsetY, 0);
                 }
-                Instantiate(WeaponData.PrefabWeapon, spawnPos, transform.rotation);
+                GameObject pinchos = PoolController.Instance.GetPooledObject(WeaponData.PrefabWeapon, spawnPos, transform.rotation);
+                PinchosController pinchoSpaweneado = pinchos.GetComponent<PinchosController>();
+                pinchoSpaweneado.Inicializar(GetComponent<Pinchos>());
             }
         }
     }
