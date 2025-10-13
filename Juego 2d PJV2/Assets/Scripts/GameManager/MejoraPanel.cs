@@ -10,75 +10,72 @@ public class MejoraPanel : MonoBehaviour
     }
     public TMP_Text nombreText;
     public TextStatButton[] textButtons;
-    private Pistola pistolaWeapon;
+    private Weapon weaponSeleccionada;
 
-    public void OpenPanel(Pistola pistola)
+    public void OpenPanel(Weapon weapon)
     {
-        HUDController.Instance.CloseLevelUpPanel();
-        pistolaWeapon = pistola;
-        nombreText.text = pistola.PistolaData.nombre;
-        textButtons[0].descripcionMejora.text = pistola.DamageText;
-        textButtons[1].descripcionMejora.text = pistola.CooldownText;
-        textButtons[2].descripcionMejora.text = pistola.SpeedText;
-        textButtons[3].descripcionMejora.text = pistola.CantidadText;
+        weaponSeleccionada = weapon;
+        nombreText.text = weapon.WeaponData.nombre;
+        textButtons[0].descripcionMejora.text = weapon.DamageText;
+        textButtons[1].descripcionMejora.text = weapon.CooldownText;
+        textButtons[2].descripcionMejora.text = weapon.AreaText;
+        textButtons[3].descripcionMejora.text = weapon.CantidadText;
     }
     //Click en damage
     public void OnDamageClick()
     {
-        if (!pistolaWeapon.IsMaxDamage())
+        if (!weaponSeleccionada.IsMaxDamage())
         {
-            pistolaWeapon.MejorarDamage();
+            weaponSeleccionada.MejorarDamage();
+            //Desactiva el arma si esta al maximo
+            if (weaponSeleccionada.MaxMejoras())
+            {
+                JugadorController.Instance.WeaponMax.Add(weaponSeleccionada);
+                JugadorController.Instance.WeaponActivas.Remove(weaponSeleccionada);
+            }
             HUDController.Instance.MejorasPanelClose();
-            Debug.Log("mejorao");
-
-        }
-        if (pistolaWeapon.IsMaxDamage()){
-            Debug.Log("maximoo");
         }
     }
     //Click en cooldown
     public void OnCooldownClick()
     {
-        if (!pistolaWeapon.IsMaxCooldown())
+        if (!weaponSeleccionada.IsMaxCooldown())
         {
-            pistolaWeapon.MejorarCooldown();
+            weaponSeleccionada.MejorarCooldown();
+            if (weaponSeleccionada.MaxMejoras())
+            {
+                JugadorController.Instance.WeaponMax.Add(weaponSeleccionada);
+                JugadorController.Instance.WeaponActivas.Remove(weaponSeleccionada);
+            }
             HUDController.Instance.MejorasPanelClose();
-            Debug.Log("mejorao");
-
-        }
-        if (pistolaWeapon.IsMaxCooldown())
-        {
-            Debug.Log("maximoo");
         }
     }
     //Click en speed
-    public void OnSpeedClick()
+    public void OnAreaClick()
     {
-        if (!pistolaWeapon.IsMaxSpeed())
+        if (!weaponSeleccionada.IsMaxArea())
         {
-            pistolaWeapon.MejorarSpeed();
+            weaponSeleccionada.MejorarArea();
+            if (weaponSeleccionada.MaxMejoras())
+            {
+                JugadorController.Instance.WeaponMax.Add(weaponSeleccionada);
+                JugadorController.Instance.WeaponActivas.Remove(weaponSeleccionada);
+            }
             HUDController.Instance.MejorasPanelClose();
-            Debug.Log("mejorao");
-
-        }
-        if (pistolaWeapon.IsMaxSpeed())
-        {
-            Debug.Log("maximoo");
         }
     }
     //Click en cantidad
     public void OnCantidadClick()
     {
-        if (!pistolaWeapon.IsMaxCantidad())
+        if (!weaponSeleccionada.IsMaxCantidad())
         {
-            pistolaWeapon.MejorarCantidad();
+            weaponSeleccionada.MejorarCantidad();
+            if (weaponSeleccionada.MaxMejoras())
+            {
+                JugadorController.Instance.WeaponMax.Add(weaponSeleccionada);
+                JugadorController.Instance.WeaponActivas.Remove(weaponSeleccionada);
+            }
             HUDController.Instance.MejorasPanelClose();
-            Debug.Log("mejorao");
-
-        }
-        if (pistolaWeapon.IsMaxCantidad())
-        {
-            Debug.Log("maximoo");
         }
     }
 }

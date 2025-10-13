@@ -12,7 +12,7 @@ public class HUDController : MonoBehaviour
     public GameObject gameOverPanel;
     public GameObject winPanel;
     public GameObject levelUpPanel;
-    public LevelUpButton levelUpButton;
+    public LevelUpButton[] levelUpButtons;
     public GameObject vidaButton;
     public GameObject velocidadButton;
     public GameObject mejorasPanel;
@@ -30,12 +30,12 @@ public class HUDController : MonoBehaviour
         }
     }
     //Actualiza la vida en el hud
-    public void vidaHUD()
+    public void VidaHUD()
     {
         vidaText.text = "VIDA:\n" + (int)JugadorController.Instance.Vida;
     }
     //Actualiza la exp en el hud
-    public void expHUD()
+    public void ExpHUD()
     {
         expText.text = "\nExperiencia: " + JugadorController.Instance.Experiencia + " / " + JugadorController.Instance.Levels[JugadorController.Instance.LevelActual];
     }
@@ -49,6 +49,7 @@ public class HUDController : MonoBehaviour
     public void CloseLevelUpPanel()
     {
         levelUpPanel.SetActive(false);
+        Time.timeScale = 1f;
     }
     // Aumental la vida al dar al button
     public void AumentarVidaJugador()
@@ -65,10 +66,11 @@ public class HUDController : MonoBehaviour
         CloseLevelUpPanel();
     }
     // Se activa el panel de mejoras
-    public void MejorasPanelOpen(Pistola pistola)
+    public void MejorasPanelOpen(Weapon weapon)
     {
         mejorasPanel.SetActive(true);
-        mejorasPanelController.OpenPanel(pistola);
+        Time.timeScale = 0f;
+        mejorasPanelController.OpenPanel(weapon);
     }
     // Se desativa el panel de mejoras
     public void MejorasPanelClose()

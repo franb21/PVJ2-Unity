@@ -1,0 +1,267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 109671dceea48774cba41e081cddd4fd, type: 3}
+  m_Name: SpawnData
+  m_EditorClassIdentifier: 
+  oleadas:
+  - enemigoConfig:
+      prefabEnemigo: {fileID: 6054069287232953457, guid: 5b6c83deb77af2543801cf8a4fe2908e, type: 3}
+      multVida: 1
+      multDamage: 1
+      multVelocidad: 1
+    tiempoEntreSpawns: 0.8
+    maxEnemigos: 100
+    killsMax: 50
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.9
+  - enemigoConfig:
+      prefabEnemigo: {fileID: 6054069287232953457, guid: 6fc1c47723c0f9c43b6d2b8fa7840edc, type: 3}
+      multVida: 1
+      multDamage: 1
+      multVelocidad: 1
+    tiempoEntreSpawns: 1
+    maxEnemigos: 100
+    killsMax: 30
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
+  - enemigoConfig:
+      prefabEnemigo: {fileID: 4140703507195334599, guid: 8308a374b6240ca4897b2e5ef7908b79, type: 3}
+      multVida: 2
+      multDamage: 2
+      multVelocidad: 2
+    tiempoEntreSpawns: 1
+    maxEnemigos: 80
+    killsMax: 20
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
+  - enemigoConfig:
+      prefabEnemigo: {fileID: 5458454138982861606, guid: fb0a45b4fae7aee4c92af2ef1aac2319, type: 3}
+      multVida: 3
+      multDamage: 3
+      multVelocidad: 3
+    tiempoEntreSpawns: 0
+    maxEnemigos: 80
+    killsMax: 30
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
+  - enemigoConfig:
+      prefabEnemigo: {fileID: 0}
+      multVida: 0
+      multDamage: 0
+      multVelocidad: 0
+    tiempoEntreSpawns: 0
+    maxEnemigos: 0
+    killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
+  - enemigoConfig:
+      prefabEnemigo: {fileID: 0}
+      multVida: 0
+      multDamage: 0
+      multVelocidad: 0
+    tiempoEntreSpawns: 0
+    maxEnemigos: 0
+    killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
+  - enemigoConfig:
+      prefabEnemigo: {fileID: 0}
+      multVida: 0
+      multDamage: 0
+      multVelocidad: 0
+    tiempoEntreSpawns: 0
+    maxEnemigos: 0
+    killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
+  - enemigoConfig:
+      prefabEnemigo: {fileID: 0}
+      multVida: 0
+      multDamage: 0
+      multVelocidad: 0
+    tiempoEntreSpawns: 0
+    maxEnemigos: 0
+    killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
+  - enemigoConfig:
+      prefabEnemigo: {fileID: 0}
+      multVida: 0
+      multDamage: 0
+      multVelocidad: 0
+    tiempoEntreSpawns: 0
+    maxEnemigos: 0
+    killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
+  - enemigoConfig:
+      prefabEnemigo: {fileID: 0}
+      multVida: 0
+      multDamage: 0
+      multVelocidad: 0
+    tiempoEntreSpawns: 0
+    maxEnemigos: 0
+    killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
+  - enemigoConfig:
+      prefabEnemigo: {fileID: 0}
+      multVida: 0
+      multDamage: 0
+      multVelocidad: 0
+    tiempoEntreSpawns: 0
+    maxEnemigos: 0
+    killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
+  - enemigoConfig:
+      prefabEnemigo: {fileID: 0}
+      multVida: 0
+      multDamage: 0
+      multVelocidad: 0
+    tiempoEntreSpawns: 0
+    maxEnemigos: 0
+    killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
+  - enemigoConfig:
+      prefabEnemigo: {fileID: 0}
+      multVida: 0
+      multDamage: 0
+      multVelocidad: 0
+    tiempoEntreSpawns: 0
+    maxEnemigos: 0
+    killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
+  - enemigoConfig:
+      prefabEnemigo: {fileID: 0}
+      multVida: 0
+      multDamage: 0
+      multVelocidad: 0
+    tiempoEntreSpawns: 0
+    maxEnemigos: 0
+    killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
+  - enemigoConfig:
+      prefabEnemigo: {fileID: 0}
+      multVida: 0
+      multDamage: 0
+      multVelocidad: 0
+    tiempoEntreSpawns: 0
+    maxEnemigos: 0
+    killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
+  - enemigoConfig:
+      prefabEnemigo: {fileID: 0}
+      multVida: 0
+      multDamage: 0
+      multVelocidad: 0
+    tiempoEntreSpawns: 0
+    maxEnemigos: 0
+    killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
+  - enemigoConfig:
+      prefabEnemigo: {fileID: 0}
+      multVida: 0
+      multDamage: 0
+      multVelocidad: 0
+    tiempoEntreSpawns: 0
+    maxEnemigos: 0
+    killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
+  - enemigoConfig:
+      prefabEnemigo: {fileID: 0}
+      multVida: 0
+      multDamage: 0
+      multVelocidad: 0
+    tiempoEntreSpawns: 0
+    maxEnemigos: 0
+    killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
+  - enemigoConfig:
+      prefabEnemigo: {fileID: 0}
+      multVida: 0
+      multDamage: 0
+      multVelocidad: 0
+    tiempoEntreSpawns: 0
+    maxEnemigos: 0
+    killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
+  - enemigoConfig:
+      prefabEnemigo: {fileID: 0}
+      multVida: 0
+      multDamage: 0
+      multVelocidad: 0
+    tiempoEntreSpawns: 0
+    maxEnemigos: 0
+    killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
+  - enemigoConfig:
+      prefabEnemigo: {fileID: 0}
+      multVida: 0
+      multDamage: 0
+      multVelocidad: 0
+    tiempoEntreSpawns: 0
+    maxEnemigos: 0
+    killsMax: 0
+    spawnEnjambre: 0
+    cantidadEnemigosEnjambre: 10
+    radioEnjambre: 2
+    dispersion: 0.5
