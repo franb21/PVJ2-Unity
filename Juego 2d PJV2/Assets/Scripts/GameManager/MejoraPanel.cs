@@ -28,7 +28,7 @@ public class MejoraPanel : MonoBehaviour
         {
             weaponSeleccionada.MejorarDamage();
             //Desactiva el arma si esta al maximo
-            if (!weaponSeleccionada.MaxMejoras())
+            if (weaponSeleccionada.MaxMejoras())
             {
                 JugadorController.Instance.WeaponMax.Add(weaponSeleccionada);
                 JugadorController.Instance.WeaponActivas.Remove(weaponSeleccionada);
@@ -42,7 +42,7 @@ public class MejoraPanel : MonoBehaviour
         if (!weaponSeleccionada.IsMaxCooldown())
         {
             weaponSeleccionada.MejorarCooldown();
-            if (!weaponSeleccionada.MaxMejoras())
+            if (weaponSeleccionada.MaxMejoras())
             {
                 JugadorController.Instance.WeaponMax.Add(weaponSeleccionada);
                 JugadorController.Instance.WeaponActivas.Remove(weaponSeleccionada);
@@ -56,7 +56,7 @@ public class MejoraPanel : MonoBehaviour
         if (!weaponSeleccionada.IsMaxArea())
         {
             weaponSeleccionada.MejorarArea();
-            if (!weaponSeleccionada.MaxMejoras())
+            if (weaponSeleccionada.MaxMejoras())
             {
                 JugadorController.Instance.WeaponMax.Add(weaponSeleccionada);
                 JugadorController.Instance.WeaponActivas.Remove(weaponSeleccionada);
@@ -70,7 +70,7 @@ public class MejoraPanel : MonoBehaviour
         if (!weaponSeleccionada.IsMaxCantidad())
         {
             weaponSeleccionada.MejorarCantidad();
-            if (!weaponSeleccionada.MaxMejoras())
+            if (weaponSeleccionada.MaxMejoras())
             {
                 JugadorController.Instance.WeaponMax.Add(weaponSeleccionada);
                 JugadorController.Instance.WeaponActivas.Remove(weaponSeleccionada);

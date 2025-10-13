@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663071cc194342b4f9ce03fe75ea9c8d, type: 3}
+  m_Name: PinchosData
+  m_EditorClassIdentifier: 
+  prefabWeapon: {fileID: 5271575849212091541, guid: c20a43a4bc8283842a4628a20a97f021, type: 3}
+  nombre: Pinchos
+  icono: {fileID: 15461704, guid: 134ac17a4c4b99e448a3339acfebc5de, type: 3}
+  descripcion: Suelta pinchos
+  cooldown: 3
+  damage: 5
+  cantidad: 1
+  area: 1
+  cooldownMejora: 0.1
+  damageMejora: 5
+  cantidadMejora: 1
+  areaMejora: 0.5
+  maxCooldown: 5
+  maxDamage: 5
+  maxCantidad: 5
+  maxArea: 5
