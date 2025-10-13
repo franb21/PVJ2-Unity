@@ -15,12 +15,12 @@ TagManager:
   - Mapa
   - Jugador
   - EnemigoBasico
-  - Proyectiles
+  - ProyectilesEnemigos
   - EnemigoRapido
   - EnemigoDispara
   - EnemgoEnjambre
-  - 
-  - 
+  - EnemigoTank
+  - EnemigoBoss
   - 
   - 
   - 

@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   oleadas:
   - enemigoConfig:
-      prefabEnemigo: {fileID: 6054069287232953457, guid: ff110779a3e750b4d91e967387f0a7f1, type: 3}
+      prefabEnemigo: {fileID: 6054069287232953457, guid: f7c30ca2586186144bedf5abb4c07129, type: 3}
       multVida: 1
       multDamage: 1
       multVelocidad: 1
     tiempoEntreSpawns: 0.8
-    maxEnemigos: 100
-    killsMax: 30
-    spawnEnjambre: 1
+    maxEnemigos: 1
+    killsMax: 50
+    spawnEnjambre: 0
     cantidadEnemigosEnjambre: 10
     radioEnjambre: 2
     dispersion: 0.9
