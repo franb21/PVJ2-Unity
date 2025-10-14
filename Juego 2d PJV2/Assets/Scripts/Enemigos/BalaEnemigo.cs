@@ -12,6 +12,7 @@ public class BalaEnemigo : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
+    // Reiniciar variables
     private void OnEnable()
     {
         tiempoActual = 0;
@@ -20,7 +21,7 @@ public class BalaEnemigo : MonoBehaviour
     private void Update()
     {
         tiempoActual += Time.deltaTime;
-        if (tiempoActual >= tiempoVida)
+        if (tiempoActual >= tiempoVida) // si pasa el tiempo vuellve
             gameObject.SetActive(false);
     }
     // Configurar bala
@@ -40,7 +41,7 @@ public class BalaEnemigo : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             JugadorController.Instance.RecibirDamage(damage);
-            gameObject.SetActive(false);
+            gameObject.SetActive(false); // vuelve al pool cuando colisiona con jugador
         }
     }
 }

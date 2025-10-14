@@ -15,11 +15,11 @@ MonoBehaviour:
   oleadas:
   - enemigoConfig:
       prefabEnemigo: {fileID: 6054069287232953457, guid: 5b6c83deb77af2543801cf8a4fe2908e, type: 3}
-      multVida: 1
-      multDamage: 1
-      multVelocidad: 1
+      multVida: 2
+      multDamage: 2
+      multVelocidad: 2
     tiempoEntreSpawns: 0.8
-    maxEnemigos: 1
+    maxEnemigos: 100
     killsMax: 50
     spawnEnjambre: 0
     cantidadEnemigosEnjambre: 10

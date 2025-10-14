@@ -37,7 +37,7 @@ public class Enemigo : MonoBehaviour
         if (vida <= 0)
         {
             Spawn.Instance.Kill();
-            gameObject.SetActive(false);
+            gameObject.SetActive(false); // vuelve al pool cuando se elimina
             JugadorController.Instance.GanarExp(exp);
         }
 
@@ -51,8 +51,16 @@ public class Enemigo : MonoBehaviour
     //Ajustar stats para oleadas
     public void AjustarStats(float multVida, float multDamage, float multVel)
     {
+        ReiniciarStats();
         vida *= multVida;
         damage *= multDamage;
         velocidad *= multVel;
+    }
+    //Reinicia las stats
+    public void ReiniciarStats()
+    {
+        vida = enemigoData.Vida;
+        damage = enemigoData.Damage;
+        velocidad = enemigoData.Velocidad;
     }
 }
