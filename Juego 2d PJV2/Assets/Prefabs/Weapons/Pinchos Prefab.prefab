@@ -165,4 +165,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef7cee05fc57852498d06cf68cdf1100, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoVidaPinchos: 4
+  tiempoVidaPinchos: 5

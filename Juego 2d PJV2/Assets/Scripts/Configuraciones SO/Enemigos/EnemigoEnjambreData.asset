@@ -12,14 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 832179412a38ca44780a26608ab5721e, type: 3}
   m_Name: EnemigoEnjambreData
   m_EditorClassIdentifier: 
-  vida: 5
-  damage: 2
+  vida: 10
+  damage: 5
   velocidad: 6
-  experienciaSuelta: 2
+  experienciaSuelta: 3
   balaPrefab: {fileID: 0}
   tiempoEntreDisparos: 0
   tiempoQuieto: 0
   retrocesoDistancia: 0
   fuerzaDisparo: 0
   tiempoDeVidaBala: 0
-  tiempoDeVidaEnemigo: 5
+  tiempoDeVidaEnemigo: 8
+  prefabBalaBoss: {fileID: 0}
+  prefabEnemgiosInvocacion: {fileID: 0}
+  tiempoEntreEstados: 0
+  tiempoEntreDisparosBoss: 0
+  duracionDisparar: 0
+  tiempoCargaEmbestida: 0
+  velocidadEmbestida: 0
+  cantidadEnemigosInvocados: 0
+  radioInvocacion: 0
+  tiempoInvocacion: 0
+  tiempoPostInvocacion: 0

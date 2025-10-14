@@ -22,6 +22,9 @@ public class JugadorController : MonoBehaviour
     private List<Weapon> weaponMejorables;
     private List<Weapon> weaponMax;
 
+    private bool puedeDamage;
+    private float tiempoDamage;
+
     public Vector2 UltimaDireccion { get => ultimaDireccion; }
     public float Vida { get => vida; }
     public int Experiencia { get => experiencia; }
@@ -74,6 +77,14 @@ public class JugadorController : MonoBehaviour
         {
             ultimaDireccion = direccion;
         }
+        if (tiempoDamage > 0)
+        {
+            tiempoDamage -= Time.deltaTime;
+        }
+        else
+        {
+            puedeDamage = false;
+        }
     }
     // Movimiento
     void FixedUpdate()
@@ -83,12 +94,17 @@ public class JugadorController : MonoBehaviour
     // Daño al jugador
     public void RecibirDamage(float damage)
     {
-        vida -= damage;
-        HUDController.Instance.VidaHUD();
-        if (vida <= 0)
+        if (!puedeDamage)
         {
-            vida = 0;
-            GameManager.Instance.GameOver();
+            puedeDamage = true;
+            tiempoDamage = jugadorData.TiempoEntreDamage;
+            vida -= damage;
+            HUDController.Instance.VidaHUD();
+            if (vida <= 0)
+            {
+                vida = 0;
+                GameManager.Instance.GameOver();
+            }
         }
     }
     // Gana experiencia y sube de lv

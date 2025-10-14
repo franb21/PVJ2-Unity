@@ -107,4 +107,6 @@ public class EnemigoBoss : Enemigo
         yield return new WaitForSeconds(enemigoData.TiempoPostInvocacion);
         atacando = true;
     }
+
+    // win condition matar boss
 }

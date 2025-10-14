@@ -7,6 +7,7 @@ public class JugadorStatsSO : ScriptableObject
     [Header("Stats iniciales del jugador")]
     [SerializeField] private float vida;
     [SerializeField] private float velocidad;
+    [SerializeField] private float tiempoEntreDamage;
 
     [Header("Aumentos por mejora")]
     [SerializeField] private int aumentoVida;
@@ -20,4 +21,5 @@ public class JugadorStatsSO : ScriptableObject
     public int AumentoVida { get => aumentoVida; }
     public float AumentoVelocidad { get => aumentoVelocidad; }
     public int[] Levels { get => levels; }
+    public float TiempoEntreDamage { get => tiempoEntreDamage; }
 }

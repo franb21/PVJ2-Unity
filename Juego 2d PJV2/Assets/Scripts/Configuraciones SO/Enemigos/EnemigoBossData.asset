@@ -12,25 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 832179412a38ca44780a26608ab5721e, type: 3}
   m_Name: EnemigoBossData
   m_EditorClassIdentifier: 
-  vida: 100
-  damage: 2
-  velocidad: 1.5
-  experienciaSuelta: 2
+  vida: 700
+  damage: 15
+  velocidad: 2
+  experienciaSuelta: 50
   balaPrefab: {fileID: 0}
   tiempoEntreDisparos: 0
   tiempoQuieto: 0
   retrocesoDistancia: 0
-  fuerzaDisparo: 8
-  tiempoDeVidaBala: 6
+  fuerzaDisparo: 6
+  tiempoDeVidaBala: 4
   tiempoDeVidaEnemigo: 0
   prefabBalaBoss: {fileID: 5271575849212091541, guid: e93fd2a74afa31744886011160fd5582, type: 3}
   prefabEnemgiosInvocacion: {fileID: 6054069287232953457, guid: 07e1c1f93b512ce43b50d8f3f628d804, type: 3}
   tiempoEntreEstados: 2
   tiempoEntreDisparosBoss: 0.2
   duracionDisparar: 4
-  tiempoCargaEmbestida: 1.6
+  tiempoCargaEmbestida: 2
   velocidadEmbestida: 12
-  cantidadEnemigosInvocados: 10
-  radioInvocacion: 12
+  cantidadEnemigosInvocados: 15
+  radioInvocacion: 15
   tiempoInvocacion: 3
   tiempoPostInvocacion: 4

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: EnemigoTankData
   m_EditorClassIdentifier: 
   vida: 50
-  damage: 2
-  velocidad: 1.5
-  experienciaSuelta: 2
+  damage: 10
+  velocidad: 0.9
+  experienciaSuelta: 10
   balaPrefab: {fileID: 0}
   tiempoEntreDisparos: 0
   tiempoQuieto: 0
@@ -23,3 +23,14 @@ MonoBehaviour:
   fuerzaDisparo: 0
   tiempoDeVidaBala: 0
   tiempoDeVidaEnemigo: 0
+  prefabBalaBoss: {fileID: 0}
+  prefabEnemgiosInvocacion: {fileID: 0}
+  tiempoEntreEstados: 0
+  tiempoEntreDisparosBoss: 0
+  duracionDisparar: 0
+  tiempoCargaEmbestida: 0
+  velocidadEmbestida: 0
+  cantidadEnemigosInvocados: 0
+  radioInvocacion: 0
+  tiempoInvocacion: 0
+  tiempoPostInvocacion: 0

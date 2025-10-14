@@ -17,7 +17,7 @@ MonoBehaviour:
   icono: {fileID: 1750069289469681851, guid: d7ddb4dd96d4b0f4f862b6fb6aa9ae3c, type: 3}
   descripcion: "Da\xF1o en area"
   cooldown: 1
-  damage: 5
+  damage: 2
   cantidad: 1
   area: 3
   cooldownMejora: 0.1
