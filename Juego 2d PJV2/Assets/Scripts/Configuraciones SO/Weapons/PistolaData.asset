@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: PistolaData
   m_EditorClassIdentifier: 
   prefabWeapon: {fileID: 5271575849212091541, guid: 435a9e3438cdd0d4bbfa427ea6ceeaf0, type: 3}
-  nombre: Pistola
+  nombre: Gun
   icono: {fileID: 970620745, guid: 6fe9492c87f084640bd6a0392e9be93c, type: 3}
-  descripcion: Dispara Proyectiles
-  cooldown: 0.8
-  damage: 4
+  descripcion: Shoot projectiles
+  cooldown: 0.5
+  damage: 10
   cantidad: 1
   area: 0
   cooldownMejora: 0.1

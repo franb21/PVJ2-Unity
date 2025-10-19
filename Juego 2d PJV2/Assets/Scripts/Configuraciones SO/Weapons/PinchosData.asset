@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: PinchosData
   m_EditorClassIdentifier: 
   prefabWeapon: {fileID: 5271575849212091541, guid: c20a43a4bc8283842a4628a20a97f021, type: 3}
-  nombre: Pinchos
+  nombre: Spikes
   icono: {fileID: 15461704, guid: 134ac17a4c4b99e448a3339acfebc5de, type: 3}
-  descripcion: Suelta pinchos
+  descripcion: drops spikes on ground
   cooldown: 3
   damage: 5
   cantidad: 1

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: ZonaElectricaData
   m_EditorClassIdentifier: 
   prefabWeapon: {fileID: 5271575849212091541, guid: d4e8a8e36f910a047a732017d13f4518, type: 3}
-  nombre: Zona Electrica
-  icono: {fileID: 1750069289469681851, guid: d7ddb4dd96d4b0f4f862b6fb6aa9ae3c, type: 3}
-  descripcion: "Da\xF1o en area"
+  nombre: Electric Zone
+  icono: {fileID: -259808508, guid: 134ac17a4c4b99e448a3339acfebc5de, type: 3}
+  descripcion: damages nearby enemies
   cooldown: 1
   damage: 2
   cantidad: 1

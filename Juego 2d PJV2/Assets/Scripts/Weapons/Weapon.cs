@@ -46,22 +46,38 @@ public class Weapon : MonoBehaviour
         area = weaponData.Area;
         limiteDeMejoras = (weaponData.MaxDamage + weaponData.MaxCooldown + weaponData.MaxCantidad + weaponData.MaxArea);
 
-        damageText = "Mejora de daño - Actual: " + damage + " -- Mejora: +" + weaponData.DamageMejora;
-        cooldownText = "Mejora de cooldown - Actual: " + cooldown + " -- Mejora: +" + weaponData.CooldownMejora;
-        cantidadText = "Mejora de cantidad disparos - Actual: " + cantidad + " -- Mejora: +" + weaponData.CantidadMejora;
-        areaText = "Mejora de rango - Actual: " + area + " -- Mejora: +" + weaponData.AreaMejora;
+        cooldownText = "+COOLDOWN";
+        damageText = "+DAMAGE";
+        areaText = "+AREA";
+        cantidadText = "+AMOUNT";
+
+        if (IsMaxCooldown())
+        {
+            cooldownText = "COOLDOWN MAX!";
+        }
+        if (IsMaxDamage())
+        {
+            damageText = "DAMAGE MAX!";
+        }
+        if (IsMaxArea())
+        {
+            areaText = "AREA MAX!";
+        }
+        if (IsMaxCantidad())
+        {
+            cantidadText = "AMOUNT MAX!";
+        }
     }
     //Mejora daño
     public void MejorarDamage()
     {
         damage += weaponData.DamageMejora;
         damageLevel++;
-        damageText = "Mejora de daño - Actual:" + damage.ToString("0") + "- Mejora+ " + weaponData.DamageMejora.ToString("0");
         mejorasEnTotal++;
 
-        if (damageLevel >= weaponData.MaxDamage)
+        if (IsMaxDamage())
         {
-            damageText = damage.ToString("0") + " ---Al maximo---";
+            damageText = "\nDAMAGE MAX!";
         }
     }
     //Mejora cooldown
@@ -69,12 +85,11 @@ public class Weapon : MonoBehaviour
     {
         cooldown -= weaponData.CooldownMejora;
         cooldownLevel++;
-        cooldownText = "Mejora de cooldown - Actual: " + cooldown.ToString("0") + "- Mejora- " + weaponData.CooldownMejora.ToString("0");
         mejorasEnTotal++;
 
-        if (cooldownLevel >= weaponData.MaxCooldown)
+        if (IsMaxCooldown())
         {
-            cooldownText = cooldown.ToString("0") + " ---Al maximo---";
+            cooldownText = "COOLDOWN MAX!";
         }
     }
     //Mejora cantidad de balas
@@ -82,12 +97,11 @@ public class Weapon : MonoBehaviour
     {
         cantidad += weaponData.CantidadMejora;
         cantidadLevel++;
-        cantidadText = "Mejora de cantidad disparos -Actual: " + cantidad.ToString("0") + "- Mejora+ " + weaponData.CantidadMejora.ToString("0");
         mejorasEnTotal++;
 
-        if (cantidadLevel >= weaponData.MaxCantidad)
+        if (IsMaxCantidad())
         {
-            cantidadText = cantidad.ToString("0") + " ---Al maximo---";
+            cantidadText = "AMOUNT MAX!";
         }
     }
     //Mejora tamaño del arma
@@ -95,12 +109,11 @@ public class Weapon : MonoBehaviour
     {
         area += weaponData.AreaMejora;
         areaLevel++;
-        areaText = "Mejora de Area -Actual: " + area.ToString("0") + "- Mejora+ " + weaponData.AreaMejora.ToString("0");
         mejorasEnTotal++;
 
-        if (areaLevel >= weaponData.MaxArea)
+        if (IsMaxArea())
         {
-            areaText = area.ToString("0") + " ---Al maximo---";
+            areaText = "AREA MAX!";
         }
     }
     // Verifica si llegaron

@@ -99,6 +99,7 @@ public class JugadorController : MonoBehaviour
             puedeDamage = true;
             tiempoDamage = jugadorData.TiempoEntreDamage;
             vida -= damage;
+            PocaVida();
             HUDController.Instance.VidaHUD();
             if (vida <= 0)
             {
@@ -154,6 +155,7 @@ public class JugadorController : MonoBehaviour
     public void AumentoDeVida()
     {
         vida += jugadorData.AumentoVida;
+        PocaVida();
         HUDController.Instance.VidaHUD();
         HUDController.Instance.CloseLevelUpPanel();
     }
@@ -163,17 +165,30 @@ public class JugadorController : MonoBehaviour
         velocidad *= jugadorData.AumentoVelocidad;
         HUDController.Instance.CloseLevelUpPanel();
     }
+    // Agregar un nueva arma al jugador
     private void AgregarWeapon(int num)
     {
         WeaponActivas.Add(weaponInactivas[num]);
         weaponInactivas[num].gameObject.SetActive(true);
         weaponInactivas.RemoveAt(num);
     }
-
+    // Activar arma en jugador
     public void ActivarWeapon(Weapon weapon)
     {
         weapon.gameObject.SetActive(true);
         WeaponActivas.Add(weapon);
         weaponInactivas.Remove(weapon);
+    }
+    // Activar o desactivar el efecto de poca vida
+    public void PocaVida()
+    {
+        if (vida >= 25)
+        {
+            HUDController.Instance.BloodClose();
+        }
+        else
+        {
+            HUDController.Instance.BloodOpen();
+        }
     }
 }
