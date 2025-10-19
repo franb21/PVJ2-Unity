@@ -57,8 +57,17 @@ TagManager:
   - name: Borde Abajo
     uniqueID: 3344809777
     locked: 0
+  - name: Bordes fuera
+    uniqueID: 260093545
+    locked: 0
+  - name: Decos
+    uniqueID: 1355470435
+    locked: 0
   - name: Mapa
     uniqueID: 2762672289
+    locked: 0
+  - name: Grafittis
+    uniqueID: 985706323
     locked: 0
   - name: Proyectiles
     uniqueID: 2595274659
