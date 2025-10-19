@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: a769258d6e83b624cbac3cc5b0c6b5a5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3988264356553762137
+    second: Interface windows 1_0
+  - first:
+      213: 6470389566493825168
+    second: Interface windows 1_1
+  - first:
+      213: 4610549919415406799
+    second: Interface windows 1_2
+  - first:
+      213: -1713116723323479988
+    second: Interface windows 1_3
+  - first:
+      213: -1486494602760038093
+    second: Interface windows 1_4
+  - first:
+      213: -4412695038367994830
+    second: Interface windows 1_5
+  - first:
+      213: 981487933406989032
+    second: Interface windows 1_6
+  - first:
+      213: -4642266648908992724
+    second: Interface windows 1_7
+  - first:
+      213: -2731616242611316059
+    second: Interface windows 1_8
+  - first:
+      213: -2263023582059385367
+    second: Interface windows 1_9
+  - first:
+      213: 4679785566847692391
+    second: Interface windows 1_10
+  - first:
+      213: 4151313914811136767
+    second: Interface windows 1_11
+  - first:
+      213: 1059733057833855452
+    second: Interface windows 1_12
+  - first:
+      213: 7281813703920144483
+    second: Interface windows 1_13
+  - first:
+      213: 4781836146324846749
+    second: Interface windows 1_14
+  - first:
+      213: 4016277546776625873
+    second: Interface windows 1_15
+  - first:
+      213: 3532845071546589765
+    second: Interface windows 1_16
+  - first:
+      213: -8392801094348381228
+    second: Interface windows 1_17
+  - first:
+      213: -983230886993317037
+    second: Interface windows 1_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Interface windows_0
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 572
+        width: 313
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087d0e0ade4dca34f9d1963b4d73cd6e
+      internalID: -1299291062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface windows_1
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 839
+        width: 360
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a7d07819b01c6448a865b3753c6db2
+      internalID: -2029171118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface windows_2
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 862
+        width: 413
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5bfe07b6599e340a4aea6f86d730c2
+      internalID: 1671513762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface windows_3
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 707
+        width: 28
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6325a2a967e674a864c6e2a9a4be6b
+      internalID: -146047869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface windows_4
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 714
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad35e09a093e5d4a81520fbf8cd80d7
+      internalID: -1919131641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface windows_5
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 726
+        width: 285
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57b7891055991b46b1076e5b21a204d
+      internalID: 1596845338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface windows_6
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 587
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52aa60243f6bb37488760d8f877e0b30
+      internalID: -154297086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface windows_7
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 590
+        width: 23
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3caff008d2d4cc04f951cc1d575d7220
+      internalID: -279006388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface windows_8
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 626
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57d833f074767044a27c44f0f9f9a55
+      internalID: 1852365815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface windows_9
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 583
+        width: 349
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5633cc022fd5d24c8718fae1066418d
+      internalID: -1536279940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface windows_10
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 575
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2691a291f4e1a49b2056ed31c6f53f
+      internalID: 939524708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface windows_11
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 364
+        width: 314
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7bf739d0d4537449b37cf86e1b901e
+      internalID: -729868723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface windows_12
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 264
+        width: 231
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d27359918ec834da0254b625e57e7f
+      internalID: 57479664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface windows_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 237
+        width: 254
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732ad771d411fa64fb3e687efa0566ee
+      internalID: 765403410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface windows_14
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 309
+        width: 239
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35494273b73674245b15d68497ec578a
+      internalID: -135063252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface windows_15
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 303
+        width: 263
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b91dbe66dda1d4b8f72a38032c96ba
+      internalID: -1290837107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface windows_16
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 128
+        width: 254
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84de87773eebcaa4d87add8770b35a6b
+      internalID: -1846855971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface windows_17
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 210
+        width: 79
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc292d8b446c81c45b6acc64137de7c6
+      internalID: 1796312829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interface windows_18
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 210
+        width: 80
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6ee41e67686f844a5eff4fa594654c
+      internalID: -620773252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 902583bfe6e47cb488f14eec5a6e191d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Interface windows_0: -1299291062
+      Interface windows_1: -2029171118
+      Interface windows_10: 939524708
+      Interface windows_11: -729868723
+      Interface windows_12: 57479664
+      Interface windows_13: 765403410
+      Interface windows_14: -135063252
+      Interface windows_15: -1290837107
+      Interface windows_16: -1846855971
+      Interface windows_17: 1796312829
+      Interface windows_18: -620773252
+      Interface windows_2: 1671513762
+      Interface windows_3: -146047869
+      Interface windows_4: -1919131641
+      Interface windows_5: 1596845338
+      Interface windows_6: -154297086
+      Interface windows_7: -279006388
+      Interface windows_8: 1852365815
+      Interface windows_9: -1536279940
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

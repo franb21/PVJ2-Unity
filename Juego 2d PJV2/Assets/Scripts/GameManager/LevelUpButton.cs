@@ -12,7 +12,14 @@ public class LevelUpButton : MonoBehaviour
     //Asignar la pistola al button
     public void AsignarButton(Weapon weapon)
     {
-        nombreText.text = weapon.WeaponData.nombre;
+        if (weapon.gameObject.activeSelf == true)
+        {
+            nombreText.text = weapon.WeaponData.nombre;
+        }
+        else
+        {
+            nombreText.text = "New weapon " + weapon.WeaponData.nombre;
+        }
         descipcionText.text = weapon.WeaponData.descripcion;
         weaponImagen.sprite = weapon.WeaponData.icono;
         weaponSeleccionada = weapon;

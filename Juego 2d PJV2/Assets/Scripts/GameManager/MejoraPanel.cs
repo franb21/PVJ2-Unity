@@ -3,23 +3,19 @@ using UnityEngine;
 using UnityEngine.UI;
 public class MejoraPanel : MonoBehaviour
 {
-    [System.Serializable]
-    public class TextStatButton
-    {
-        public TMP_Text descripcionMejora;
-    }
+
     public TMP_Text nombreText;
-    public TextStatButton[] textButtons;
+    public TMP_Text[] textDescripcion;
     private Weapon weaponSeleccionada;
 
     public void OpenPanel(Weapon weapon)
     {
         weaponSeleccionada = weapon;
         nombreText.text = weapon.WeaponData.nombre;
-        textButtons[0].descripcionMejora.text = weapon.DamageText;
-        textButtons[1].descripcionMejora.text = weapon.CooldownText;
-        textButtons[2].descripcionMejora.text = weapon.AreaText;
-        textButtons[3].descripcionMejora.text = weapon.CantidadText;
+        textDescripcion[0].text = weapon.DamageText;
+        textDescripcion[1].text = weapon.CooldownText;
+        textDescripcion[2].text = weapon.AreaText;
+        textDescripcion[3].text = weapon.CantidadText;
     }
     //Click en damage
     public void OnDamageClick()

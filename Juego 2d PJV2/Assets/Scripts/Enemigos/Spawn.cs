@@ -51,7 +51,7 @@ public class Spawn : MonoBehaviour
 
             if (oleadaNum >= spawnData.oleadas.Count)
             {
-                //win condition o el boss
+                GameManager.Instance.Win();
             }
         }
     }

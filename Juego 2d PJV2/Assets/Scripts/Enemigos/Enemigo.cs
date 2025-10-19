@@ -39,6 +39,7 @@ public class Enemigo : MonoBehaviour
             Spawn.Instance.Kill();
             gameObject.SetActive(false); // vuelve al pool cuando se elimina
             JugadorController.Instance.GanarExp(exp);
+            HUDController.Instance.ActualizarKills();
         }
 
     }

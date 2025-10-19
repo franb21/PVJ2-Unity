@@ -21,12 +21,14 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         HUDController.Instance.gameOverPanel.SetActive(true);
+        HUDController.Instance.estadosJugador.SetActive(false);
         Time.timeScale = 0f;
     }
 
     public void Win()
     {
         HUDController.Instance.winPanel.SetActive(true);
+        HUDController.Instance.estadosJugador.SetActive(false);
         Time.timeScale = 0f;
     }
 

@@ -9,6 +9,10 @@ public class HUDController : MonoBehaviour
     [Header("Configuracion de HUD")]
     [SerializeField] private TextMeshProUGUI vidaText;
     [SerializeField] private TextMeshProUGUI expText;
+    [SerializeField] private TextMeshProUGUI killsText;
+    [SerializeField] private TextMeshProUGUI killsTextWin;
+    [SerializeField] private TextMeshProUGUI killsTextGameOver;
+    public GameObject estadosJugador;
     public GameObject gameOverPanel;
     public GameObject winPanel;
     public GameObject levelUpPanel;
@@ -17,6 +21,8 @@ public class HUDController : MonoBehaviour
     public GameObject velocidadButton;
     public GameObject mejorasPanel;
     public MejoraPanel mejorasPanelController;
+    public GameObject bloodEffect;
+    private int killsCount;
 
     private void Awake()
     {
@@ -32,12 +38,12 @@ public class HUDController : MonoBehaviour
     //Actualiza la vida en el hud
     public void VidaHUD()
     {
-        vidaText.text = "VIDA:\n" + (int)JugadorController.Instance.Vida;
+        vidaText.text = "" + (int)JugadorController.Instance.Vida;
     }
     //Actualiza la exp en el hud
     public void ExpHUD()
     {
-        expText.text = "\nExperiencia: " + JugadorController.Instance.Experiencia + " / " + JugadorController.Instance.Levels[JugadorController.Instance.LevelActual];
+        expText.text = JugadorController.Instance.Experiencia + " / " + JugadorController.Instance.Levels[JugadorController.Instance.LevelActual];
     }
     // Se activa el panel de levelup
     public void OpenLevelUpPanel()
@@ -78,4 +84,22 @@ public class HUDController : MonoBehaviour
         mejorasPanel.SetActive(false);
         Time.timeScale = 1f;
     }
+    // Se activa efecto de vida
+    public void BloodOpen()
+    {
+        bloodEffect.SetActive(true);
+    }
+    // // Se desactiva efecto de vida
+    public void BloodClose()
+    {
+        bloodEffect.SetActive(false);
+    }
+    // Kills en pantalla
+    public void ActualizarKills()
+    {
+        killsCount++;
+        killsText.text = "KILLS:" + killsCount;
+        killsTextGameOver.text = killsText.text;
+        killsTextWin.text = killsText.text;
+    }  
 }
