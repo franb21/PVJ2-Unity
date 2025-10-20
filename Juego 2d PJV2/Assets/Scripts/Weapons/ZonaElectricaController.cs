@@ -7,14 +7,23 @@ public class ZonaElectricaController : MonoBehaviour
     private ZonaElectrica zonaElectrica;
     private List<Enemigo> enemigosDentro;
     private float cooldown;
+    private Animator miAnimator;
 
     void Start()
     {
         zonaElectrica = GameObject.Find("Zona Electrica").GetComponent<ZonaElectrica>();
+        miAnimator = GetComponent<Animator>();
         transform.localScale = new Vector3(zonaElectrica.Area, zonaElectrica.Area, 1);
         enemigosDentro = new List<Enemigo>();
         cooldown = zonaElectrica.Cooldown;
+
+        //Animacion
+        if (miAnimator != null)
+        {
+            miAnimator.SetTrigger("Activar");
+        }
     }
+
     void Update()
     {
         transform.position = JugadorController.Instance.transform.position;

@@ -8,6 +8,7 @@ public class MisilController : MonoBehaviour
     [SerializeField] private float velocidad;
     [SerializeField] private float tiempoVida;
     private Vector2 direccion;
+    private Animator miAnimator;
 
     public void Inicializar(Misil m)
     {
@@ -25,7 +26,13 @@ public class MisilController : MonoBehaviour
         {
             rb = GetComponent<Rigidbody2D>();
         }
-            
+        //Animacion
+        if (miAnimator != null)
+        {
+            miAnimator = GetComponent<Animator>();
+            miAnimator.SetTrigger("Activar");
+        }
+
         vidaRestante = tiempoVida;
 
         // Busca un enemigo y calcula la direccion hacia el
@@ -47,6 +54,7 @@ public class MisilController : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
+        transform.Rotate(Vector3.forward * 360f * Time.deltaTime);
     }
     // Busca un enemigo aleatorio
     private Transform BuscarEnemigo()

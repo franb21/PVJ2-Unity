@@ -4,6 +4,8 @@ using UnityEngine;
 public class EnemigoBoss : Enemigo
 {
     [SerializeField] private Transform puntoDisparo;
+    [SerializeField] private Transform puntoDisparoFlip;
+    private bool flip;
     private int estadoActual;
     private const int DISPARAR = 0;
     private const int EMBESTIR = 1;
@@ -21,8 +23,19 @@ public class EnemigoBoss : Enemigo
         // Si no esta atacando se mueve
         if (!atacando)
         {
-            direccion = (JugadorController.Instance.transform.position - transform.position).normalized;
-            miRigidbody2D.MovePosition(miRigidbody2D.position + direccion * (velocidad * Time.fixedDeltaTime));
+            MoverHaciaJugador();
+
+            // Flip
+            if (direccion.x < 0)
+            {
+                miSprite.flipX = true;
+                flip = true;
+            }
+            else if (direccion.x > 0)
+            {
+                miSprite.flipX = false;
+                flip = false;
+            }
         }
     }
     private IEnumerator ComportamientoJefe()
@@ -49,11 +62,27 @@ public class EnemigoBoss : Enemigo
     private IEnumerator Disparar()
     {
         atacando = false;
+
+        // Animacion disparr
+        if (miAnimator != null)
+        {
+            miAnimator.SetTrigger("Disparar");
+        }
+        
         float inicio = Time.time;
 
         while (Time.time < inicio + enemigoData.DuracionDisparar)
         {
-            Vector3 origen = (puntoDisparo != null) ? puntoDisparo.position : transform.position;
+            Vector3 origen;
+            if (flip)
+            {
+                 origen = (puntoDisparoFlip != null) ? puntoDisparoFlip.position : transform.position;
+            }
+            else
+            {
+                 origen = (puntoDisparo != null) ? puntoDisparo.position : transform.position;
+            }
+
 
             GameObject bala = PoolController.Instance.GetPooledObject(enemigoData.PrefabBalaBoss, origen, transform.rotation);
 
@@ -68,12 +97,23 @@ public class EnemigoBoss : Enemigo
             }
             yield return new WaitForSeconds(enemigoData.TiempoEntreDisparosBoss);
         }
+
+        if (miAnimator != null)
+        {
+            miAnimator.SetBool("Walk", true);
+        }
+        
         atacando = true;
     }
     // Movimiento Embestids
     private IEnumerator Embestida()
     {
         miRigidbody2D.linearVelocity = Vector2.zero;
+
+        if (miAnimator != null)
+        {
+            miAnimator.SetTrigger("Embestir");
+        }
 
         yield return new WaitForSeconds(enemigoData.TiempoCargaEmbestida);
 
@@ -83,6 +123,12 @@ public class EnemigoBoss : Enemigo
         yield return new WaitForSeconds(enemigoData.TiempoCargaEmbestida);
 
         miRigidbody2D.linearVelocity = Vector2.zero;
+
+        if (miAnimator != null)
+        {
+            miAnimator.SetBool("Walk", true);
+        }
+        
         atacando = true;
     }
     // Movimiento Invocar
@@ -91,6 +137,11 @@ public class EnemigoBoss : Enemigo
         atacando = false;
         miRigidbody2D.linearVelocity = Vector2.zero;
 
+        if (miAnimator != null)
+        {
+            miAnimator.SetTrigger("Invocar");
+        }
+        
         yield return new WaitForSeconds(enemigoData.TiempoInvocacion);
 
         Vector2 centro = JugadorController.Instance.transform.position;
@@ -105,8 +156,12 @@ public class EnemigoBoss : Enemigo
         }
 
         yield return new WaitForSeconds(enemigoData.TiempoPostInvocacion);
+
+        if (miAnimator != null)
+        {
+            miAnimator.SetBool("Walk", true);
+        }
+        
         atacando = true;
     }
-
-    // win condition matar boss
 }

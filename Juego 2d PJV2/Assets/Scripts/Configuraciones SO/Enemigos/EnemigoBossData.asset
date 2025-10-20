@@ -20,13 +20,13 @@ MonoBehaviour:
   tiempoEntreDisparos: 0
   tiempoQuieto: 0
   retrocesoDistancia: 0
-  fuerzaDisparo: 6
+  fuerzaDisparo: 11
   tiempoDeVidaBala: 4
   tiempoDeVidaEnemigo: 0
   prefabBalaBoss: {fileID: 5271575849212091541, guid: e93fd2a74afa31744886011160fd5582, type: 3}
   prefabEnemgiosInvocacion: {fileID: 6054069287232953457, guid: 07e1c1f93b512ce43b50d8f3f628d804, type: 3}
   tiempoEntreEstados: 2
-  tiempoEntreDisparosBoss: 0.2
+  tiempoEntreDisparosBoss: 0.35
   duracionDisparar: 4
   tiempoCargaEmbestida: 2
   velocidadEmbestida: 12

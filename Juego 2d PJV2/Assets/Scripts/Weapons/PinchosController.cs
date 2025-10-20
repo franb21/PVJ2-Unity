@@ -8,6 +8,7 @@ public class PinchosController : MonoBehaviour
     [SerializeField] private float tiempoVidaPinchos; // futura duracion quizas
     private float cooldown;
     private float tiempoActual;
+    private Animator miAnimator;
 
     public void Inicializar(Pinchos p)
     {
@@ -16,6 +17,7 @@ public class PinchosController : MonoBehaviour
     private void Awake()
     {
         enemigosDentro = new List<Enemigo>();
+        miAnimator = GetComponent<Animator>();
     }
     private void OnEnable()
     {
@@ -25,6 +27,12 @@ public class PinchosController : MonoBehaviour
             enemigosDentro.Clear();
             cooldown = pinchos.Cooldown / 2f;
             tiempoActual = 0;
+
+            //Animacion
+            if (miAnimator != null)
+            {
+                miAnimator.SetTrigger("Activar");
+            }
         }
     }
 

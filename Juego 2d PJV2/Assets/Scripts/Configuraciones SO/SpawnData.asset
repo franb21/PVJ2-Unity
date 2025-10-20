@@ -19,7 +19,7 @@ MonoBehaviour:
       multDamage: 1
       multVelocidad: 1
     tiempoEntreSpawns: 0.5
-    maxEnemigos: 80
+    maxEnemigos: 100
     killsMax: 40
     spawnEnjambre: 0
     cantidadEnemigosEnjambre: 0

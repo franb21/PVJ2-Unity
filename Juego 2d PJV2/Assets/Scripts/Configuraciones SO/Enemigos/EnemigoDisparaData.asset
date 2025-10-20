@@ -17,7 +17,7 @@ MonoBehaviour:
   velocidad: 1
   experienciaSuelta: 5
   balaPrefab: {fileID: 5271575849212091541, guid: d04d28fb3404ca34595c2d444223c558, type: 3}
-  tiempoEntreDisparos: 2
+  tiempoEntreDisparos: 3
   tiempoQuieto: 0.5
   retrocesoDistancia: 0.5
   fuerzaDisparo: 7

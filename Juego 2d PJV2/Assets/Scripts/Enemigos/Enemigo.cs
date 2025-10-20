@@ -13,25 +13,52 @@ public class Enemigo : MonoBehaviour
     protected int exp;
     protected Rigidbody2D miRigidbody2D;
     protected Vector2 direccion;
+    protected Animator miAnimator;
+    protected SpriteRenderer miSprite;
 
     protected virtual void Awake()
     {
-        miRigidbody2D = GetComponent<Rigidbody2D>();
         vida = enemigoData.Vida;
         damage = enemigoData.Damage;
         velocidad = enemigoData.Velocidad;
         exp = enemigoData.Exp;
     }
 
+    protected virtual void OnEnable()
+    {
+        miRigidbody2D = GetComponent<Rigidbody2D>();
+        miAnimator = GetComponent<Animator>();
+        miSprite = GetComponent<SpriteRenderer>();
+    }
+
+    protected virtual void FixedUpdate()
+    {
+        MoverHaciaJugador();
+    }
+
     //Movimiento al jugador
-    private void FixedUpdate()
+    protected void MoverHaciaJugador()
     {
         direccion = (JugadorController.Instance.transform.position - transform.position).normalized;
         miRigidbody2D.MovePosition(miRigidbody2D.position + direccion * (velocidad * Time.fixedDeltaTime));
+
+        if (miAnimator != null)
+        {
+            miAnimator.SetBool("Walk", true);
+        }
+
+        if (direccion.x < 0)
+        {
+            miSprite.flipX = true;
+        }
+        else if (direccion.x > 0)
+        {
+            miSprite.flipX = false;
+        }
     }
 
     //Daño al enemigo
-    public void RecibirDamage(float damage)
+    public virtual void RecibirDamage(float damage)
     {
         vida -= damage;
         if (vida <= 0)

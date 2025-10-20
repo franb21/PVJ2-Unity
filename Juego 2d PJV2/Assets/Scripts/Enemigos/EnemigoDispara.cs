@@ -10,15 +10,22 @@ public class EnemigoDispara : Enemigo
         // Empieza la corrutina
         StartCoroutine(ComportamientoEnemigo());
     }
-    private void FixedUpdate()
+    protected override void FixedUpdate()
     {
         // Si no dispara se mueve
         if (!disparando)
         {
-            direccion = (JugadorController.Instance.transform.position - transform.position).normalized;
-            miRigidbody2D.MovePosition(miRigidbody2D.position + direccion * (velocidad * Time.fixedDeltaTime));
+            // Moverse
+            miAnimator.SetBool("Walk", true);
+            MoverHaciaJugador();
+        }
+        else
+        {
+            // Animacion quieta
+            miAnimator.SetBool("Walk", false);
         }
     }
+
     IEnumerator ComportamientoEnemigo()
     {
         while (true)
@@ -28,6 +35,10 @@ public class EnemigoDispara : Enemigo
 
             // Se para y dispara
             disparando = true;
+
+            // Animacion de disparo
+            miAnimator.SetTrigger("Attack");
+
             yield return new WaitForSeconds(enemigoData.TiempoQuieto);
             Disparar();
 
