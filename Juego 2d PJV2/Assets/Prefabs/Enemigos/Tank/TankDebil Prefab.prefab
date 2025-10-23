@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8189200063952637162}
   - component: {fileID: 7963039756903929702}
   - component: {fileID: 6332683633768034280}
+  - component: {fileID: 4102429236592389999}
   m_Layer: 13
   m_Name: TankDebil Prefab
   m_TagString: Enemigo
@@ -176,3 +177,25 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.6656337, y: 1.0239832}
   m_EdgeRadius: 0
+--- !u!95 &4102429236592389999
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6054069287232953457}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3c4aec22021ec134ea6e90394938f467, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

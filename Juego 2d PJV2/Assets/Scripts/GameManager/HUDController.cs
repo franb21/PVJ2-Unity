@@ -60,6 +60,7 @@ public class HUDController : MonoBehaviour
     // Aumental la vida al dar al button
     public void AumentarVidaJugador()
     {
+        AudioController.Instance.Play(AudioController.Instance.button);
         JugadorController.Instance.AumentoDeVida();
         Time.timeScale = 1f;
         CloseLevelUpPanel();
@@ -67,6 +68,7 @@ public class HUDController : MonoBehaviour
     // Aumental la velocidad al dar al button
     public void AumentarVelocidadJugador()
     {
+        AudioController.Instance.Play(AudioController.Instance.button);
         JugadorController.Instance.AumentoDeVelocidad();
         Time.timeScale = 1f;
         CloseLevelUpPanel();

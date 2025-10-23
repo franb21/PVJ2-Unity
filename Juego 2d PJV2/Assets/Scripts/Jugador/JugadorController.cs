@@ -11,6 +11,8 @@ public class JugadorController : MonoBehaviour
     private float vida;
     private float velocidad;
     private Rigidbody2D miRigidbody2D;
+    private Animator miAnimator;
+    private SpriteRenderer miSprite;
     private Vector2 direccion;
     private Vector2 ultimaDireccion;
     private int experiencia;
@@ -65,6 +67,8 @@ public class JugadorController : MonoBehaviour
     private void OnEnable()
     {
         miRigidbody2D = GetComponent<Rigidbody2D>();
+        miAnimator = GetComponent<Animator>();
+        miSprite = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -77,6 +81,21 @@ public class JugadorController : MonoBehaviour
         {
             ultimaDireccion = direccion;
         }
+
+        // Animacion
+        float velocidadActual = Mathf.Abs(direccion.x) + Mathf.Abs(direccion.y);
+        miAnimator.SetFloat("Velocidad", velocidadActual);
+
+        // Sprite flip
+        if (direccion.x < 0)
+        {
+            miSprite.flipX = true;
+        }
+        else if (direccion.x > 0)
+        {
+            miSprite.flipX = false;
+        }
+
         if (tiempoDamage > 0)
         {
             tiempoDamage -= Time.deltaTime;
@@ -96,11 +115,14 @@ public class JugadorController : MonoBehaviour
     {
         if (!puedeDamage)
         {
+            AudioController.Instance.Play(AudioController.Instance.playerDamage);
             puedeDamage = true;
             tiempoDamage = jugadorData.TiempoEntreDamage;
             vida -= damage;
             PocaVida();
             HUDController.Instance.VidaHUD();
+            // Animacion daño
+            miAnimator.SetTrigger("Hurt");
             if (vida <= 0)
             {
                 vida = 0;
@@ -124,6 +146,7 @@ public class JugadorController : MonoBehaviour
     // Manejo de subir de lv
     public void LevelUp()
     {
+        AudioController.Instance.Play(AudioController.Instance.levelUp);
         experiencia -= jugadorData.Levels[levelActual];
         levelActual++;
         HUDController.Instance.ExpHUD();

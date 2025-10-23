@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6896593814075962401}
   - component: {fileID: 1497675924549309150}
   - component: {fileID: 9127251044163011128}
+  - component: {fileID: 8654072856579026257}
   m_Layer: 7
   m_Name: MIsil Prefab
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 5271575849212091541}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1.636, y: -9.887, z: 0}
+  m_LocalPosition: {x: 1.657, y: -9.905, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -77,7 +78,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1699692637
-  m_SortingLayer: 7
+  m_SortingLayer: 10
   m_SortingOrder: 0
   m_Sprite: {fileID: -765494836, guid: 134ac17a4c4b99e448a3339acfebc5de, type: 3}
   m_Color: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 1}
@@ -151,8 +152,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.062500015
+  m_Offset: {x: -0.024459954, y: 0.013588906}
+  m_Radius: 0.90501773
 --- !u!114 &9127251044163011128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,5 +166,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ba564df6e04b764396f56c9fcd8d6e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 8
+  velocidad: 6
   tiempoVida: 4
+--- !u!95 &8654072856579026257
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5271575849212091541}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8a4eb74fed49e4e43970ceb60dfe36dc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

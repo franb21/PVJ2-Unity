@@ -3,35 +3,40 @@ using UnityEngine;
 
 public class EnemigoEnjambre : Enemigo
 {
-    private bool direccionInicial = false;
     private float tiempoActual = 0;
 
-    private void OnEnable()
+    protected override void OnEnable()
     {
+        miRigidbody2D = GetComponent<Rigidbody2D>();
+        miAnimator = GetComponent<Animator>();
+        miSprite = GetComponent<SpriteRenderer>();
+
         // Reiniciar variables cada vez que se activa desde el pool
         tiempoActual = 0;
-        direccionInicial = true;
 
         if (JugadorController.Instance != null)
         {
             direccion = (JugadorController.Instance.transform.position - transform.position).normalized;
         }
-        else
-        {
-            direccionInicial = false; // no mover hasta que exista jugador
-        }
     }
-    private void FixedUpdate()
+    protected override void FixedUpdate()
     {
-        if (!direccionInicial) return;
+        if (JugadorController.Instance == null) return;
 
         // Movimiento hacia el jugador sin parar
         miRigidbody2D.MovePosition(miRigidbody2D.position + direccion * (velocidad * Time.fixedDeltaTime));
+
+        if (direccion.x < 0)
+        {
+            miSprite.flipX = true;
+        }
+        else if (direccion.x > 0)
+        {
+            miSprite.flipX = false;
+        }
     }
     private void Update()
     {
-        if (!direccionInicial) return;
-
         tiempoActual += Time.deltaTime;
         if (tiempoActual >= enemigoData.TiempoDeVidaEnemigo)
         {

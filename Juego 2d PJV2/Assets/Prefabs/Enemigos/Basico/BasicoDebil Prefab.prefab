@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8189200063952637162}
   - component: {fileID: 7963039756903929702}
   - component: {fileID: 8051069256670753417}
+  - component: {fileID: 6529014687841099190}
   m_Layer: 8
   m_Name: BasicoDebil Prefab
   m_TagString: Enemigo
@@ -79,7 +80,7 @@ SpriteRenderer:
   m_SortingLayerID: -1529623419
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 6474817916930609645, guid: 49e504fa63cbce04a998c1c7b855c1bb, type: 3}
+  m_Sprite: {fileID: 3800310597756625337, guid: 67b74dce896798c438d3775c194b31f9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -164,6 +165,28 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.7536225, y: -0.085131034}
-  m_Size: {x: 0.5076382, y: 1.105494}
+  m_Offset: {x: 0.029883383, y: -0.077322066}
+  m_Size: {x: 0.64820117, y: 1.1948332}
   m_Direction: 0
+--- !u!95 &6529014687841099190
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6054069287232953457}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fc0357d163d2a394cbb9b3a95b4ea163, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

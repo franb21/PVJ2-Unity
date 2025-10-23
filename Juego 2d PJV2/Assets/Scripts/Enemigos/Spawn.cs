@@ -51,6 +51,7 @@ public class Spawn : MonoBehaviour
 
             if (oleadaNum >= spawnData.oleadas.Count)
             {
+                oleadaNum = 0;
                 GameManager.Instance.Win();
             }
         }

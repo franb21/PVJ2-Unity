@@ -16,8 +16,8 @@ MonoBehaviour:
   nombre: Gun
   icono: {fileID: 970620745, guid: 6fe9492c87f084640bd6a0392e9be93c, type: 3}
   descripcion: Shoot projectiles
-  cooldown: 0.5
-  damage: 10
+  cooldown: 0.6
+  damage: 5
   cantidad: 1
   area: 0
   cooldownMejora: 0.1
@@ -26,5 +26,5 @@ MonoBehaviour:
   areaMejora: 0
   maxCooldown: 5
   maxDamage: 5
-  maxCantidad: 3
+  maxCantidad: 2
   maxArea: 0

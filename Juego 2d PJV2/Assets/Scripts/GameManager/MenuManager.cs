@@ -7,6 +7,8 @@ public class MenuManager : MonoBehaviour
 
     [SerializeField] private GameObject panelSeleccion;
     [SerializeField] private GameObject marcoTitulo;
+    [SerializeField] private AudioSource button;
+
     void Start()
     {
         armaInicial = 0;
@@ -15,12 +17,14 @@ public class MenuManager : MonoBehaviour
     }
     public void Jugar()
     {
+        button.Play();
         panelSeleccion.SetActive(true);
         marcoTitulo.SetActive(false);
     }
 
     public void SeleccionarArma(int indice)
     {
+        button.Play();
         armaInicial = indice; 
         SceneManager.LoadScene("Game");
     }

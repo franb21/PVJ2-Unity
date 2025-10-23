@@ -8,6 +8,7 @@ public class PinchosController : MonoBehaviour
     [SerializeField] private float tiempoVidaPinchos; // futura duracion quizas
     private float cooldown;
     private float tiempoActual;
+    private Animator miAnimator;
 
     public void Inicializar(Pinchos p)
     {
@@ -16,15 +17,24 @@ public class PinchosController : MonoBehaviour
     private void Awake()
     {
         enemigosDentro = new List<Enemigo>();
+        miAnimator = GetComponent<Animator>();
     }
     private void OnEnable()
     {
+        // Evita errores
         if (pinchos != null)
         {
+            AudioController.Instance.Play(AudioController.Instance.pinchos);
             transform.localScale = new Vector3(pinchos.Area, pinchos.Area, 1);
             enemigosDentro.Clear();
             cooldown = pinchos.Cooldown / 2f;
             tiempoActual = 0;
+
+            //Animacion
+            if (miAnimator != null)
+            {
+                miAnimator.SetTrigger("Activar");
+            }
         }
     }
 
@@ -45,7 +55,10 @@ public class PinchosController : MonoBehaviour
             for (int i = 0; i < enemigosDentro.Count; i++)
             {
                 if (enemigosDentro[i] != null)
+                {
+                    AudioController.Instance.Play(AudioController.Instance.pinchosDamage);
                     enemigosDentro[i].RecibirDamage(pinchos.Damage);
+                }
             }
         }
     }

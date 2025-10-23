@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: JugadorData
   m_EditorClassIdentifier: 
   vida: 100
-  velocidad: 2.5
+  velocidad: 2
   tiempoEntreDamage: 0.5
   aumentoVida: 25
   aumentoVelocidad: 1
