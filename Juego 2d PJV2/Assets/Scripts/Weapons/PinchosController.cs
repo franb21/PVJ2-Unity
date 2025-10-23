@@ -21,8 +21,10 @@ public class PinchosController : MonoBehaviour
     }
     private void OnEnable()
     {
+        // Evita errores
         if (pinchos != null)
         {
+            AudioController.Instance.Play(AudioController.Instance.pinchos);
             transform.localScale = new Vector3(pinchos.Area, pinchos.Area, 1);
             enemigosDentro.Clear();
             cooldown = pinchos.Cooldown / 2f;
@@ -53,7 +55,10 @@ public class PinchosController : MonoBehaviour
             for (int i = 0; i < enemigosDentro.Count; i++)
             {
                 if (enemigosDentro[i] != null)
+                {
+                    AudioController.Instance.Play(AudioController.Instance.pinchosDamage);
                     enemigosDentro[i].RecibirDamage(pinchos.Damage);
+                }
             }
         }
     }

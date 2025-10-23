@@ -38,6 +38,7 @@ public class ZonaElectricaController : MonoBehaviour
             {
                 if (enemigosDentro[i] != null)
                 {
+                    AudioController.Instance.Play(AudioController.Instance.zonaElectricaDamage);
                     enemigosDentro[i].RecibirDamage(zonaElectrica.Damage);
                 }
             }

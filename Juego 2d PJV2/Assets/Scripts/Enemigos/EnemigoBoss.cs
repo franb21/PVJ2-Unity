@@ -18,7 +18,7 @@ public class EnemigoBoss : Enemigo
         estadoActual = Random.Range(0, 3);
         StartCoroutine(ComportamientoJefe());
     }
-    private void FixedUpdate()
+    protected override void FixedUpdate()
     {
         // Si no esta atacando se mueve
         if (!atacando)
@@ -63,6 +63,8 @@ public class EnemigoBoss : Enemigo
     {
         atacando = false;
 
+        AudioController.Instance.Play(AudioController.Instance.bossDisparo);
+
         // Animacion disparr
         if (miAnimator != null)
         {
@@ -88,6 +90,7 @@ public class EnemigoBoss : Enemigo
 
             if (bala != null)
             {
+                AudioController.Instance.Play(AudioController.Instance.bossShoot);
                 Vector2 dir = (JugadorController.Instance.transform.position - origen).normalized;
                 BalaEnemigo balaSpawneada = bala.GetComponent<BalaEnemigo>();
                 if (balaSpawneada != null)
@@ -108,6 +111,7 @@ public class EnemigoBoss : Enemigo
     // Movimiento Embestids
     private IEnumerator Embestida()
     {
+        AudioController.Instance.Play(AudioController.Instance.bossEmbestida);
         miRigidbody2D.linearVelocity = Vector2.zero;
 
         if (miAnimator != null)
@@ -137,6 +141,7 @@ public class EnemigoBoss : Enemigo
         atacando = false;
         miRigidbody2D.linearVelocity = Vector2.zero;
 
+        AudioController.Instance.Play(AudioController.Instance.bossInvocacion);
         if (miAnimator != null)
         {
             miAnimator.SetTrigger("Invocar");

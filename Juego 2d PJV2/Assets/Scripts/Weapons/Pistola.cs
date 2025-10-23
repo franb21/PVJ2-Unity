@@ -18,7 +18,7 @@ public class Pistola : Weapon
                 Vector3 offset = dir * (i * -0.5f);
                 GameObject pistola = PoolController.Instance.GetPooledObject(WeaponData.PrefabWeapon, transform.position + offset, transform.rotation);
                 PistolaController balaSpawneada = pistola.GetComponent<PistolaController>();
-                balaSpawneada.Inicializar(GetComponent<Pistola>());
+                balaSpawneada.Inicializar(GetComponent<Pistola>(), dir);
             }
         }
     }

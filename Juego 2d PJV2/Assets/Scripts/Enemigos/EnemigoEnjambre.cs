@@ -5,7 +5,7 @@ public class EnemigoEnjambre : Enemigo
 {
     private float tiempoActual = 0;
 
-    private void OnEnable()
+    protected override void OnEnable()
     {
         miRigidbody2D = GetComponent<Rigidbody2D>();
         miAnimator = GetComponent<Animator>();
@@ -17,11 +17,6 @@ public class EnemigoEnjambre : Enemigo
         if (JugadorController.Instance != null)
         {
             direccion = (JugadorController.Instance.transform.position - transform.position).normalized;
-        }
-        // Animacion
-        if (miAnimator != null)
-        {
-            miAnimator.SetTrigger("Walk");
         }
     }
     protected override void FixedUpdate()

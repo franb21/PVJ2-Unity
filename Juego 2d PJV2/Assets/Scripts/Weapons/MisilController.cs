@@ -15,37 +15,37 @@ public class MisilController : MonoBehaviour
         misil = m;
     }
 
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        miAnimator = GetComponent<Animator>();
+    }
     private void OnEnable()
     {
         // Evita errores
-        if (misil == null)
+        if (misil != null)
         {
-            return;
-        }
-        if (rb == null)
-        {
-            rb = GetComponent<Rigidbody2D>();
-        }
-        //Animacion
-        if (miAnimator != null)
-        {
-            miAnimator = GetComponent<Animator>();
-            miAnimator.SetTrigger("Activar");
-        }
+            AudioController.Instance.Play(AudioController.Instance.misil);
+            //Animacion
+            if (miAnimator != null)
+            {
+                miAnimator.SetTrigger("Activar");
+            }
 
-        vidaRestante = tiempoVida;
+            vidaRestante = tiempoVida;
 
-        // Busca un enemigo y calcula la direccion hacia el
-        Transform objetivo = BuscarEnemigo();
-        if (objetivo != null)
-        {
-            direccion = ((Vector2)objetivo.position - rb.position).normalized;
+            // Busca un enemigo y calcula la direccion hacia el
+            Transform objetivo = BuscarEnemigo();
+            if (objetivo != null)
+            {
+                direccion = ((Vector2)objetivo.position - rb.position).normalized;
+            }
+            else
+            {
+                direccion = JugadorController.Instance.UltimaDireccion.normalized;
+            }
+            rb.linearVelocity = direccion * velocidad;
         }
-        else
-        {
-            direccion = JugadorController.Instance.UltimaDireccion.normalized;
-        }
-        rb.linearVelocity = direccion * velocidad;
     }
     private void Update()
     {
@@ -76,6 +76,7 @@ public class MisilController : MonoBehaviour
             Enemigo enemigo = collision.GetComponent<Enemigo>();
             if (enemigo != null)
             {
+                AudioController.Instance.Play(AudioController.Instance.damageEnemigo);
                 enemigo.RecibirDamage(misil.Damage);
                 gameObject.SetActive(false);
             }

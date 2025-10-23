@@ -60,6 +60,7 @@ public class EnemigoDispara : Enemigo
             BalaEnemigo balaSpawneada = bala.GetComponent<BalaEnemigo>();
             if (balaSpawneada != null)
             {
+                AudioController.Instance.Play(AudioController.Instance.enemigoDisparo);
                 balaSpawneada.ActivarBala(transform.position, dir, enemigoData.FuerzaDisparo, enemigoData.TiempoDeVidaBala, damage);
 
             }

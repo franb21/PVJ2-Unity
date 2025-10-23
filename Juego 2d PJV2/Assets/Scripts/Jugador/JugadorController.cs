@@ -115,6 +115,7 @@ public class JugadorController : MonoBehaviour
     {
         if (!puedeDamage)
         {
+            AudioController.Instance.Play(AudioController.Instance.playerDamage);
             puedeDamage = true;
             tiempoDamage = jugadorData.TiempoEntreDamage;
             vida -= damage;
@@ -145,6 +146,7 @@ public class JugadorController : MonoBehaviour
     // Manejo de subir de lv
     public void LevelUp()
     {
+        AudioController.Instance.Play(AudioController.Instance.levelUp);
         experiencia -= jugadorData.Levels[levelActual];
         levelActual++;
         HUDController.Instance.ExpHUD();

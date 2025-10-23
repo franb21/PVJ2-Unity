@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        AudioController.Instance.gameMusic.Stop();
+        AudioController.Instance.Play(AudioController.Instance.gameOver);
         HUDController.Instance.gameOverPanel.SetActive(true);
         HUDController.Instance.estadosJugador.SetActive(false);
         Time.timeScale = 0f;
@@ -27,6 +29,8 @@ public class GameManager : MonoBehaviour
 
     public void Win()
     {
+        AudioController.Instance.gameMusic.Stop();
+        AudioController.Instance.Play(AudioController.Instance.win);
         HUDController.Instance.winPanel.SetActive(true);
         HUDController.Instance.estadosJugador.SetActive(false);
         Time.timeScale = 0f;
@@ -34,13 +38,14 @@ public class GameManager : MonoBehaviour
 
     public void Restart()
     {
+        AudioController.Instance.Play(AudioController.Instance.button);
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     public void VolverAlMenu()
     {
+        AudioController.Instance.Play(AudioController.Instance.button);
         Time.timeScale = 1f;
         SceneManager.LoadScene("Menu");
     }
-
 }

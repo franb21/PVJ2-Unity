@@ -29,6 +29,7 @@ public class MejoraPanel : MonoBehaviour
                 JugadorController.Instance.WeaponMax.Add(weaponSeleccionada);
                 JugadorController.Instance.WeaponActivas.Remove(weaponSeleccionada);
             }
+            AudioController.Instance.Play(AudioController.Instance.selectStat);
             HUDController.Instance.MejorasPanelClose();
         }
     }
@@ -43,6 +44,7 @@ public class MejoraPanel : MonoBehaviour
                 JugadorController.Instance.WeaponMax.Add(weaponSeleccionada);
                 JugadorController.Instance.WeaponActivas.Remove(weaponSeleccionada);
             }
+            AudioController.Instance.Play(AudioController.Instance.selectStat);
             HUDController.Instance.MejorasPanelClose();
         }
     }
@@ -57,6 +59,7 @@ public class MejoraPanel : MonoBehaviour
                 JugadorController.Instance.WeaponMax.Add(weaponSeleccionada);
                 JugadorController.Instance.WeaponActivas.Remove(weaponSeleccionada);
             }
+            AudioController.Instance.Play(AudioController.Instance.selectStat);
             HUDController.Instance.MejorasPanelClose();
         }
     }
@@ -71,6 +74,7 @@ public class MejoraPanel : MonoBehaviour
                 JugadorController.Instance.WeaponMax.Add(weaponSeleccionada);
                 JugadorController.Instance.WeaponActivas.Remove(weaponSeleccionada);
             }
+            AudioController.Instance.Play(AudioController.Instance.selectStat);
             HUDController.Instance.MejorasPanelClose();
         }
     }

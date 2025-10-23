@@ -8,18 +8,20 @@ public class PistolaController : MonoBehaviour
     private Rigidbody2D rb;
     private float vidaRestante;
 
-    public void Inicializar(Pistola p)
+    public void Inicializar(Pistola p, Vector2 direccionDisparo)
     {
         pistola = p;
+        direccion = direccionDisparo.normalized;
+    }
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
     }
     private void OnEnable()
     {
         if (pistola != null)
         {
-            if (rb == null)
-            {
-                rb = GetComponent<Rigidbody2D>();
-            }
+            AudioController.Instance.Play(AudioController.Instance.pistola);
             direccion = JugadorController.Instance.UltimaDireccion.normalized;
             rb.linearVelocity = direccion * velocidadBala;
             vidaRestante = tiempoVida;
@@ -41,6 +43,7 @@ public class PistolaController : MonoBehaviour
             Enemigo enemigo = collision.GetComponent<Enemigo>();
             if (enemigo != null)
             {
+                AudioController.Instance.Play(AudioController.Instance.damageEnemigo);
                 enemigo.RecibirDamage(pistola.Damage);
                 gameObject.SetActive(false);
             }

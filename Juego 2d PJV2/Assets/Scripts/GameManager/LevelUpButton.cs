@@ -36,5 +36,6 @@ public class LevelUpButton : MonoBehaviour
         {
             JugadorController.Instance.ActivarWeapon(weaponSeleccionada);
         }
+        AudioController.Instance.Play(AudioController.Instance.selectMejora);
     }
 }
