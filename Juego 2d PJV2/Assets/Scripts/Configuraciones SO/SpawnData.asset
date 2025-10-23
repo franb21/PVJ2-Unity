@@ -30,8 +30,8 @@ MonoBehaviour:
       multVida: 1
       multDamage: 1
       multVelocidad: 1
-    tiempoEntreSpawns: 0.6
-    maxEnemigos: 100
+    tiempoEntreSpawns: 0.4
+    maxEnemigos: 90
     killsMax: 30
     spawnEnjambre: 0
     cantidadEnemigosEnjambre: 0
@@ -43,10 +43,10 @@ MonoBehaviour:
       multDamage: 1
       multVelocidad: 1
     tiempoEntreSpawns: 1
-    maxEnemigos: 30
+    maxEnemigos: 50
     killsMax: 10
     spawnEnjambre: 1
-    cantidadEnemigosEnjambre: 10
+    cantidadEnemigosEnjambre: 9
     radioEnjambre: 2
     dispersion: 0.9
   - enemigoConfig:
@@ -54,8 +54,8 @@ MonoBehaviour:
       multVida: 1
       multDamage: 1
       multVelocidad: 1
-    tiempoEntreSpawns: 1.2
-    maxEnemigos: 30
+    tiempoEntreSpawns: 1
+    maxEnemigos: 50
     killsMax: 10
     spawnEnjambre: 0
     cantidadEnemigosEnjambre: 0
@@ -67,7 +67,7 @@ MonoBehaviour:
       multDamage: 1
       multVelocidad: 1
     tiempoEntreSpawns: 1.5
-    maxEnemigos: 10
+    maxEnemigos: 20
     killsMax: 5
     spawnEnjambre: 0
     cantidadEnemigosEnjambre: 0
@@ -78,7 +78,7 @@ MonoBehaviour:
       multVida: 2
       multDamage: 2
       multVelocidad: 2
-    tiempoEntreSpawns: 0.6
+    tiempoEntreSpawns: 0.3
     maxEnemigos: 100
     killsMax: 50
     spawnEnjambre: 0
@@ -90,7 +90,7 @@ MonoBehaviour:
       multVida: 2
       multDamage: 2
       multVelocidad: 2
-    tiempoEntreSpawns: 0.8
+    tiempoEntreSpawns: 0.5
     maxEnemigos: 100
     killsMax: 40
     spawnEnjambre: 0
@@ -188,7 +188,7 @@ MonoBehaviour:
       multVelocidad: 3
     tiempoEntreSpawns: 0.8
     maxEnemigos: 30
-    killsMax: 20
+    killsMax: 30
     spawnEnjambre: 0
     cantidadEnemigosEnjambre: 0
     radioEnjambre: 0
