@@ -7,6 +7,8 @@ public class Enemigo : MonoBehaviour
     [Header("Config por ScriptableObject")]
     [SerializeField] protected EnemigoStatsSO enemigoData;
 
+    [SerializeField] protected GameObject particulasMuerte;
+
     protected float vida;
     protected float damage;
     protected float velocidad;
@@ -63,6 +65,10 @@ public class Enemigo : MonoBehaviour
         vida -= damage;
         if (vida <= 0)
         {
+            if (particulasMuerte != null)
+            {
+                PoolController.Instance.GetPooledObject(particulasMuerte, transform.position, Quaternion.identity);
+            }
             Spawn.Instance.Kill();
             gameObject.SetActive(false); // vuelve al pool cuando se elimina
             JugadorController.Instance.GanarExp(exp);
@@ -74,7 +80,10 @@ public class Enemigo : MonoBehaviour
     void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
+        {
             JugadorController.Instance.RecibirDamage(damage);
+        }
+
     }
     //Ajustar stats para oleadas
     public void AjustarStats(float multVida, float multDamage, float multVel)

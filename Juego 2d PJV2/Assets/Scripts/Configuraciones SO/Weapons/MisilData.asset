@@ -16,12 +16,12 @@ MonoBehaviour:
   nombre: Missile
   icono: {fileID: -765494836, guid: 134ac17a4c4b99e448a3339acfebc5de, type: 3}
   descripcion: Fires homing projectiles
-  cooldown: 0.8
-  damage: 2
+  cooldown: 1.8
+  damage: 35
   cantidad: 1
   area: 0
   cooldownMejora: 0.1
-  damageMejora: 2
+  damageMejora: 5
   cantidadMejora: 1
   areaMejora: 0
   maxCooldown: 5

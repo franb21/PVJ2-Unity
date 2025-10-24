@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 7092409643186808854}
   - component: {fileID: 8189200063952637162}
   - component: {fileID: 3396995925166816237}
-  - component: {fileID: 3031236695915405517}
   - component: {fileID: -4853985583711887535}
+  - component: {fileID: -2423869553690071896}
   m_Layer: 12
   m_Name: BossInvocacion Prefab
   m_TagString: Enemigo
@@ -155,19 +155,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0049361377, y: -0.03388073}
   m_Size: {x: 0.4326985, y: 0.58202964}
   m_Direction: 0
---- !u!114 &3031236695915405517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6054069287232953457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34fed8cd0c19f0b439b91f120a9b219a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemigoData: {fileID: 11400000, guid: 7b9b05ad18960ab43b364b56235dfe68, type: 2}
 --- !u!95 &-4853985583711887535
 Animator:
   serializedVersion: 7
@@ -190,3 +177,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-2423869553690071896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6054069287232953457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 127c67d93d305f34d9c685c7d87311da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigoData: {fileID: 11400000, guid: 3d7fc94aeb23efe429416bcf9384a39e, type: 2}
+  particulasMuerte: {fileID: 7068848949935305693, guid: 3b91542cf759ac64bbfbb63f463afa88, type: 3}

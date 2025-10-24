@@ -169,4 +169,21 @@ public class EnemigoBoss : Enemigo
         
         atacando = true;
     }
+    public override void RecibirDamage(float damage)
+    {
+        vida -= damage;
+        if (vida <= 0)
+        {
+            if (particulasMuerte != null)
+            {
+                PoolController.Instance.GetPooledObject(particulasMuerte, transform.position, Quaternion.identity);
+            }
+            GameManager.Instance.Win();
+            Spawn.Instance.Kill();
+            gameObject.SetActive(false); // vuelve al pool cuando se elimina
+            JugadorController.Instance.GanarExp(exp);
+            HUDController.Instance.ActualizarKills();
+        }
+
+    }
 }

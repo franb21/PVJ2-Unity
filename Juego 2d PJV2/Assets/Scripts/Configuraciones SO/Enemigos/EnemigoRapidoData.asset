@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 832179412a38ca44780a26608ab5721e, type: 3}
   m_Name: EnemigoRapidoData
   m_EditorClassIdentifier: 
-  vida: 5
-  damage: 2
-  velocidad: 2.2
-  experienciaSuelta: 2
+  vida: 20
+  damage: 8
+  velocidad: 2.4
+  experienciaSuelta: 7
   balaPrefab: {fileID: 0}
   tiempoEntreDisparos: 0
   tiempoQuieto: 0

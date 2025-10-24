@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 832179412a38ca44780a26608ab5721e, type: 3}
   m_Name: EnemigoTankData
   m_EditorClassIdentifier: 
-  vida: 50
-  damage: 10
-  velocidad: 0.9
-  experienciaSuelta: 10
+  vida: 100
+  damage: 20
+  velocidad: 1
+  experienciaSuelta: 25
   balaPrefab: {fileID: 0}
   tiempoEntreDisparos: 0
   tiempoQuieto: 0

@@ -131,6 +131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemigoData: {fileID: 11400000, guid: 9c90c3d46b4e7384ca2f8b9a5bc7a8e0, type: 2}
+  particulasMuerte: {fileID: 7068848949935305693, guid: 3b91542cf759ac64bbfbb63f463afa88, type: 3}
 --- !u!70 &8051069256670753417
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: EnemigoBossData
   m_EditorClassIdentifier: 
   vida: 700
-  damage: 15
+  damage: 25
   velocidad: 2
-  experienciaSuelta: 50
+  experienciaSuelta: 1
   balaPrefab: {fileID: 0}
   tiempoEntreDisparos: 0
   tiempoQuieto: 0
@@ -29,8 +29,8 @@ MonoBehaviour:
   tiempoEntreDisparosBoss: 0.35
   duracionDisparar: 4
   tiempoCargaEmbestida: 2
-  velocidadEmbestida: 12
+  velocidadEmbestida: 14
   cantidadEnemigosInvocados: 15
-  radioInvocacion: 15
+  radioInvocacion: 20
   tiempoInvocacion: 3
   tiempoPostInvocacion: 4

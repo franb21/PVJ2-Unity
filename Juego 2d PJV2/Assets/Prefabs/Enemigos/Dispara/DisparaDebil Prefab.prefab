@@ -168,6 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemigoData: {fileID: 11400000, guid: b3ea9d1ce7e6a2a4996d84847e6789eb, type: 2}
+  particulasMuerte: {fileID: 7068848949935305693, guid: 3b91542cf759ac64bbfbb63f463afa88, type: 3}
 --- !u!95 &4382876733404234117
 Animator:
   serializedVersion: 7

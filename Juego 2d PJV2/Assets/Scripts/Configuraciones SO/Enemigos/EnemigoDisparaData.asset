@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 832179412a38ca44780a26608ab5721e, type: 3}
   m_Name: EnemigoDisparaData
   m_EditorClassIdentifier: 
-  vida: 15
-  damage: 5
-  velocidad: 1
-  experienciaSuelta: 5
+  vida: 35
+  damage: 10
+  velocidad: 1.3
+  experienciaSuelta: 10
   balaPrefab: {fileID: 5271575849212091541, guid: d04d28fb3404ca34595c2d444223c558, type: 3}
-  tiempoEntreDisparos: 4
-  tiempoQuieto: 0.6
+  tiempoEntreDisparos: 4.5
+  tiempoQuieto: 0.7
   retrocesoDistancia: 0.5
   fuerzaDisparo: 7
-  tiempoDeVidaBala: 7
+  tiempoDeVidaBala: 4
   tiempoDeVidaEnemigo: 0
   prefabBalaBoss: {fileID: 0}
   prefabEnemgiosInvocacion: {fileID: 0}

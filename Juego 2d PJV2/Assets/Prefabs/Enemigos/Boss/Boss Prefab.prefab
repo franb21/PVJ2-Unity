@@ -288,6 +288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemigoData: {fileID: 11400000, guid: fd4fce855756d284d83841ae16303e87, type: 2}
+  particulasMuerte: {fileID: 7068848949935305693, guid: 3b91542cf759ac64bbfbb63f463afa88, type: 3}
   puntoDisparo: {fileID: 3077199711545971776}
   puntoDisparoFlip: {fileID: 5075293631369718905}
 --- !u!95 &-3854456556039173289
