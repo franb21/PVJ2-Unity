@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 832179412a38ca44780a26608ab5721e, type: 3}
   m_Name: EnemigoBossData
   m_EditorClassIdentifier: 
-  vida: 700
-  damage: 25
-  velocidad: 2
+  vida: 8500
+  damage: 20
+  velocidad: 2.3
   experienciaSuelta: 1
   balaPrefab: {fileID: 0}
   tiempoEntreDisparos: 0
@@ -34,3 +34,5 @@ MonoBehaviour:
   radioInvocacion: 20
   tiempoInvocacion: 3
   tiempoPostInvocacion: 4
+  particulasMuerte: {fileID: 7068848949935305693, guid: 3b91542cf759ac64bbfbb63f463afa88, type: 3}
+  efectoDamage: {fileID: 5271575849212091541, guid: 07c8331b5a991a444a30d69de6626b93, type: 3}

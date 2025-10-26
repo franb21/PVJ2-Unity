@@ -172,11 +172,15 @@ public class EnemigoBoss : Enemigo
     public override void RecibirDamage(float damage)
     {
         vida -= damage;
+        if (enemigoData.EfectoDamage != null)
+        {
+            PoolController.Instance.GetPooledObject(enemigoData.EfectoDamage, transform.position, Quaternion.identity);
+        }
         if (vida <= 0)
         {
-            if (particulasMuerte != null)
+            if (enemigoData.ParticulasMuerte != null)
             {
-                PoolController.Instance.GetPooledObject(particulasMuerte, transform.position, Quaternion.identity);
+                PoolController.Instance.GetPooledObject(enemigoData.ParticulasMuerte, transform.position, Quaternion.identity);
             }
             GameManager.Instance.Win();
             Spawn.Instance.Kill();

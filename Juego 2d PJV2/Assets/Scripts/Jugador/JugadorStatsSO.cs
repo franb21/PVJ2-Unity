@@ -14,12 +14,16 @@ public class JugadorStatsSO : ScriptableObject
     [SerializeField] private float aumentoVelocidad;
 
     [Header("Config experiencia y niveles")]
-    [SerializeField] private int[] levels;
+    [SerializeField] private int escaladoLevels;
+    [SerializeField] private int expInicial;
+    [SerializeField] private int maxLevel;
 
     public float Vida { get => vida; }
     public float Velocidad { get => velocidad; }
     public int AumentoVida { get => aumentoVida; }
     public float AumentoVelocidad { get => aumentoVelocidad; }
-    public int[] Levels { get => levels; }
     public float TiempoEntreDamage { get => tiempoEntreDamage; }
+    public int MaxLevel { get => maxLevel; }
+    public int EscaladoLevels { get => escaladoLevels; }
+    public int ExpInicial { get => expInicial; }
 }

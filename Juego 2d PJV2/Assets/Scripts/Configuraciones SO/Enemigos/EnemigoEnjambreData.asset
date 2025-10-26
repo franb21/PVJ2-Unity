@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: EnemigoEnjambreData
   m_EditorClassIdentifier: 
   vida: 12
-  damage: 5
-  velocidad: 2
+  damage: 3
+  velocidad: 7.5
   experienciaSuelta: 4
   balaPrefab: {fileID: 0}
   tiempoEntreDisparos: 0
@@ -22,7 +22,7 @@ MonoBehaviour:
   retrocesoDistancia: 0
   fuerzaDisparo: 0
   tiempoDeVidaBala: 0
-  tiempoDeVidaEnemigo: 5
+  tiempoDeVidaEnemigo: 6
   prefabBalaBoss: {fileID: 0}
   prefabEnemgiosInvocacion: {fileID: 0}
   tiempoEntreEstados: 0
@@ -34,3 +34,5 @@ MonoBehaviour:
   radioInvocacion: 0
   tiempoInvocacion: 0
   tiempoPostInvocacion: 0
+  particulasMuerte: {fileID: 7068848949935305693, guid: 3b91542cf759ac64bbfbb63f463afa88, type: 3}
+  efectoDamage: {fileID: 5271575849212091541, guid: 07c8331b5a991a444a30d69de6626b93, type: 3}

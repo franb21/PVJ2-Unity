@@ -75,7 +75,7 @@ public class Spawn : MonoBehaviour
             if (enemigo != null)
             {
                 Enemigo enemgioSpaweneado = enemigo.GetComponent<Enemigo>();
-                enemgioSpaweneado.AjustarStats(spawnData.oleadas[oleadaNum].enemigoConfig.multVida, spawnData.oleadas[oleadaNum].enemigoConfig.multDamage, spawnData.oleadas[oleadaNum].enemigoConfig.multVelocidad);
+                enemgioSpaweneado.AjustarStats(spawnData.oleadas[oleadaNum].enemigoConfig.multVida, spawnData.oleadas[oleadaNum].enemigoConfig.multDamage, spawnData.oleadas[oleadaNum].enemigoConfig.multVelocidad, spawnData.oleadas[oleadaNum].enemigoConfig.multExp);
                 enemigosSpawnNum++;
             }
         }
@@ -103,7 +103,7 @@ public class Spawn : MonoBehaviour
             if (enemigo != null)
             {
                 Enemigo enemgioSpaweneado = enemigo.GetComponent<Enemigo>();
-                enemgioSpaweneado.AjustarStats(spawnData.oleadas[oleadaNum].enemigoConfig.multVida, spawnData.oleadas[oleadaNum].enemigoConfig.multDamage, spawnData.oleadas[oleadaNum].enemigoConfig.multVelocidad);
+                enemgioSpaweneado.AjustarStats(spawnData.oleadas[oleadaNum].enemigoConfig.multVida, spawnData.oleadas[oleadaNum].enemigoConfig.multDamage, spawnData.oleadas[oleadaNum].enemigoConfig.multVelocidad, spawnData.oleadas[oleadaNum].enemigoConfig.multExp);
                 enemigosSpawnNum++;
             }
         }

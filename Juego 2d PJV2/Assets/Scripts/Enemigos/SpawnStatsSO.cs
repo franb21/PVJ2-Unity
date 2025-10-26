@@ -14,6 +14,7 @@ public class SpawnStatsSO : ScriptableObject
         public float multVida;
         public float multDamage;
         public float multVelocidad;
+        public int multExp;
     }
 
     [System.Serializable]

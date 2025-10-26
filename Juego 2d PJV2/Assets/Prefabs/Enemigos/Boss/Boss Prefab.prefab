@@ -144,7 +144,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1699692637
   m_SortingLayer: 10
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -1892701120, guid: 342258b8674d66f4a9e63a65009337b3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -288,7 +288,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemigoData: {fileID: 11400000, guid: fd4fce855756d284d83841ae16303e87, type: 2}
-  particulasMuerte: {fileID: 7068848949935305693, guid: 3b91542cf759ac64bbfbb63f463afa88, type: 3}
   puntoDisparo: {fileID: 3077199711545971776}
   puntoDisparoFlip: {fileID: 5075293631369718905}
 --- !u!95 &-3854456556039173289

@@ -17,6 +17,8 @@ public class JugadorController : MonoBehaviour
     private Vector2 ultimaDireccion;
     private int experiencia;
     private int levelActual;
+    private List<int> levels;
+    private int maxLevel;
 
     [Header("Armas del jugador")]
     [SerializeField] private List<Weapon> weaponInactivas;
@@ -31,9 +33,9 @@ public class JugadorController : MonoBehaviour
     public float Vida { get => vida; }
     public int Experiencia { get => experiencia; }
     public int LevelActual { get => levelActual; }
-    public int[] Levels { get => jugadorData.Levels; }
     public List<Weapon> WeaponActivas { get => weaponActivas; set => weaponActivas = value; }
     public List<Weapon> WeaponMax { get => weaponMax; set => weaponMax = value; }
+    public List<int> Levels { get => levels; }
 
     // Singleton
     private void Awake()
@@ -52,7 +54,7 @@ public class JugadorController : MonoBehaviour
     {
         vida = jugadorData.Vida;
         velocidad = jugadorData.Velocidad;
-
+        GenerarLevels();
         ultimaDireccion = new Vector2(0, -1);
         HUDController.Instance.VidaHUD();
         HUDController.Instance.ExpHUD();
@@ -60,10 +62,22 @@ public class JugadorController : MonoBehaviour
         WeaponActivas = new List<Weapon>();
         weaponMejorables = new List<Weapon>();
         WeaponMax = new List<Weapon>();
+
         // Agregar random / futuro menu de seleccion
         AgregarWeapon(MenuManager.armaInicial);
     }
+    private void GenerarLevels()
+    {
+        levels = new List<int>();
+        levels.Add(jugadorData.ExpInicial);
 
+        for (int i = 1; i < jugadorData.MaxLevel; i++)
+        {
+            int expAnterior = levels[i - 1];
+            int levelNuevo = expAnterior + (expAnterior / 10) + jugadorData.EscaladoLevels;
+            levels.Add(levelNuevo);
+        }
+    }
     private void OnEnable()
     {
         miRigidbody2D = GetComponent<Rigidbody2D>();
@@ -108,6 +122,10 @@ public class JugadorController : MonoBehaviour
     // Movimiento
     void FixedUpdate()
     {
+        if (direccion != Vector2.zero)
+        {
+            direccion = direccion.normalized;
+        }
         miRigidbody2D.MovePosition(miRigidbody2D.position + direccion * (velocidad * Time.fixedDeltaTime));
     }
     // Daño al jugador
@@ -136,7 +154,7 @@ public class JugadorController : MonoBehaviour
         experiencia += exp;
         HUDController.Instance.ExpHUD();
 
-        if (experiencia >= jugadorData.Levels[levelActual])
+        if (experiencia >= Levels[levelActual])
         {
             LevelUp();
         }
@@ -147,7 +165,7 @@ public class JugadorController : MonoBehaviour
     public void LevelUp()
     {
         AudioController.Instance.Play(AudioController.Instance.levelUp);
-        experiencia -= jugadorData.Levels[levelActual];
+        experiencia -= Levels[levelActual];
         levelActual++;
         HUDController.Instance.ExpHUD();
 

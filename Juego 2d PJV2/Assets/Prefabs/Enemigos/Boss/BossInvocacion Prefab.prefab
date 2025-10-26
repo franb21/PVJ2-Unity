@@ -189,5 +189,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 127c67d93d305f34d9c685c7d87311da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemigoData: {fileID: 11400000, guid: 3d7fc94aeb23efe429416bcf9384a39e, type: 2}
-  particulasMuerte: {fileID: 7068848949935305693, guid: 3b91542cf759ac64bbfbb63f463afa88, type: 3}
+  enemigoData: {fileID: 11400000, guid: 7b9b05ad18960ab43b364b56235dfe68, type: 2}

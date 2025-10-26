@@ -4,6 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "EnemigoData", menuName = "ScriptableObjects/EnemigoData")]
 public class EnemigoStatsSO : ScriptableObject
 {
+
     [Header("Stats del enemigo")]
     [SerializeField] private float vida;
     [SerializeField] private float damage;
@@ -37,6 +38,9 @@ public class EnemigoStatsSO : ScriptableObject
     [SerializeField] private float tiempoInvocacion;
     [SerializeField] private float tiempoPostInvocacion;
 
+    [Header("Efectos")]
+    [SerializeField] private GameObject particulasMuerte;
+    [SerializeField] private GameObject efectoDamage;
     public float Vida { get => vida; }
     public float Damage { get => damage; }
     public float Velocidad { get => velocidad; }
@@ -59,4 +63,6 @@ public class EnemigoStatsSO : ScriptableObject
     public GameObject PrefabBalaBoss { get => prefabBalaBoss; }
     public GameObject PrefabEnemgiosInvocacion { get => prefabEnemgiosInvocacion; }
     public float DuracionDisparar { get => duracionDisparar; }
+    public GameObject ParticulasMuerte { get => particulasMuerte; }
+    public GameObject EfectoDamage { get => efectoDamage; }
 }

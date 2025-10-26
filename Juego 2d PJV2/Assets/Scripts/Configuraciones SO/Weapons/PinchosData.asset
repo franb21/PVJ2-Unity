@@ -16,15 +16,15 @@ MonoBehaviour:
   nombre: Spikes
   icono: {fileID: 15461704, guid: 134ac17a4c4b99e448a3339acfebc5de, type: 3}
   descripcion: drops spikes on ground
-  cooldown: 3
-  damage: 10
+  cooldown: 3.6
+  damage: 7
   cantidad: 1
   area: 1
   cooldownMejora: 0.3
-  damageMejora: 10
+  damageMejora: 8
   cantidadMejora: 1
-  areaMejora: 0.5
+  areaMejora: 0.8
   maxCooldown: 4
   maxDamage: 4
-  maxCantidad: 5
-  maxArea: 5
+  maxCantidad: 4
+  maxArea: 8

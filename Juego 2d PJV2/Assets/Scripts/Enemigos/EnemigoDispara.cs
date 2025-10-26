@@ -5,11 +5,14 @@ public class EnemigoDispara : Enemigo
 {
     private bool disparando = false;
 
-    void Start()
+    protected override void OnEnable()
     {
-        // Empieza la corrutina
+        miRigidbody2D = GetComponent<Rigidbody2D>();
+        miAnimator = GetComponent<Animator>();
+        miSprite = GetComponent<SpriteRenderer>();
         StartCoroutine(ComportamientoEnemigo());
     }
+
     protected override void FixedUpdate()
     {
         // Si no dispara se mueve
@@ -65,5 +68,10 @@ public class EnemigoDispara : Enemigo
 
             }
         }
+    }
+    void OnDisable()
+    {
+        StopAllCoroutines();
+        disparando = false;
     }
 }

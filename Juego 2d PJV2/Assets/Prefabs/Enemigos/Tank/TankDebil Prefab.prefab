@@ -77,8 +77,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1529623419
-  m_SortingLayer: 3
+  m_SortingLayerID: -1699692637
+  m_SortingLayer: 10
   m_SortingOrder: 0
   m_Sprite: {fileID: 1121166878, guid: ce204ad33c8ce214eb54af5ef4c2157c, type: 3}
   m_Color: {r: 0.4627451, g: 0.7294118, b: 0.972549, a: 1}
@@ -131,7 +131,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemigoData: {fileID: 11400000, guid: 5d67b8eb22f36e6479998fa16c103052, type: 2}
-  particulasMuerte: {fileID: 7068848949935305693, guid: 3b91542cf759ac64bbfbb63f463afa88, type: 3}
 --- !u!61 &6332683633768034280
 BoxCollider2D:
   m_ObjectHideFlags: 0

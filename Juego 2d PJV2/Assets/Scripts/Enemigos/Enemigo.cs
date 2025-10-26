@@ -7,8 +7,6 @@ public class Enemigo : MonoBehaviour
     [Header("Config por ScriptableObject")]
     [SerializeField] protected EnemigoStatsSO enemigoData;
 
-    [SerializeField] protected GameObject particulasMuerte;
-
     protected float vida;
     protected float damage;
     protected float velocidad;
@@ -63,11 +61,15 @@ public class Enemigo : MonoBehaviour
     public virtual void RecibirDamage(float damage)
     {
         vida -= damage;
+        if (enemigoData.EfectoDamage != null)
+        {
+            PoolController.Instance.GetPooledObject(enemigoData.EfectoDamage, transform.position, Quaternion.identity);
+        }
         if (vida <= 0)
         {
-            if (particulasMuerte != null)
+            if (enemigoData.ParticulasMuerte != null)
             {
-                PoolController.Instance.GetPooledObject(particulasMuerte, transform.position, Quaternion.identity);
+                PoolController.Instance.GetPooledObject(enemigoData.ParticulasMuerte, transform.position, Quaternion.identity);
             }
             Spawn.Instance.Kill();
             gameObject.SetActive(false); // vuelve al pool cuando se elimina
@@ -86,12 +88,13 @@ public class Enemigo : MonoBehaviour
 
     }
     //Ajustar stats para oleadas
-    public void AjustarStats(float multVida, float multDamage, float multVel)
+    public void AjustarStats(float multVida, float multDamage, float multVel, int multExp)
     {
         ReiniciarStats();
         vida *= multVida;
         damage *= multDamage;
         velocidad *= multVel;
+        exp *= multExp;
     }
     //Reinicia las stats
     public void ReiniciarStats()
@@ -99,5 +102,6 @@ public class Enemigo : MonoBehaviour
         vida = enemigoData.Vida;
         damage = enemigoData.Damage;
         velocidad = enemigoData.Velocidad;
+        exp = enemigoData.Exp;
     }
 }
